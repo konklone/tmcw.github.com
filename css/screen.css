@@ -35,7 +35,7 @@ header ul.navigation li {
   margin-left:20px;
 }
 
-header ul.navigation li a, h1, h2, h3, postamble {
+header ul.navigation li a, h1, h2, h3, postamble, footer {
   font: 12px/40px 'Helvetica Neue', helvetica, sans-serif;
 }
 
@@ -103,8 +103,8 @@ a:hover {
   text-decoration:underline;
 }
 
-postamble {
-  color:#e2e6f2;
+postamble, footer {
+  color:#D5D9E7;
 }
 
 div.post:first-child {
@@ -121,4 +121,20 @@ div.post {
 
 div.post p {
   margin:10px 0;
+}
+
+img.inset-right {
+  float:right;
+  margin-left:10px;
+  margin-bottom:10px;
+}
+
+div.shutter-300 {
+  overflow:hidden;
+  height:300px;
+  margin:20px 0;
+}
+
+div.shutter-300 img {
+  margin-top:-50px;
 }
