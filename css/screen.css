@@ -62,6 +62,7 @@ header h1 span.symbol {
   background-color:#6B7A8A;
   font: normal 12px/40px 'Helvetica Neue', helvetica, sans-serif;
   -webkit-border-radius:10px;
+  -moz-border-radius:10px;
   margin-right:5px;
   padding:2px;
   height:5px;
