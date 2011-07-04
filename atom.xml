@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tom MacWright</title>
+  <link href="http://tommacwright.com/atom.xml" rel="self"/>
+  <link href="http://tommacwright.com/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://tommacwright.com/</id>
+  <author>
+    <name>Tom MacWright</name>
+    <email>macwright@gmail.com</email>
+  </author>
+  {% for post in site.posts limit:10 %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="http://tommacwright.com{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>http://tommacwright.com{{ post.id }}</id>
+    <content type="html">{{ post.content | xml_escape }}</content>
+    <author>
+      <name>Tom MacWright</name>
+      <uri>http://tommacwright.com/about/</uri>
+    </author>
+  </entry>
+  {% endfor %}
+</feed>
