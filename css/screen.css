@@ -1,0 +1,124 @@
+/*
+ * colors from http://www.flickr.com/photos/tmcw/5336583817/in/photostream/
+ * */
+p {
+  font: 13px/20px Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+}
+
+html {
+  border-top:2px solid #111;
+}
+
+body {
+  color:#222;
+  width:640px;
+  margin:0 auto;
+}
+
+div.wrapper {
+}
+
+header {
+  display:block;
+  margin-top:20px;
+  margin-bottom:20px;
+  border-bottom:1px dashed #d8dbe4;
+}
+
+header ul.navigation {
+  float:right;
+  list-style-type:none;
+}
+
+header ul.navigation li {
+  display:inline-block;
+  margin-left:20px;
+}
+
+header ul.navigation li a, h1, h2, h3, postamble {
+  font: 12px/40px 'Helvetica Neue', helvetica, sans-serif;
+}
+
+header ul.navigation li a.active {
+  text-decoration:underline;
+  color:#334051;
+}
+
+div.wrapper ul {
+  font: 13px/20px Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  margin:10px 20px;
+}
+
+h1, h2, h3 {
+  color:#6B7A8A;
+  font-weight:bold;
+}
+
+h2 {
+  font: bold 16px/40px 'Helvetica Neue', helvetica, sans-serif;
+}
+
+header h1 span.symbol {
+  background-color:#6B7A8A;
+  font: normal 12px/40px 'Helvetica Neue', helvetica, sans-serif;
+  -webkit-border-radius:10px;
+  margin-right:5px;
+  padding:2px;
+  height:5px;
+  width:5px;
+  color:#fff;
+}
+
+header h1 span.name {
+  color:#BEBEC7;
+}
+
+header h1 a:hover {
+  text-decoration:none;
+}
+
+header h1 a:hover span.name {
+  color:#6B7A8A;
+}
+
+/*
+h2:before {
+  content:'×';
+  color:#E9EEF3;
+  margin-left:-19px;
+  margin-right:7px;
+  font: 20px/30px 'Helvetica Neue', helvetica, sans-serif;
+}
+  */
+
+a {
+  color:#7b7fae;
+  text-decoration:none;
+  -webkit-transition-property:color;
+  -webkit-transition-duration:1s;
+}
+
+a:hover {
+  color:#a5a4ce;
+  text-decoration:underline;
+}
+
+postamble {
+  color:#e2e6f2;
+}
+
+div.post:first-child {
+  border-top:none;
+  padding-top:0;
+  margin:30px 0;
+}
+
+div.post {
+  border-top:1px solid #d8dbe4;
+  margin:29px 0 30px 0;
+  padding-top:10px;
+}
+
+div.post p {
+  margin:10px 0;
+}

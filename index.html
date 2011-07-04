@@ -1,1 +1,8 @@
-Tom MacWright
+---
+layout: default
+---
+<div class="posts">
+  {% for post in site.posts limit:10 %}
+  {% include listed-post.html %}
+  {% endfor %}
+</div>
