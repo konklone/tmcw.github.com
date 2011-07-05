@@ -49,13 +49,17 @@ div.wrapper ul {
   margin:10px 20px;
 }
 
-h1, h2, h3 {
+h1, h2 {
   color:#6B7A8A;
   font-weight:bold;
 }
 
 h2 {
   font: bold 16px/40px 'Helvetica Neue', helvetica, sans-serif;
+}
+
+em {
+  font-style:italic;
 }
 
 header h1 span.symbol {
