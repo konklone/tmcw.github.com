@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: Monthly Consumption July 2011
 ---
 
