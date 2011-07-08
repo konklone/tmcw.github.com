@@ -62,6 +62,11 @@ em {
   font-style:italic;
 }
 
+blockquote {
+  padding-left:8px;
+  border-left:2px solid #7b7fae;
+}
+
 header h1 span.symbol {
   background-color:#6B7A8A;
   font: normal 12px/40px 'Helvetica Neue', helvetica, sans-serif;
