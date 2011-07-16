@@ -26,6 +26,6 @@ From junior year at [W&M](http://wm.edu) on, I led French Letter, a quirky indie
 
 # Other Bands
 
-I started music playing guitar in [The Adventures Of...](http://www.myspace.com/theadventuresoftupperware), then played in [Hello, Babies](http://hellobabies.bandcamp.com/), and currently play bass in [Teen Mom](http://www.facebook.com/pages/Teen-Mom-DC/191023127616953).
+I started music playing guitar in [The Adventures Of...](http://www.myspace.com/theadventuresoftupperware), then played in [Hello, Babies](http://hellobabies.bandcamp.com/), played clawhammer banjo in the [William & Mary Appalachian Music Ensemble](http://www.archive.org/details/WM_Appalachian_Ensemble_2009), and currently play bass in [Teen Mom](http://www.facebook.com/pages/Teen-Mom-DC/191023127616953).
 
 French Letter photo &copy; Alex Barth
