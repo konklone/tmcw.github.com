@@ -4,6 +4,10 @@ date: 2011-07-04 10:00:00 UTC
 title: About
 ---
 
+<div class='shutter-300'>
+  <img src='http://farm4.static.flickr.com/3438/3351376251_17a831c250_z.jpg' />
+</div>
+
 I'm Tom MacWright, a hacker at [MapBox](http://mapbox.com). Since I work for an open source company, you can see all of my work on GitHub under [my account](http://github.com/tmcw/) and [the MapBox account](http://github.com/mapbox/). If you're curious, this site uses [Jekyll](http://jekyllrb.com) and is hosted by [GitHub](http://github.com). I use vim and [have my .vim on GitHub](https://github.com/tmcw/.vim).
 
 I have an incredible amount of respect for the work of [_why](http://viewsourcecode.org/why/), the music of [Andrew Bird](http://andrewbird.net), and for people who have the guts to dance alone at concerts.
