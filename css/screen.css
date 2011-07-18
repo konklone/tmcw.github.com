@@ -148,3 +148,14 @@ div.shutter-300 {
 div.shutter-300 img {
   margin-top:-50px;
 }
+
+span.image-credit {
+  float:right;
+  margin:0 0 10px 10px;
+  font-size:12px;
+}
+
+span.image-credit:before {
+  content: '↑';
+  margin-right:5px;
+}
