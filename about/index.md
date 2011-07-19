@@ -8,7 +8,23 @@ title: About
   <img src='http://farm4.static.flickr.com/3438/3351376251_17a831c250_z.jpg' />
 </div>
 
-I'm Tom MacWright, a hacker at [MapBox](http://mapbox.com). Since I work for an open source company, you can see all of my work on GitHub under [my account](http://github.com/tmcw/) and [the MapBox account](http://github.com/mapbox/). If you're curious, this site uses [Jekyll](http://jekyllrb.com) and is hosted by [GitHub](http://github.com). I use vim and [have my .vim on GitHub](https://github.com/tmcw/.vim).
+<p itemscope itemtype="http://schema.org/Person">
+I'm <span itemprop='name'>Tom MacWright</span>, a <span itemprop='jobTitle'>hacker</span> at <a itemprop='worksFor' href='http://mapbox.com/'>MapBox</a> and <a itemprop='worksFor' href='http://developmentseed.org/'>Development Seed</a>. I graduated from <a href='http://wm.edu/' itemtype='alumniOf'>W&M</a> in 2009 with a CS degree. Please <a itemtype='email' href='mailto:tom@macwright.org'>email me</a> to get in contact.
+</p>
+
+
+<div class='image-cube'>
+  <div>
+  <img src='http://farm7.static.flickr.com/6138/5954373327_7c815334cc_o.jpg' />
+  <a href='http://github.com/tmcw/'>GitHub</a>
+  </div>
+  <div>
+  <img src='http://farm7.static.flickr.com/6007/5954369487_416645a2d2_o.jpg' />
+  <a href='http://flickr.com/photos/tmcw'>Flickr</a>
+  </div>
+</div>
+
+If you're curious, this site uses [Jekyll](http://jekyllrb.com) and is hosted by [GitHub](http://github.com). I use vim and [have my .vim on GitHub](https://github.com/tmcw/.vim).
 
 I have an incredible amount of respect for the work of [_why](http://viewsourcecode.org/why/), the music of [Andrew Bird](http://andrewbird.net), and for people who have the guts to dance alone at concerts.
 

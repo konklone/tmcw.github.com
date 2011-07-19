@@ -159,3 +159,25 @@ span.image-credit:before {
   content: '↑';
   margin-right:5px;
 }
+
+div.image-cube div img {
+  display:block;
+}
+
+div.image-cube div {
+  margin:10px 0;
+  background:#222;
+  float:left;
+}
+
+div.image-cube div:first-child {
+  margin-right:10px;
+}
+div.image-cube div {
+}
+
+div.image-cube div a {
+  color:#fff;
+  padding:0 10px;
+  font: 12px/20px 'Helvetica Neue', helvetica, sans-serif;
+}
