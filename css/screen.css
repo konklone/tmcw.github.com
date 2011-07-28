@@ -181,3 +181,14 @@ p code, .highlight {
 .highlight {
   padding:10px;
 }
+
+div.link-block {
+  font: bold 16px/40px 'Helvetica Neue', helvetica, sans-serif;
+  background:#f0f7f7;
+  padding:3px;
+  text-align:center;
+}
+
+div.link-block a {
+  text-decoration:underline;
+}
