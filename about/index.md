@@ -28,6 +28,8 @@ If you're curious, this site uses [Jekyll](http://jekyllrb.com) and is hosted by
 
 I have an incredible amount of respect for the work of [_why](http://viewsourcecode.org/why/), the music of [Andrew Bird](http://andrewbird.net), and for people who have the guts to dance alone at concerts.
 
+If you're looking for another MacWright, here are a few (all 'of relation' - it's a rare name): [MacWright Studios](http://macwright.com/), [Sarah MacWright](http://sarahmacwright.com), [Gloria](http://orthostatictremor.org), [Doug](http://www.highlandercapital.com/).
+
 <div id="cse" style="width: 100%;">Loading</div>
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script type="text/javascript">

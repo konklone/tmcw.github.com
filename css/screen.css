@@ -62,6 +62,7 @@ em {
   font-style:italic;
 }
 
+
 blockquote {
   padding-left:8px;
   border-left:2px solid #7b7fae;
@@ -90,16 +91,6 @@ header h1 a:hover {
 header h1 a:hover span.name {
   color:#6B7A8A;
 }
-
-/*
-h2:before {
-  content:'×';
-  color:#E9EEF3;
-  margin-left:-19px;
-  margin-right:7px;
-  font: 20px/30px 'Helvetica Neue', helvetica, sans-serif;
-}
-  */
 
 a {
   color:#7b7fae;
@@ -180,4 +171,13 @@ div.image-cube div a {
   color:#fff;
   padding:0 10px;
   font: 12px/20px 'Helvetica Neue', helvetica, sans-serif;
+}
+
+p code, .highlight {
+  font: 11px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  background-color:#f0f7f7;
+}
+
+.highlight {
+  padding:10px;
 }
