@@ -35,7 +35,7 @@ header ul.navigation li {
   margin-left:20px;
 }
 
-header ul.navigation li a, h1, h2, h3, postamble, footer {
+header ul.navigation li a, h1, h2, h3, .post-footer, footer {
   font: 12px/40px 'Helvetica Neue', helvetica, sans-serif;
 }
 
@@ -104,7 +104,7 @@ a:hover {
   text-decoration:underline;
 }
 
-postamble, footer {
+footer, .post-footer {
   color:#D5D9E7;
 }
 
