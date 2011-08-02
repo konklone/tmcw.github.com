@@ -9,9 +9,8 @@ title: About
 </div>
 
 <p itemscope itemtype="http://schema.org/Person">
-I'm <span itemprop='name'>Tom MacWright</span>, a <span itemprop='jobTitle'>hacker</span> at <a itemprop='worksFor' href='http://mapbox.com/'>MapBox</a> and <a itemprop='worksFor' href='http://developmentseed.org/'>Development Seed</a>. I graduated from <a href='http://wm.edu/' itemtype='alumniOf'>W&M</a> in 2009 with a CS degree. Please <a itemtype='email' href='mailto:tom@macwright.org'>email me</a> to get in contact.
+I'm <span itemprop='name'>Tom MacWright</span>, a <span itemprop='jobTitle'>hacker</span> at <a itemprop='worksFor' href='http://mapbox.com/'>MapBox</a> and <a itemprop='worksFor' href='http://developmentseed.org/'>Development Seed</a>. I graduated from <a href='http://wm.edu/' itemtype='alumniOf'>W&M</a> in 2009 with a CS degree. Please <a itemtype='email' href='mailto:tom@macwright.org'>email me</a> to get in contact. I'm <a itemtype='contactPoint' href='http://twitter.com/tmcw'>@tmcw</a> on Twitter, and don't actively use any other social networks.
 </p>
-
 
 <div class='image-cube'>
   <div>
@@ -23,6 +22,7 @@ I'm <span itemprop='name'>Tom MacWright</span>, a <span itemprop='jobTitle'>hack
   <a href='http://flickr.com/photos/tmcw'>Flickr</a>
   </div>
 </div>
+
 
 If you're curious, this site uses [Jekyll](http://jekyllrb.com) and is hosted by [GitHub](http://github.com). I use vim and [have my .vim on GitHub](https://github.com/tmcw/.vim).
 
