@@ -27,12 +27,15 @@ header {
 
 header ul.navigation {
   float:right;
-  list-style-type:none;
+  list-style:none;
 }
 
 header ul.navigation li {
   display:inline-block;
   margin-left:20px;
+  /* abolish when IE7 is gone. */
+  zoom:1;
+  *display:inline;
 }
 
 header ul.navigation li a, h1, h2, h3, .post-footer, footer {
@@ -106,6 +109,10 @@ a:hover {
 
 footer, .post-footer {
   color:#D5D9E7;
+}
+
+footer {
+  padding-bottom:50px;
 }
 
 div.post:first-child {
