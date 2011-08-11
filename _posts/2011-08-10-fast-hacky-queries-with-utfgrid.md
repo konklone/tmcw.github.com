@@ -4,7 +4,7 @@ date: 2011-08-10 4:00:00 UTC
 title: Fast, Hacky Geospatial Queries with UTFGrid
 ---
 
-![Congressional Districts](/graphics/congress.jpg)
+![Congressional Districts](http://farm7.static.flickr.com/6082/6030825709_3811543b62_o.jpg)
 
 <span class='image-credit'>
   <a href='http://en.wikipedia.org/wiki/List_of_United_States_congressional_districts'>US Congressional Districts</a>
