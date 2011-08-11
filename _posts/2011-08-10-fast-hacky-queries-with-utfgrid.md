@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2011-08-05 10:00:00 UTC
+date: 2011-08-10 4:00:00 UTC
 title: Fast, Hacky Geospatial Queries with UTFGrid
 ---
 
