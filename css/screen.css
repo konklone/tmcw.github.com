@@ -199,3 +199,11 @@ div.link-block {
 div.link-block a {
   text-decoration:underline;
 }
+
+/* TODO: get real */
+code.has-jax {
+  font: inherit;
+  font-size: 100%;
+  background: inherit;
+  border: inherit;
+}
