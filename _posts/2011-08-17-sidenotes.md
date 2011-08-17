@@ -90,3 +90,14 @@ can be super-fast and require very little algorithmic code, but require
 a precomputed source (which I generate with [TileMill](http://tilemill.com)),
 and have limited accuracy, which you can check out in the interactive
 graph. It's a tradeoff, but I think it tends to be a very useful one.
+
+## Bonus
+
+[↓ Massive Saxophone Acquiantance'd Edition.mp3](http://dl.dropbox.com/u/9732714/%233%20Acquaintance%27d%20Edition.mp3)
+
+This week I dropped in to be a semi-informed non-self-proclaimed 'web guru'
+talking about Google Plus on
+[The Massive Saxophone podcast](http://massivesaxophone.tumblr.com/). My
+radio voice is clearly lacking, but the rest of the podcasts are gold - I
+highly recommend [the iTunes feed](pcast://feeds.feedburner.com/MassiveSaxophone).
+To be clear, I have [spoken](http://acquia.com/resources/podcasts/acquia-podcast-22-devseed-mapping-drupal) on topics that I [know a bit more](http://www.youtube.com/watch?v=jfREVxIswCU) about.
