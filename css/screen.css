@@ -158,8 +158,20 @@ span.image-credit:before {
   margin-right:5px;
 }
 
+div.crop-200-150 {
+  width:200px;
+  height:150px;
+  overflow:hidden;
+  display:inline;
+  margin:0 !important;
+}
+
 div.image-cube div img {
   display:block;
+}
+
+div.image-cube {
+  float:left;
 }
 
 div.image-cube div {
@@ -168,16 +180,26 @@ div.image-cube div {
   float:left;
 }
 
+div.image-cube div.half {
+  width:315px;
+}
+
 div.image-cube div:first-child {
   margin-right:10px;
 }
 div.image-cube div {
 }
 
-div.image-cube div a {
+div.image-cube div a { }
+
+div.image-cube div a span {
   color:#fff;
   padding:0 10px;
   font: 12px/20px 'Helvetica Neue', helvetica, sans-serif;
+}
+
+div.image-cube a:hover {
+  text-decoration:none;
 }
 
 p code, .highlight {

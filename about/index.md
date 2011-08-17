@@ -14,12 +14,16 @@ I'm <span itemprop='name'>Tom MacWright</span>, a <span itemprop='jobTitle'>hack
 
 <div class='image-cube'>
   <div>
+  <a href='http://github.com/tmcw/'>
   <img src='http://farm7.static.flickr.com/6138/5954373327_7c815334cc_o.jpg' />
-  <a href='http://github.com/tmcw/'>GitHub</a>
+    <span>GitHub</span>
+  </a>
   </div>
   <div>
+  <a href='http://flickr.com/photos/tmcw'>
   <img src='http://farm7.static.flickr.com/6007/5954369487_416645a2d2_o.jpg' />
-  <a href='http://flickr.com/photos/tmcw'>Flickr</a>
+    <span>Flickr</span>
+  </a>
   </div>
 </div>
 
