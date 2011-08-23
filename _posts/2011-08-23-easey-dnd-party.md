@@ -32,7 +32,7 @@ no dice for the application I've been working on. And then there's
 jQuery's drag and drop, which works well for desktop, but no good on mobile
 anything, and then jQuery mobile, which doesn't provide drag and drop, and then
 Sencha touch, which has a licensing scheme and marketing scheme that
-manufactures its own FUD for itself! Quick hint for open source projects:
+manufactures its own FUD. Quick hint for open source projects:
 providing a link to a `tar.gz` or a `zip` when you actually have a
 [GitHub](http://github.com) repository where everything lives engenders
 distrust and confusion amongst your would-be users.
