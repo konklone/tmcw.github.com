@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2011-08-22 10:00:00 UTC
+date: 2011-08-23 10:00:00 UTC
 title: Easey, DND, and Updates
 ---
 
