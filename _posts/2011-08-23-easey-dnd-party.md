@@ -39,11 +39,13 @@ distrust and confusion amongst your would-be users.
 
 So, [D&D](http://github.com/tmcw/dnd) is a still-buggy project that tries
 valiantly to support everything from Internet Explorer 7 to 'good browsers'
-to the iPad and eventually Android devices. Since the project I'm working on
+to the iPad and eventually Android devices. In doing so it has extracted many,
+many Tom-tears. Since the project I'm working on
 mainly just needs sorting of lists and drag & drop between them, it has
 gone towards stability in that direction - though it will be a generalized
-drag and drop library too. Big props to the [webkit_draggable project](http://www.gotproject.com/blog/post2.html) on which it is based. In doing so it has extracted many,
-many Tom-tears.
+drag and drop library too.
+Big props to the [webkit_draggable project](http://www.gotproject.com/blog/post2.html)
+on which it is based.
 
 ## Toastmasters
 
