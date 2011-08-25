@@ -27,6 +27,15 @@ I'm <span itemprop='name'>Tom MacWright</span>, a <span itemprop='jobTitle'>hack
   </div>
 </div>
 
+## Presentations
+
+I've spoken at quite a few different events.
+
+* [Fast Map Interaction Without Flash](http://www.archive.org/details/Where2.0FastMapInteractionWithoutFlash) ([Development Seed Blog](http://developmentseed.org/blog/2010/oct/26/where-20-proposed-sessions-open-source-tools-fast-custom-maps-online-and)) at [Where 2.0 2011](http://where2conf.com/where2011)
+* [Offline Mapping with Maps on a Stick](http://www.archive.org/details/OfflineMappingWithMapsOnAStick) ([YouTube](http://www.youtube.com/watch?v=jfREVxIswCU)) ([liveblog](http://jilliancyork.com/2010/10/01/ignite-talk-tom-macwright/)) ([Development Seed Blog](http://developmentseed.org/blog/2009/oct/16/crisis-mapping-conference-talking-drupal-managing-news-and-sms-data-collection)) at [ICCM 2010](http://crisismappers.net/)
+* [Tiger/Line Data in The Cloud](http://www.archive.org/details/TigerlineDataInAmazonsCloud) ([Development Seed Blog](http://developmentseed.org/blog/2009/may/19/hosting-tiger-us-census-data-amazons-cloud)) at [Where 2.0 2010](http://where2conf.com/2010)
+
+## Colophon
 
 If you're curious, this site uses [Jekyll](http://jekyllrb.com) and is hosted by [GitHub](http://github.com). I use vim and [have my .vim on GitHub](https://github.com/tmcw/.vim).
 
