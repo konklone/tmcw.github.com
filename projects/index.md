@@ -23,6 +23,8 @@ A few of my projects - many of which have been adopted by [MapBox](http://mapbox
   client-side distributed libraries
 * [node-bloopsaphone](https://github.com/tmcw/bloopsaphone) - node.js bindings
   for the wonderful bloopsaphone project started by _why
+* [Dead Sea](http://macwright.org/deadsea) - a tiny library for fixing web
+  map zooming fail.
 
 * I made a [running map](http://macwright.org/2011/07/28/mapping-runs.html) that
   got [on Runners World](http://othervoices.runnersworld.com/2011/08/the-art-of-the-run/)
