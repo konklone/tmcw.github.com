@@ -15,7 +15,7 @@ I'm <span itemprop='name'>Tom MacWright</span>, a <span itemprop='jobTitle'>hack
 <div class='image-cube'>
   <div>
   <a href='http://github.com/tmcw/'>
-  <img src='http://farm7.static.flickr.com/6138/5954373327_7c815334cc_o.jpg' />
+  <img src='http://farm7.static.flickr.com/6138/5954373327_735d1c43e4_o.jpg' />
     <span>GitHub</span>
   </a>
   </div>
