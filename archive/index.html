@@ -1,0 +1,12 @@
+---
+layout: default
+title: Archive
+---
+<h2 id='intro'>Everything I've written on macwright.org</h2>
+<ul>
+{% for post in site.posts %}
+  <li>
+    {{ post.date | date: "%b %d, %Y"  }} &raquo; <a href='{{ post.url }}'>{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
