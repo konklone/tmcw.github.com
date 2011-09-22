@@ -34,6 +34,8 @@ I've spoken at quite a few different events.
 * [Fast Map Interaction Without Flash](http://www.archive.org/details/Where2.0FastMapInteractionWithoutFlash) ([Development Seed Blog](http://developmentseed.org/blog/2010/oct/26/where-20-proposed-sessions-open-source-tools-fast-custom-maps-online-and)) at [Where 2.0 2011](http://where2conf.com/where2011)
 * [Offline Mapping with Maps on a Stick](http://www.archive.org/details/OfflineMappingWithMapsOnAStick) ([YouTube](http://www.youtube.com/watch?v=jfREVxIswCU)) ([liveblog](http://jilliancyork.com/2010/10/01/ignite-talk-tom-macwright/)) ([Development Seed Blog](http://developmentseed.org/blog/2009/oct/16/crisis-mapping-conference-talking-drupal-managing-news-and-sms-data-collection)) at [ICCM 2010](http://crisismappers.net/)
 * [Tiger/Line Data in The Cloud](http://www.archive.org/details/TigerlineDataInAmazonsCloud) ([Development Seed Blog](http://developmentseed.org/blog/2009/may/19/hosting-tiger-us-census-data-amazons-cloud)) at [Where 2.0 2010](http://where2conf.com/2010)
+* [Making Beautiful Maps from Data](http://macwright.org/presentations/foss4g/1.html) ([Development Seed Blog](http://developmentseed.org/blog/2011/09/14/presenting-fast-beautiful-maps-foss4g/)) at [FOSS4G 2011](http://2011.foss4g.org/)
+* [MBTiles, etc](http://www.archive.org/details/MbtilesStandardsAtTheOgc) ([Development Seed Blog](http://developmentseed.org/blog/2011/09/20/advancing-fast-open-mapping-standards/)) at [The OGC in Boulder, CO](http://www.opengeospatial.org/event/1109tc)
 
 ## Colophon
 
