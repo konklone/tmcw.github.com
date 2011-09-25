@@ -97,12 +97,18 @@ header h1 a:hover span.name {
 a {
   color:#31356F;
   text-decoration:none;
+}
+
+p a {
   border-bottom:1px solid #DDDEEC;
+}
+
+p a:hover {
+  border-bottom:1px solid #2F314B;
 }
 
 a:hover {
   color:#2F314B;
-  border-bottom:1px solid #2F314B;
 }
 
 footer, .post-footer {
