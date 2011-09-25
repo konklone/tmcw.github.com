@@ -65,7 +65,6 @@ em {
   font-style:italic;
 }
 
-
 blockquote {
   padding-left:8px;
   border-left:2px solid #7b7fae;
@@ -96,15 +95,14 @@ header h1 a:hover span.name {
 }
 
 a {
-  color:#7b7fae;
+  color:#31356F;
   text-decoration:none;
-  -webkit-transition-property:color;
-  -webkit-transition-duration:1s;
+  border-bottom:1px solid #DDDEEC;
 }
 
 a:hover {
-  color:#a5a4ce;
-  text-decoration:underline;
+  color:#2F314B;
+  border-bottom:1px solid #2F314B;
 }
 
 footer, .post-footer {
