@@ -4,7 +4,7 @@ date: 2011-10-30 10:00:00 UTC
 title: Your Superfund - Voronoi Tesselations
 ---
 
-<img src='http://farm7.static.flickr.com/6151/6196658297_de651315fd_o.png' style='border:1px solid #000;' />
+<a href='http://macwright.org/superfund/'><img src='http://farm7.static.flickr.com/6151/6196658297_de651315fd_o.png' style='border:1px solid #000;' /></a>
 
 
 <div class='link-block'>
@@ -28,7 +28,7 @@ and a whole level of it is precisely the same thing.
 This is, again, taking advantage of the fact that [UTFGrid](http://ds.io/pRiTr0)
 lets you do point-in-polygon searches by proxy - doing point-in-raster searches,
 with grid tiles as the intermediary. Since we can use all of the heavy equipment
-made for mapmaking with [TileMill](http://tilemill) and such, we can store
+made for mapmaking with [TileMill](http://tilemill.com) and such, we can store
 millions of tiles and make this heuristic gradually more precise -
 at zoom level 18, you'll only have 2.4 meters potential for error. Since data
 input is often geocoded points which you want to reverse-geocode, or accurate-enough
@@ -103,7 +103,7 @@ this flips around the problem space in a pretty cool way:
   for some real numbers as far as accuracy.
 
 That's all for now - I'm planning a bit more on the site about
-Superfund sites and a follow-up post on the domain.
+<a href='http://en.wikipedia.org/wiki/Superfund_(environmental_law)'>Superfund sites</a> and a follow-up post on the domain.
 
 <div class='link-block'>
   <a href='http://macwright.org/superfund/'>Check out the site →</a>
