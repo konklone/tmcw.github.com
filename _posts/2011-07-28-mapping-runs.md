@@ -2,6 +2,7 @@
 layout: post
 date: 2011-07-28 10:00:00 UTC
 title: A New Running Map
+categories: blog
 ---
 
 It's about time to make a revision of my old running map - something that I

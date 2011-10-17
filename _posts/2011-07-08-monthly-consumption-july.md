@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Monthly Consumption July 2011
+categories: blog
 ---
 
 ![Growth and Form and the Miracles](/graphics/consumption-july-11.jpg)

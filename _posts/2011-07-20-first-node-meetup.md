@@ -2,6 +2,7 @@
 layout: post
 date: 2011-07-20 10:00:00 UTC
 title: The First Node DC Meetup
+categories: blog
 ---
 
 <iframe src="http://player.vimeo.com/video/26636453?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="640" height="360" frameborder="0"></iframe>

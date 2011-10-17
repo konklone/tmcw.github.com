@@ -82,16 +82,20 @@ header h1 span.symbol {
   color:#fff;
 }
 
+header h1 a:hover span.symbol {
+  background:#000;
+}
+
+header h1 a:hover span.name {
+  color:#000;
+}
+
 header h1 span.name {
   color:#BEBEC7;
 }
 
 header h1 a:hover {
   text-decoration:none;
-}
-
-header h1 a:hover span.name {
-  color:#6B7A8A;
 }
 
 a {

@@ -2,6 +2,7 @@
 layout: post
 date: 2011-08-17 10:00:00 UTC
 title: Sidenotes
+categories: blog
 ---
 
 <div class='shutter-300'>

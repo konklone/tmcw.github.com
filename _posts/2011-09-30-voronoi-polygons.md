@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2011-10-30 10:00:00 UTC
+date: 2011-09-30 10:00:00 UTC
 title: Your Superfund - Voronoi Tesselations
+categories: blog
 ---
 
 <a href='http://macwright.org/superfund/'><img src='http://farm7.static.flickr.com/6151/6196658297_de651315fd_o.png' style='border:1px solid #000;' /></a>

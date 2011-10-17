@@ -2,6 +2,7 @@
 layout: post
 date: 2011-07-04 10:00:00 UTC
 title: Hello, Internet
+categories: blog
 ---
 
 <div class='shutter-300'>
