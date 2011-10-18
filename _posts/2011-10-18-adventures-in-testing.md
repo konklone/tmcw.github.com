@@ -2,7 +2,7 @@
 layout: post
 date: 2011-10-18 10:00:00 UTC
 title: Client-Side Javascript Testing & happen
-hn: 
+hn: http://news.ycombinator.com/item?id=3125006
 categories: blog
 ---
 
