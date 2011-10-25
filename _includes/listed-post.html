@@ -1,5 +1,5 @@
 <div class="post">
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h2><a name='{{ post.date | date: "%m-%d-%Y" }}' href="{{ post.url }}">{{ post.title }}</a></h2>
   <div class="body">{{ post.content }}</div>
   <div class="breaker"></div>
   <div class='post-footer'>

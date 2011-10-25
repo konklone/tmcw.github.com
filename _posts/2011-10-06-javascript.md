@@ -3,7 +3,8 @@ layout: post
 date: 2011-10-06 10:00:00 UTC
 title: Writing Javascript for Size
 hn: http://news.ycombinator.com/item?id=3081646
-categories: blog
+categories:
+- blog
 ---
 
 Non-programmer readers, might want to skip this one, it's pretty technical

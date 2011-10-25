@@ -2,7 +2,9 @@
 layout: post
 date: 2011-08-23 10:00:00 UTC
 title: Easey, DND, and Updates
-categories: blog
+categories:
+- blog
+- release
 ---
 
 <img src='http://farm7.static.flickr.com/6060/5901989395_ab86fb62e2_m.jpg' class='inset-right' />

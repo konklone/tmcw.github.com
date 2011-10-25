@@ -3,7 +3,9 @@ layout: post
 date: 2011-10-18 10:00:00 UTC
 title: Client-Side Javascript Testing & happen
 hn: http://news.ycombinator.com/item?id=3125006
-categories: blog
+categories:
+- blog
+- release
 ---
 
 **TL;DR - I wrote a library called [Happen](https://github.com/tmcw/happen)
