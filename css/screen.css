@@ -1,12 +1,15 @@
 /*
  * colors from http://www.flickr.com/photos/tmcw/5336583817/in/photostream/
+ *
+ * border: #B8D3D3
+ *
  * */
 p {
-  font: 13px/20px Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  font: 13px/25px Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
 html {
-  border-top:2px solid #111;
+  border-top:1px solid #111;
 }
 
 body {
@@ -22,7 +25,7 @@ header {
   display:block;
   margin-top:20px;
   margin-bottom:20px;
-  border-bottom:1px dashed #d8dbe4;
+  border-bottom:1px solid #B8D3D3;
 }
 
 header ul.navigation {
@@ -65,16 +68,13 @@ em {
   font-style:italic;
 }
 
-blockquote {
-  padding-left:8px;
-  border-left:2px solid #7b7fae;
-}
+
 
 header h1 span.symbol {
-  background-color:#6B7A8A;
-  font: normal 12px/40px 'Helvetica Neue', helvetica, sans-serif;
-  -webkit-border-radius:10px;
-  -moz-border-radius:10px;
+  background-color:#111;
+  font: normal 18px/50px 'Helvetica Neue', helvetica, sans-serif;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
   margin-right:5px;
   padding:2px;
   height:5px;
@@ -91,7 +91,7 @@ header h1 a:hover span.name {
 }
 
 header h1 span.name {
-  color:#BEBEC7;
+  color:#111;
 }
 
 header h1 a:hover {
@@ -103,11 +103,12 @@ a {
   text-decoration:none;
 }
 
-p a {
-  border-bottom:1px solid #DDDEEC;
+p a, div.content ul li a {
+  border-bottom:1px solid #BBBDD4;
 }
 
-p a:hover {
+p a:hover, div.content ul li a:hover {
+  color:#11143D;
   border-bottom:1px solid #2F314B;
 }
 
@@ -215,8 +216,14 @@ p code, .highlight {
   background-color:#f0f7f7;
 }
 
-.highlight {
+.highlight, blockquote {
+  background-color:#f0f7f7;
   padding:10px;
+  border:1px solid #B8D3D3;
+}
+
+div.post blockquote p {
+  margin:0;
 }
 
 div.link-block {
