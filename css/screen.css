@@ -140,7 +140,7 @@ div.post p {
   margin:10px 0;
 }
 
-img.inset-right {
+.inset-right {
   float:right;
   margin-left:10px;
   margin-bottom:10px;
@@ -252,4 +252,22 @@ table.equitable {
 table.equitable tr td:first-child {
   border-right:1px solid #3A7680;
   width:319px;
+}
+
+/* introduced with gif polyrythms */
+table.data-table {
+  font:15px/15px 'Helvetica Neue', sans-serif;
+  border-collapse:collapse;
+}
+
+table.data-table td,
+table.data-table th {
+  border-collapse:collapse;
+  padding:5px;
+  border:1px solid #b8d3d3;
+}
+
+table.data-table th {
+  background:#f0f7f7;
+  font-weight:bold;
 }
