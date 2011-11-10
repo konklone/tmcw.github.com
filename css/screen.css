@@ -217,9 +217,9 @@ p code, .highlight {
 }
 
 .highlight, blockquote {
-  background-color:#f0f7f7;
+  background-color:#F7FAFA;
   padding:10px;
-  border:1px solid #B8D3D3;
+  border-top:1px solid #C9D4D4;
 }
 
 div.post blockquote p {
