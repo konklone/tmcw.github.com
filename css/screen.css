@@ -68,30 +68,12 @@ em {
   font-style:italic;
 }
 
-
-
-header h1 span.symbol {
-  background-color:#111;
-  font: normal 18px/50px 'Helvetica Neue', helvetica, sans-serif;
-  -webkit-border-radius:15px;
-  -moz-border-radius:15px;
-  margin-right:5px;
-  padding:2px;
-  height:5px;
-  width:5px;
-  color:#fff;
-}
-
-header h1 a:hover span.symbol {
-  background:#000;
+header h1 span.name {
+  color:#333;
 }
 
 header h1 a:hover span.name {
   color:#000;
-}
-
-header h1 span.name {
-  color:#111;
 }
 
 header h1 a:hover {
