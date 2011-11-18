@@ -4,12 +4,10 @@ date: 2011-07-04 10:00:00 UTC
 title: About
 ---
 
-<div class='shutter-300'>
-  <img src='http://farm4.static.flickr.com/3438/3351376251_17a831c250_z.jpg' />
-</div>
+<a href="http://www.flickr.com/photos/tmcw/6063840039/" title="Untitled by macwright, on Flickr"><img src="http://farm7.static.flickr.com/6076/6063840039_252847cc74_z.jpg" width="640" height="427" alt=""></a>
 
 <p itemscope itemtype="http://schema.org/Person">
-I'm <span itemprop='name'>Tom MacWright</span>, a <span itemprop='jobTitle'>hacker</span> at <a itemprop='worksFor' href='http://mapbox.com/'>MapBox</a> and <a itemprop='worksFor' href='http://developmentseed.org/'>Development Seed</a>. I graduated from <a href='http://wm.edu/' itemtype='alumniOf'>W&M</a> in 2009 with a CS degree. Please <a itemtype='email' href='mailto:tom@macwright.org'>email me</a> to get in contact. I'm <a itemtype='contactPoint' href='http://twitter.com/tmcw'>@tmcw</a> on Twitter, and don't actively use any other social networks.
+I'm <span itemprop='name'>Tom MacWright</span>, a <span itemprop='jobTitle'>hacker</span> at <a itemprop='worksFor' href='http://mapbox.com/'>MapBox</a> and <a itemprop='worksFor' href='http://developmentseed.org/'>Development Seed</a>. Please <a itemtype='email' href='mailto:tom@macwright.org'>email me</a> to get in contact. I'm <a itemtype='contactPoint' href='http://twitter.com/tmcw'>@tmcw</a> on Twitter, and don't actively use any other social networks.
 </p>
 
 <div class='image-cube'>
@@ -40,9 +38,7 @@ I've spoken at quite a few different events.
 
 ## Colophon
 
-If you're curious, this site uses [Jekyll](http://jekyllrb.com) and is hosted by [GitHub](http://github.com). I use vim and [have my .vim on GitHub](https://github.com/tmcw/.vim).
-
-I have an incredible amount of respect for the work of [_why](http://viewsourcecode.org/why/), the music of [Andrew Bird](http://andrewbird.net), and for people who have the guts to dance alone at concerts.
+If you're curious, this site uses [Jekyll](http://jekyllrb.com) and is hosted by [GitHub](http://github.com). Images are hosted on [Flickr](http://flickr.com) and maps on [MapBox Hosting](http://tiles.mapbox.com/). I use vim and [have my .vim on GitHub](https://github.com/tmcw/.vim).
 
 If you're looking for another MacWright, here are a few (all 'of relation' - it's a rare name): [MacWright Studios](http://macwright.com/), [Sarah MacWright](http://sarahmacwright.com), [Gloria](http://orthostatictremor.org), [Doug](http://www.highlandercapital.com/).
 

@@ -23,9 +23,9 @@ div.wrapper {
 
 header {
   display:block;
-  margin-top:20px;
+  margin-top:10px;
   margin-bottom:20px;
-  border-bottom:1px solid #B8D3D3;
+  background:url('/graphics/bar.png') bottom left no-repeat;
 }
 
 header ul.navigation {
@@ -43,6 +43,7 @@ header ul.navigation li {
 
 header ul.navigation li a, h1, h2, h3, .post-footer, footer {
   font: 12px/40px 'Helvetica Neue', helvetica, sans-serif;
+  font-weight:bold;
 }
 
 header ul.navigation li a.active {
@@ -76,6 +77,18 @@ header h1 a:hover span.name {
   color:#000;
 }
 
+header h1 a span.name span.b {
+  -moz-transition:color 0.1s;
+  -webkit-transition:color 0.1s;
+}
+
+header h1 a:hover span.name span.b {
+  color:#ddd;
+}
+
+header h1 a:hover span.name span.a {
+}
+
 header h1 a:hover {
   text-decoration:none;
 }
@@ -107,13 +120,13 @@ footer {
 }
 
 div.post:first-child {
-  border-top:none;
+  background:transparent;
   padding-top:0;
   margin:30px 0;
 }
 
 div.post {
-  border-top:1px solid #d8dbe4;
+  background:url('/graphics/bar.png') top left no-repeat;
   margin:29px 0 30px 0;
   padding-top:10px;
 }
