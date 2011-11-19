@@ -35,6 +35,7 @@ I've spoken at quite a few different events.
 * [Tiger/Line Data in The Cloud](http://www.archive.org/details/TigerlineDataInAmazonsCloud) ([Development Seed Blog](http://developmentseed.org/blog/2009/may/19/hosting-tiger-us-census-data-amazons-cloud)) at [Where 2.0 2010](http://where2conf.com/2010)
 * [Making Beautiful Maps from Data](http://macwright.org/presentations/foss4g/1.html) ([Development Seed Blog](http://developmentseed.org/blog/2011/09/14/presenting-fast-beautiful-maps-foss4g/)) at [FOSS4G 2011](http://2011.foss4g.org/)
 * [MBTiles, etc](http://www.archive.org/details/MbtilesStandardsAtTheOgc) ([Development Seed Blog](http://developmentseed.org/blog/2011/09/20/advancing-fast-open-mapping-standards/)) at [The OGC in Boulder, CO](http://www.opengeospatial.org/event/1109tc)
+* [The State of Open Source GIS](http://macwright.org/presentations/wherecampboston2/#0) at [Where Camp Boston](http://www.wherecampboston.com/), October 29th, 2011
 
 ## Colophon
 
