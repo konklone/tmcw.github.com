@@ -28,7 +28,7 @@ Michal Migurski's awe-inspiring SQL hack to make logical, zoom-based, organized
 roads from `osm2pgsql` data. It was quick to set up and made my whole
 PostGIS-using experience so much more pleasant.
 
-<a href="http://www.flickr.com/photos/tmcw/6339312648/" title="1 by macwright, on Flickr"><img src="http://farm7.static.flickr.com/6041/6339312648_6e5d3d251c_z.jpg" width="640" height="360" alt="1"></a>
+<a href="http://www.flickr.com/photos/tmcw/6339312648/" title="1 by macwright, on Flickr"><img src="http://farm7.staticflickr.com/6041/6339312648_3bdc907c02_z.jpg" width="640" height="360" alt="1"></a>
 
 <a href="http://www.flickr.com/photos/tmcw/6343570606/" title="Early-Morning Bicycles by macwright, on Flickr"><img src="http://farm7.static.flickr.com/6049/6343570606_0c0d3a70f4_z.jpg" width="640" height="427" alt="Early-Morning Bicycles"></a>
 
