@@ -11,6 +11,14 @@ I've been involved in quite a few music projects, playing guitar, bass, banjo, a
 
 Pueblo is the current live version of songs that I've recorded alone the past two or three years. I play with [Sean Dalby](http://twitter.com/SeanDalby) on the drums.
 
+# [Teen Mom](http://teenmomdc.com/)
+
+<iframe width="400" height="100" style="position: relative; display: block; width: 400px; height: 100px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track=3911609991/size=venti/bgcol=FFFFFF/linkcol=4285BB/transparent=true/" allowtransparency="true" frameborder="0"><a href="http://teenmomdc.com/track/you-and-me">You and Me by Teen Mom</a></iframe>
+
+<a href="http://www.flickr.com/photos/tmcw/4892214424/" title="Untitled by macwright, on Flickr"><img src="http://farm5.staticflickr.com/4099/4892214424_f16c02efbe_z.jpg" width="640" height="403" alt=""></a>
+
+Sean and I constitute the rhythm section of Teen Mom, a fuzz-pop band fronted by Chris Kelly.
+
 # [French Letter](http://frenchletter.bandcamp.com)
 
 <div class='shutter-300'>
