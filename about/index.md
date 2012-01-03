@@ -4,7 +4,7 @@ date: 2011-07-04 10:00:00 UTC
 title: About
 ---
 
-<a href="http://www.flickr.com/photos/tmcw/6063840039/" title="Untitled by macwright, on Flickr"><img src="http://farm7.static.flickr.com/6076/6063840039_252847cc74_z.jpg" width="640" height="427" alt=""></a>
+<img src="/graphics/about.jpg" />
 
 <p itemscope itemtype="http://schema.org/Person">
 I'm <span itemprop='name'>Tom MacWright</span>, a <span itemprop='jobTitle'>hacker</span> at <a itemprop='worksFor' href='http://mapbox.com/'>MapBox</a> and <a itemprop='worksFor' href='http://developmentseed.org/'>Development Seed</a>. Please <a itemtype='email' href='mailto:tom@macwright.org'>email me</a> to get in contact. I'm <a itemtype='contactPoint' href='http://twitter.com/tmcw'>@tmcw</a> on Twitter, and don't actively use any other social networks.

@@ -4,7 +4,7 @@
  * border: #B8D3D3
  *
  * */
-p {
+p, li {
   font: 13px/25px Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
@@ -40,7 +40,7 @@ header ul.navigation li {
   *display:inline;
 }
 
-header ul.navigation li a, h1, h2, h3, .post-footer, footer {
+header ul.navigation li a, header h1, h2, h3, .post-footer, footer {
   font: 12px/40px 'Helvetica Neue', helvetica, sans-serif;
   font-weight:bold;
 }
@@ -58,6 +58,10 @@ div.wrapper ul {
 h1, h2 {
   color:#34404D;
   font-weight:bold;
+}
+
+h1 {
+  font: bold 20px/40px 'Helvetica Neue', helvetica, sans-serif;
 }
 
 h2 {
@@ -149,6 +153,11 @@ div.shutter-300 img {
   margin-top:-50px;
 }
 
+img.white-on-white {
+  border:1px solid #000;
+  margin:-1px;
+}
+
 span.image-credit {
   float:right;
   margin:0 0 10px 10px;
@@ -210,7 +219,7 @@ p code, .highlight {
 }
 
 .highlight, blockquote {
-  background-color:#F7FAFA;
+  background: url('../graphics/lightnoise.png') #E3E6E6;
   padding:10px;
   border-top:1px solid #C9D4D4;
 }
@@ -249,7 +258,7 @@ table.equitable tr td:first-child {
 
 /* introduced with gif polyrythms */
 table.data-table {
-  font:15px/15px 'Helvetica Neue', sans-serif;
+  font:13px/15px 'Helvetica Neue', sans-serif;
   border-collapse:collapse;
 }
 
@@ -257,10 +266,14 @@ table.data-table td,
 table.data-table th {
   border-collapse:collapse;
   padding:5px;
-  border:1px solid #b8d3d3;
+  border-bottom:1px solid #b8d3d3;
 }
 
 table.data-table th {
   background:#f0f7f7;
   font-weight:bold;
+}
+
+iframe {
+  border:0;
 }
