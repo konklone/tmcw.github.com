@@ -20,7 +20,9 @@ OpenLayers.
 Though I recommend you take a long, hard look at [Leaflet](http://leaflet.cloudmade.com/),
 [Modest Maps](https://github.com/stamen/modestmaps-js), or [polymaps](http://polymaps.org/)
 for new projects, there are lots of people who are going to use OpenLayers anyway,
-for whatever reason (please add reasons to the comments).
+for whatever reason (please add reasons to the comments). So here are some collected
+words of wisdom about common pitfalls with the library. Hopefully this
+saves new users some time and head-scratching.
 
 <div class='shutter-300'>
   <a href='http://www.flickr.com/photos/tmcw/6746635/'><img src='http://farm1.staticflickr.com/5/6746635_a40adac65f_z.jpg?zz=1'/></a>
