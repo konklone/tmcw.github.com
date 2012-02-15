@@ -5,7 +5,7 @@
  *
  * */
 p, li {
-  font: 13px/25px Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  font: 13px/25px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
 html {
@@ -102,12 +102,11 @@ a {
 }
 
 p a, div.content ul li a {
-  border-bottom:1px solid #BBBDD4;
 }
 
 p a:hover, div.content ul li a:hover {
   color:#11143D;
-  border-bottom:1px solid #2F314B;
+  background:#FFF9C9;
 }
 
 a:hover {
