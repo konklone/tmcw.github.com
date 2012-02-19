@@ -43,8 +43,8 @@ At [MapBox](http://mapbox.com), part of [Development Seed](http://developmentsee
   [blog post](http://macwright.org/2011/10/30/voronoi-polygons.html).
 * [A New Running Map](http://macwright.org/2011/07/28/mapping-runs.html) that
   got [on Runners World](http://othervoices.runnersworld.com/2011/08/the-art-of-the-run/)
-  and [Fuck Yes Maps](http://fuckyesmaps.tumblr.com/day/2011/08/02), both of
-  I was psyched about, being a reader of both.
+  and [Fuck Yes Maps](http://fuckyesmaps.tumblr.com/day/2011/08/02), both of which
+  I read reguarly and was pretty psyched about.
 * [Swem Signal](https://swem.wm.edu/um/swemsignal/),
   which lives on with the help of [Swem Library](https://swem.wm.edu/)'s awesome,
   inspiring staff. Librarians are cool people. It was a nice adventure - which spawned
