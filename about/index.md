@@ -36,10 +36,15 @@ I've spoken at quite a few different events.
 * [Making Beautiful Maps from Data](http://macwright.org/presentations/foss4g/1.html) ([Development Seed Blog](http://developmentseed.org/blog/2011/09/14/presenting-fast-beautiful-maps-foss4g/)) at [FOSS4G 2011](http://2011.foss4g.org/)
 * [MBTiles, etc](http://www.archive.org/details/MbtilesStandardsAtTheOgc) ([Development Seed Blog](http://developmentseed.org/blog/2011/09/20/advancing-fast-open-mapping-standards/)) at [The OGC in Boulder, CO](http://www.opengeospatial.org/event/1109tc)
 * [The State of Open Source GIS](http://macwright.org/presentations/wherecampboston2/#0) at [Where Camp Boston](http://www.wherecampboston.com/), October 29th, 2011
+* [Project it Yourself](macwright.org/presentations/projections) at Geo DC
+* [Big Data with node.js, polymaps, and redis](http://macwright.org/presentations/nodedc/) at node.js DC
+* [Beyond the Google Maps Paradigm](http://macwright.org/presentations/beyond/#0) at [FOSS4G NA](http://foss4g-na.org/)
 
 ## Colophon
 
-If you're curious, this site uses [Jekyll](http://jekyllrb.com) and is hosted by [GitHub](http://github.com). Images are hosted on [Flickr](http://flickr.com) and maps on [MapBox Hosting](http://tiles.mapbox.com/). I use vim and [have my .vim on GitHub](https://github.com/tmcw/.vim).
+If you're curious, this site uses [Jekyll](http://jekyllrb.com) and is hosted by [GitHub](http://github.com).
+Images are hosted on [Flickr](http://flickr.com) and maps on [MapBox Hosting](http://tiles.mapbox.com/).
+I use vim and [have my .vim on GitHub](https://github.com/tmcw/.vim).
 
 If you're looking for another MacWright, here are a few (all 'of relation' - it's a rare name): [MacWright Studios](http://macwright.com/), [Sarah MacWright](http://sarahmacwright.com), [Gloria](http://orthostatictremor.org), [Doug](http://www.highlandercapital.com/).
 
