@@ -274,6 +274,10 @@ table.data-table th {
   font-weight:bold;
 }
 
+tr.odd {
+  background:#f3fdff;
+}
+
 iframe {
   border:0;
 }
