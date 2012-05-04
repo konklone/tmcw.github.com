@@ -3,6 +3,15 @@ layout: default
 title: Archive
 ---
 <h2 id='intro'>Everything I've written on macwright.org</h2>
+
+<div class='archive-images'>
+{% for post in site.categories.blog %}
+{% if post.thumbnail %}<a href='{{ post.url }}'><img width=150 height=150
+  src='{{post.thumbnail}}'
+  alt='{{ post.title.escape }}'/></a>{% endif %}
+{% endfor %}
+</div>
+
 <table class='data-table' style='width:100%;'>
   <tr>
     <th></th>

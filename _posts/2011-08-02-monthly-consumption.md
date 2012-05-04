@@ -2,6 +2,7 @@
 layout: post
 date: 2011-08-02 10:00:00 UTC
 title: Monthly Consumption August 2011
+thumbnail: http://farm7.static.flickr.com/6018/6000483878_4b2867d2af_q.jpg
 categories: blog
 ---
 

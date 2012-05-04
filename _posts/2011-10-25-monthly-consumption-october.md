@@ -2,6 +2,7 @@
 layout: post
 date: 2011-10-25 10:00:00 UTC
 title: The Month - October 2011
+thumbnail: http://farm7.static.flickr.com/6219/6232458699_40a9406d7c_q.jpg
 categories:
 - blog
 - consumption

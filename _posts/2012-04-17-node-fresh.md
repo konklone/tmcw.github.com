@@ -3,6 +3,7 @@ layout: post
 date: 2012-04-17 10:00:00 UTC
 title: node-fresh
 hn:
+thumbnail: http://farm8.staticflickr.com/7228/6996488660_84f6ca7c85_q.jpg
 categories:
 - blog
 ---

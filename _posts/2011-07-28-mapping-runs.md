@@ -2,6 +2,7 @@
 layout: post
 date: 2011-07-28 10:00:00 UTC
 title: A New Running Map
+thumbnail: http://farm5.static.flickr.com/4118/5443024281_f85b554589_q.jpg
 categories: blog
 ---
 

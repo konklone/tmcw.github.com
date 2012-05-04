@@ -3,6 +3,7 @@ layout: post
 date: 2012-02-02 10:00:00 UTC
 title: Rhumb Lines and Great Circles
 hn:
+thumbnail: http://farm8.staticflickr.com/7033/6785847925_6528fa1fd5_q.jpg
 categories:
 - blog
 ---

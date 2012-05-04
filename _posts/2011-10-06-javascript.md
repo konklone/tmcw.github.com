@@ -2,6 +2,7 @@
 layout: post
 date: 2011-10-06 10:00:00 UTC
 title: Writing Javascript for Size
+thumbnail: http://farm5.static.flickr.com/4136/4757336489_1b748b7fe9_q.jpg
 hn: http://news.ycombinator.com/item?id=3081646
 categories:
 - blog

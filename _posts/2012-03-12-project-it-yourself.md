@@ -3,6 +3,7 @@ layout: post
 date: 2012-03-12 10:00:00 UTC
 title: Project it Yourself
 hn:
+thumbnail: http://farm8.staticflickr.com/7055/6976982281_f6186cbcc0_q.jpg
 categories:
 - blog
 - release

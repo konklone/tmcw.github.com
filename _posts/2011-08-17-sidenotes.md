@@ -2,6 +2,7 @@
 layout: post
 date: 2011-08-17 10:00:00 UTC
 title: Sidenotes
+thumbnail: http://farm7.static.flickr.com/6132/6030799919_c6b01333b7_q.jpg
 categories: blog
 ---
 

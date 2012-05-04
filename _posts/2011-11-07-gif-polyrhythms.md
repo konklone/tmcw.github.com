@@ -3,6 +3,7 @@ layout: post
 date: 2011-11-07 10:00:00 UTC
 title: GIF Polyrhythms & GIF CLOCK
 hn: 
+thumbnail: http://farm7.static.flickr.com/6099/6320704288_cb4ec558a8_q.jpg
 categories: blog
 ---
 

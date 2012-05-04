@@ -281,3 +281,11 @@ tr.odd {
 iframe {
   border:0;
 }
+
+.archive-images {
+  line-height:0;
+}
+
+.archive-images img {
+  margin:3px;
+}
