@@ -218,6 +218,10 @@ p code, .highlight {
   background-color:#f0f7f7;
 }
 
+pre code {
+  font: 11px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
 .highlight, blockquote {
   background: url('../graphics/lightnoise.png') #E3E6E6;
   padding:10px;
