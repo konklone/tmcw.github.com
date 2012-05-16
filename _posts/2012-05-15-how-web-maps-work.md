@@ -36,6 +36,8 @@ of, say, 640x480px, the client finds all tiles within a certain
 zoom level and centerpoint which _intersect_ with this viewport.
 It then arranges them so that tiles are perfectly adjacent.
 
+# Data Types
+
 ## Tiles
 
 Tiles are chunks of raster or vector data. Most commonly, tiles are
@@ -48,24 +50,6 @@ vectorized data, so that rasterization can be pushed to the client. This has
 its advantages and disadvantages, but that's another discussion: to the map
 client, vector tiles are equivalent to raster tiles except with an
 additional rendering step in-browser.
-
-## Map State
-
-Given the goal of tile layout and the definition of a tile, let's start thinking
-about the map client. Like any application, it is defined by its state.
-
-The `state` of the map is its current zoom level and centerpoint:
-this changes every time that the map moves, zooms, pans, etc. Other
-attributes, like layer selections, styling, and such, will be described
-as configuration.
-
-There are multiple ways to represent state:
-
-* A 'geographical location' and a zoom level
-* A coordinate
-
-The Modest Maps tradition uses a coordinate, so we'll describe those first,
-but Leaflet and OpenLayers use geographical locations, which are equivalent.
 
 ## Coordinates
 
@@ -115,6 +99,41 @@ with pixels requires you to reposition those elements every call to `draw()`.
 
 Ref: [Modest Maps Point](https://github.com/modestmaps/modestmaps-js/blob/master/src/point.js) |
 [OpenLayers Point](https://github.com/openlayers/openlayers/blob/master/lib/OpenLayers/BaseTypes/Pixel.js)
+
+## Relationships Between Data Types
+
+You can 'convert' between these different representations, but since
+each type represents a different concept, it's not 1:1.
+
+* *Coordinate &rarr; Location*: Each coordinate maps to one geographical location
+* *Location &rarr; Coordinate*: Since coordinates have zoom as well as location,
+  locations map to a different coordinate at each zoom level
+* *Coordinate / Location &rarr; Point*: Coordinates and locations at a particular
+  zoom levels map to points, but this changes whenever the map centerpoint
+  moves.
+* *Coordinate &rarr; Tile*: Coordinates _yield_ tiles: the coordinate `[0, 0, 0]` could
+  yield a tile with the URL `http://c.tile.openstreetmap.org/0/0/0.png`. Tiles
+  _represent_ coordinates.
+
+# Functionality
+
+## Map State
+
+Given the goal of tile layout and the definition of a tile, let's start thinking
+about the map client. Like any application, it is defined by its state.
+
+The `state` of the map is its current zoom level and centerpoint:
+this changes every time that the map moves, zooms, pans, etc. Other
+attributes, like layer selections, styling, and such, will be described
+as configuration.
+
+There are multiple ways to represent state:
+
+* A 'geographical location' and a zoom level
+* A coordinate
+
+The Modest Maps tradition uses a coordinate, so we'll describe those first,
+but Leaflet and OpenLayers use geographical locations, which are equivalent.
 
 ## Changing Map State
 
@@ -173,6 +192,18 @@ function positionTile(tile) {
     drawElementAtPoint(tile.element, map.coordinatePoint(tiles.coordinate));
 }
 {% endhighlight %}
+
+So the main task of `positionTile` in the common case - in which it's
+dealing with HTML elements - is positioning.
+
+The simplest way to do this is with [absolute positioning inside of relative positioning](http://css-tricks.com/absolute-positioning-inside-relative-positioning/) -
+the map's parent is relative, the children are absolutely positioned.
+
+An optimization here is to use [CSS transforms](http://www.w3.org/TR/css3-2d-transforms/),
+which has a few advantages: they can cause [fewer reflows](http://paulirish.com/2011/dom-html5-css3-performance/),
+use hardware acceleration in their 3D versions, and, unlike
+CSS's `width` and `height` properties, the [scaling transformation](http://www.w3.org/TR/SVG/coords.html#ScalingDefined)
+is inherited.
 
 ## Map Interaction
 
