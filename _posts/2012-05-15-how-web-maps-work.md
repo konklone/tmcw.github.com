@@ -178,10 +178,11 @@ The structure here is extremely similar for libraries that use SVG
 instead of HTML elements like [polymaps](http://polymaps.org/).
 
 Some libraries, like [pixymaps](https://github.com/mbostock/pixymaps),
-render to Canvas elements, but the render step is very similar in
-pseudocode-land:
+render to Canvas elements, but the render step is very similar:
 
 {% highlight js %}
+// (pseudocode)
+
 // HTML
 function positionTile(tile) {
     moveElementToPoint(tile.element, map.coordinatePoint(tiles.coordinate));
@@ -232,7 +233,29 @@ At each zoom level, the number of potential tiles increases exponentially -
 at zoom level 5, 1,024 tiles are possible. The interface therefore needs
 to intelligently load tiles that are visible and prune those that aren't.
 
-The simplest way to implement this is with an [LRU cache](http://en.wikipedia.org/wiki/Cache_algorithms) -
+To find what tiles are on screen, you find the Coordinates of the top-left
+and bottom-right corners of the screen, and loop through them:
+
+{% highlight js %}
+// (pseudocode)
+
+// The top left corner is the point 0, 0
+var tl = map.pointCoordinate(new Point(0, 0));
+// The bottom right corner is the size of the map
+var br = map.pointCoordinate(new Point(map.width, map.height));
+// Looking to build a list of valid tiles
+var tiles = [];
+// Loop through the map's space
+for (var col = tl.column; col <= br.column; col++) {
+    for (var row = tl.row; row <= br.row; row++) {
+       tiles.push([map.zoom, col, row]);
+    }
+}
+// Request these tiles
+{% endhighlight %}
+
+The simplest way to implement tile _removal_ is with
+an [LRU cache](http://en.wikipedia.org/wiki/Cache_algorithms) -
 tiles that haven't been displayed recently are the first ones to be flushed
 from the cache. On the web, this isn't necessarily part of the map
 client itself, since web browser implement their own caching.
