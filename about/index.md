@@ -47,14 +47,3 @@ Images are hosted on [Flickr](http://flickr.com) and maps on [MapBox Hosting](ht
 I use vim and [have my .vim on GitHub](https://github.com/tmcw/.vim).
 
 If you're looking for another MacWright, here are a few (all 'of relation' - it's a rare name): [MacWright Studios](http://macwright.com/), [Sarah MacWright](http://sarahmacwright.com), [Gloria](http://orthostatictremor.org), [Doug](http://www.highlandercapital.com/).
-
-<div id="cse" style="width: 100%;">Loading</div>
-<script src="http://www.google.com/jsapi" type="text/javascript"></script>
-<script type="text/javascript">
-  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
-  google.setOnLoadCallback(function() {
-    var customSearchControl = new google.search.CustomSearchControl('013300548148778840370:msob-nrhszy');
-    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-    customSearchControl.draw('cse');
-  }, true);
-</script>

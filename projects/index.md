@@ -38,6 +38,8 @@ At [MapBox](http://mapbox.com), part of [Development Seed](http://developmentsee
 
 # Applications, websites
 
+* [Enable Web Developer Extensions](http://macwright.org/enable-web-developer-extensions/)
+  tells you how to do what it says on the tin.
 * [Your Superfund](http://macwright.org/superfund) is a project to improve
   mapping of America's Superfund sites. You can read about it on the accompanying
   [blog post](http://macwright.org/2011/10/30/voronoi-polygons.html).
