@@ -4,13 +4,27 @@ title: Archive
 ---
 <h2 id='intro'>Everything I've written on macwright.org</h2>
 
-<div class='archive-images'>
-{% for post in site.categories.blog %}
-{% if post.thumbnail %}<a href='{{ post.url }}'><img width=150 height=150
-  src='{{post.thumbnail}}'
-  alt='{{ post.title.escape }}'/></a>{% endif %}
-{% endfor %}
-</div>
+<form>
+  <input type="text" id="st-search-input" class="st-search-input" />
+</form>
+<div id="st-results-container"></div>
+<script type="text/javascript">
+  var Swiftype = window.Swiftype || {};
+  (function() {
+    Swiftype.key = '4wPjsgJYZ16uvck6q13h';
+    Swiftype.inputElement = '#st-search-input';
+    Swiftype.resultContainingElement = '#st-results-container';
+    Swiftype.attachElement = '#st-search-input';
+    Swiftype.renderStyle = "overlay";
+
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = "//swiftype.com/embed.js";
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+  }());
+</script>
 
 <table class='data-table' style='width:100%;'>
   <tr>
