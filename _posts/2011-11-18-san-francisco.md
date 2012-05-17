@@ -63,7 +63,7 @@ whose exhibition [There Be Dragons](http://www.squarecylinder.com/2011/11/there-
 
 Beyond that, hung out at [stamen](http://stamen.com) and worked a bit
 on [modestmaps](https://github.com/stamen/modestmaps-js) with some
-[wizards](mbostock.github.com/d3) of the [trade](http://maps.grammata.com/).
+[wizards](http://mbostock.github.com/d3) of the [trade](http://maps.grammata.com/).
 There's a lot of stuff cooking there, and it'll be awesome
 to apply it to the [MapBox](http://mapbox.com/) stack. Mainly it'll
 be interesting to finally get a 1.0.0 of modestmaps and start a true
