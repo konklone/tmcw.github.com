@@ -246,8 +246,8 @@ var br = map.pointCoordinate(new Point(map.width, map.height));
 // Looking to build a list of valid tiles
 var tiles = [];
 // Loop through the map's space
-for (var col = tl.column; col <= br.column; col++) {
-    for (var row = tl.row; row <= br.row; row++) {
+for (var col = tl.column; col < br.column; col++) {
+    for (var row = tl.row; row < br.row; row++) {
        tiles.push([map.zoom, col, row]);
     }
 }
@@ -259,3 +259,9 @@ an [LRU cache](http://en.wikipedia.org/wiki/Cache_algorithms) -
 tiles that haven't been displayed recently are the first ones to be flushed
 from the cache. On the web, this isn't necessarily part of the map
 client itself, since web browser implement their own caching.
+
+## Further reading
+
+* maptiler.org: [Tiles à la Google Maps: Coordinates, Tile Bounds and Projection](http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/)
+* macwright.org: [Understanding Map Projections](http://macwright.org/2012/01/27/projections-understanding.html)
+* modest maps: [How Modest Maps Works](https://github.com/modestmaps/modestmaps-js/wiki/How-it-Works)
