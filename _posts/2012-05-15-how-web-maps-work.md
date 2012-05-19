@@ -69,7 +69,7 @@ coordinates like such:
 
     tile: [zoom level, column, row]
     =     [zoom level + 1, column * 2, row * 2]
-    =     [zoom level + n, column * 2^(zoom level - n), column * 2^(zoom level - n)]
+    =     [zoom level + n, column * 2^(n - zoom level), column * 2^(n - zoom level)]
 
 So the location of the tile `[2, 1, 1]` (zoom 2, column & row 1) becomes `[3, 2, 2]`
 at zoom level 3,, and so on.
