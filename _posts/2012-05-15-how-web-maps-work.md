@@ -9,7 +9,7 @@ categories:
 ---
 
 <div class='shutter-300'>
-<a href='http://farm6.staticflickr.com/5331/7178643512_e465ecc7ef_z.jpg'>
+<a href='http://www.flickr.com/photos/tmcw/7178643512/in/photostream'>
 <img src='http://farm6.staticflickr.com/5331/7178643512_e465ecc7ef_z.jpg'>
 </a>
 </div>
