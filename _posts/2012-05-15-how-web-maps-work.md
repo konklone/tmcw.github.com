@@ -21,6 +21,10 @@ it should roughly describe the paradigm adopted by
 [Modest Maps](http://modestmaps.com/), and [OpenLayers](http://openlayers.org/),
 and the [slippy map tilename](http://wiki.openstreetmap.org/wiki/Slippy_map_tilenames) standard.
 
+To those not indoctrinated into programming, this is the basis
+of [Google Maps](http://maps.google.com/) and similar sites like
+[OpenStreetMap](http://www.openstreetmap.org/).
+
 This _doesn't_ describe non-tiled maps, like non-tiled
 [WMS](http://en.wikipedia.org/wiki/Web_Map_Service) layers suported
 by `OpenLayers.Layer.WMS` with [singleTile: true](http://dev.openlayers.org/releases/OpenLayers-2.11/doc/apidocs/files/OpenLayers/Layer/WMS-js.html#OpenLayers.Layer.WMS).
@@ -68,8 +72,10 @@ Since tiles are quad-tree indexed, they're transformed between
 coordinates like such:
 
     tile: [zoom level, column, row]
-    =     [zoom level + 1, column * 2, row * 2]
-    =     [zoom level + n, column * 2^(n - zoom level), column * 2^(n - zoom level)]
+    = [zoom level + 1, column * 2, row * 2]
+    = [zoom level + n,
+       column * 2^(n - zoom level),
+       column * 2^(n - zoom level)]
 
 So the location of the tile `[2, 1, 1]` (zoom 2, column & row 1) becomes `[3, 2, 2]`
 at zoom level 3,, and so on.
@@ -160,7 +166,7 @@ onto the page - which is what we'll address in the next section.
 
 Maps are rendered: typically as `<img>` elements in `<div>` elements.
 
-The structure of an images-in-the-dom library is like so:
+The structure of an images-in-the-[dom](http://en.wikipedia.org/wiki/Document_Object_Model) library is like so:
 
 {% highlight html %}
 <div id='map'>
@@ -174,11 +180,11 @@ The structure of an images-in-the-dom library is like so:
 </div>
 {% endhighlight %}
 
-The structure here is extremely similar for libraries that use SVG
+The structure here is extremely similar for libraries that use [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
 instead of HTML elements like [polymaps](http://polymaps.org/).
 
 Some libraries, like [pixymaps](https://github.com/mbostock/pixymaps),
-render to Canvas elements, but the render step is very similar:
+render to [Canvas](http://en.wikipedia.org/wiki/Canvas_element) elements, but the render step is very similar:
 
 {% highlight js %}
 // (pseudocode)
