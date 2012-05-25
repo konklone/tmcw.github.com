@@ -271,3 +271,4 @@ client itself, since web browser implement their own caching.
 * maptiler.org: [Tiles à la Google Maps: Coordinates, Tile Bounds and Projection](http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/)
 * macwright.org: [Understanding Map Projections](http://macwright.org/2012/01/27/projections-understanding.html)
 * modest maps: [How Modest Maps Works](https://github.com/modestmaps/modestmaps-js/wiki/How-it-Works)
+* axis maps: [Your Map And The Internet](http://www.axismaps.com/blog/2012/05/your-map-and-the-internet/)
