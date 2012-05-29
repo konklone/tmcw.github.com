@@ -78,7 +78,7 @@ coordinates like such:
        column * 2^(n - zoom level)]
 
 So the location of the tile `[2, 1, 1]` (zoom 2, column & row 1) becomes `[3, 2, 2]`
-at zoom level 3,, and so on.
+at zoom level 3, and so on.
 
 Ref: [Modest Maps Coordinate.js](https://github.com/modestmaps/modestmaps-js/blob/master/src/coordinate.js)
 

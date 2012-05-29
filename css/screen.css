@@ -5,11 +5,10 @@
  *
  * */
 
-@import url("font/Inconsolata/stylesheet.css");
-@import url("font/Vollkorn/stylesheet.css");
+@import url("/css/font/Inconsolata/stylesheet.css");
 
 p, li {
-  font: 15px/30px 'VollkornRegular', 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  font: 15px/30px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
 html {
@@ -218,12 +217,12 @@ div.image-cube a:hover {
 }
 
 p code, .highlight {
-  font: 11px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 15px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   background-color:#f0f7f7;
 }
 
 pre code {
-  font: 13px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 15px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 .highlight, blockquote {
