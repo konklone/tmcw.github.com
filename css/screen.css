@@ -4,8 +4,12 @@
  * border: #B8D3D3
  *
  * */
+
+@import url("font/Inconsolata/stylesheet.css");
+@import url("font/Vollkorn/stylesheet.css");
+
 p, li {
-  font: 13px/25px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  font: 15px/30px 'VollkornRegular', 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
 html {
@@ -13,7 +17,7 @@ html {
 }
 
 body {
-  color:#222;
+  color:#333;
   width:640px;
   margin:0 auto;
 }
@@ -61,11 +65,11 @@ h1, h2 {
 }
 
 h1 {
-  font: bold 20px/40px 'Helvetica Neue', helvetica, sans-serif;
+  font: bold 20px/40px 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h2 {
-  font: bold 16px/40px 'Helvetica Neue', helvetica, sans-serif;
+  font: bold 16px/40px 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 em {
@@ -214,16 +218,16 @@ div.image-cube a:hover {
 }
 
 p code, .highlight {
-  font: 11px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 11px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   background-color:#f0f7f7;
 }
 
 pre code {
-  font: 11px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 13px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 .highlight, blockquote {
-  background: url('../graphics/lightnoise.png') #E3E6E6;
+  background: #E3E6E6;
   padding:10px;
   border-top:1px solid #C9D4D4;
 }
