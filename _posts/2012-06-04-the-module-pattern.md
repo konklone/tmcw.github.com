@@ -329,3 +329,5 @@ object.
 * [Vish Uma switched to the module pattern](http://viswaug.wordpress.com/2008/11/19/writing-better-javascript-part-5/) and
   [from it back to classical objects](http://viswaug.wordpress.com/2011/03/02/moving-away-from-the-javascript-module-pattern/). His
   writing reminded me of the possible memory issue, so that section was added.
+* [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+  by [Addy Osmani](http://addyosmani.com/blog/) covers this and many other patterns.
