@@ -252,6 +252,8 @@ that they know will not be accessible to the API user.
 2. The power to have private methods and variables can be abused
 3. Extending objects is unclear
 4. Object identities is unclear - `instanceof` doesn't work.
+5. This may have higher memory usage, because creating new
+   objects can create new copies fo their members.
 
 As far as **speed**. Creating object literals is faster than instantiating
 objects with constructors in most browsers, as [this jsperf test from Mike Bostock](http://jsperf.com/prototype-vs-literal)
@@ -282,6 +284,8 @@ couldn't be private. So, if nothing else, this method requires
 an extra thought process to consider the level of encapsulation
 needed.
 
+### Extending Classes
+
 I rarely encounter the problem of really **extending classes**,
 but maybe that's just the problem area. Anyway, Ben Cherry's linked
 article has one possibility, and you can also just use an object
@@ -289,6 +293,8 @@ that uses another object internally - like how [Wax's](http://mapbox.com/wax/)
 [interaction lib](https://github.com/mapbox/wax/blob/master/control/lib/interaction.js) is
 used in [specialized API-specific controls](https://github.com/mapbox/wax/blob/master/control/mm/interaction.js)
 which 'customize' the object internally.
+
+### instanceof
 
 As far as the `instanceof` problem - with classical objects, when you
 call `var x = new baseballbat()`, then `x instanceof baseballbat` returns
@@ -298,7 +304,28 @@ languages, in which direct class-equivalence isn't all that importance
 and it's more likely you want to ask whether the object has methods or
 properties you need in your code, not its origin.
 
+For instance, in a large-scale project like [Carto](http://mapbox.com/carto/),
+which required object identities, a chain of inheritance meant that the
+only sensible way to do identity was to add a `.is` member with a flag
+telling what the value should be interpreted as. Except in the most extreme
+cases, I don't see much `instanceof` use in the wild.
+
+### Memory
+
+As far as the last possible disadvantage, higher memory usage -
+memory in Javascript has been a bit of an uncertain, given limited
+developer tools and the variability between javascript engines.
+
+For objects that you'll want thousands of, it might be a better option
+to either go with _literal objects_ - for instance, the data types
+in [Modest Maps](http://modestmaps.com/) would probably become
+simple arrays and their methods could easily become part of a singleton
+object.
+
 ## See Also
 
 * [JavaScript Module Pattern: In-Depth](http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth) by Ben Cherry
 * [Towards Reusable Charts](http://bost.ocks.org/mike/chart/) by Mike Bostock
+* [Vish Uma switched to the module pattern](http://viswaug.wordpress.com/2008/11/19/writing-better-javascript-part-5/) and
+  [from it back to classical objects](http://viswaug.wordpress.com/2011/03/02/moving-away-from-the-javascript-module-pattern/). His
+  writing reminded me of the possible memory issue, so that section was added.
