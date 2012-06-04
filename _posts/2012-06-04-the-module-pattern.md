@@ -110,7 +110,7 @@ function thing() {
         count++;
     }
 
-    // Now you make the descision of the set of methods on t.
+    // Now you make the decision of the set of methods on t.
     // These have access to all of the scoped variables as well.
     t.talk = function(x) {
         alert(x);
@@ -253,7 +253,7 @@ that they know will not be accessible to the API user.
 3. Extending objects is unclear
 4. Object identities is unclear - `instanceof` doesn't work.
 5. This may have higher memory usage, because creating new
-   objects can create new copies fo their members.
+   objects can create new copies of their members.
 
 As far as **speed**. Creating object literals is faster than instantiating
 objects with constructors in most browsers, as [this jsperf test from Mike Bostock](http://jsperf.com/prototype-vs-literal)
@@ -314,7 +314,7 @@ cases, I don't see much `instanceof` use in the wild.
 
 As far as the last possible disadvantage, higher memory usage -
 memory in Javascript has been a bit of an uncertain, given limited
-developer tools and the variability between javascript engines.
+developer tools and the variability between Javascript engines.
 
 For objects that you'll want thousands of, it might be a better option
 to either go with _literal objects_ - for instance, the data types
