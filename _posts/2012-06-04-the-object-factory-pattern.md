@@ -1,11 +1,21 @@
 ---
 layout: post
-date: 2012-06-01 10:00:00 UTC
-title: The Object Literal Pattern, A Little More Detail
+date: 2012-06-04 10:00:00 UTC
+title: The Module Pattern, A Little More Detail
 hn:
 categories:
 - blog
 ---
+
+This is an article on the _module pattern_ for Javascript, and some of
+its neat properties. I've been using it recently for projects like
+[Wax](http://mapbox.com/wax/) and [mmg](http://mapbox.com/mmg), and think
+it's a neat way to structure code and avoid some of the less likable parts
+of the language.
+
+<div class='shutter-300'>
+<img src='http://farm8.staticflickr.com/7078/7174033128_698c1abccb_z.jpg' />
+</div>
 
 For those already doing Javascript: here's why you should care.
 
@@ -27,9 +37,12 @@ For those starting to learn Javascript.
 
 ## Let's Begin
 
-To be clear, I adopted the style of the object literal pattern
+To be clear, I adopted the style of the module pattern
 used by [Mike Bostock](http://bost.ocks.org/), who presumably got it
-from earlier figures, and so on.
+from earlier figures, and so on. Usually the variable-containing
+and scope-control bits of this pattern get the most attention -
+this sheds some light on other benefits that touch _browser_
+and _async_ code as well.
 
 #### Javascript with Classical Objects
 
@@ -46,7 +59,7 @@ In which you're using [Javascript's prototypes](http://yehudakatz.com/2011/08/12
 to create a Javascript class, and using `this` to refer
 to 'this instantiated object'.
 
-#### Javascript with Object Constructor
+#### Javascript with Module Pattern
 
 {% highlight js %}
 function Car() {
@@ -105,6 +118,12 @@ function thing() {
 
     // Finally, when you're done with t, return it.
     t;
+
+    // In terms of the idea of a 'closure', this is how you
+    // 'close over' the scope of the object. Someone who calls
+    // thing() gets a copy of t to play around with, but that
+    // t will always refer to the scoped variables we just
+    // defined.
 }
 {% endhighlight %}
 
@@ -114,7 +133,8 @@ The most common annoyance with `this` is in event handlers, because they
 [turn this into the element that's the source of the event](http://www.sitepoint.com/javascript-this-event-handlers/).
 
 So let's say that you're creating a simple counter, that attaches
-to a DOM element being clicked. The classical version might look like
+to a [DOM](http://en.wikipedia.org/wiki/Document_Object_Model)
+element being clicked. The classical version might look like
 
 {% highlight js %}
 function Counter() { this.count = 0; }
@@ -231,6 +251,7 @@ that they know will not be accessible to the API user.
 1. This method is slower for certain cases
 2. The power to have private methods and variables can be abused
 3. Extending objects is unclear
+4. Object identities is unclear - `instanceof` doesn't work.
 
 As far as **speed**. Creating object literals is faster than instantiating
 objects with constructors in most browsers, as [this jsperf test from Mike Bostock](http://jsperf.com/prototype-vs-literal)
@@ -268,6 +289,14 @@ that uses another object internally - like how [Wax's](http://mapbox.com/wax/)
 [interaction lib](https://github.com/mapbox/wax/blob/master/control/lib/interaction.js) is
 used in [specialized API-specific controls](https://github.com/mapbox/wax/blob/master/control/mm/interaction.js)
 which 'customize' the object internally.
+
+As far as the `instanceof` problem - with classical objects, when you
+call `var x = new baseballbat()`, then `x instanceof baseballbat` returns
+`true`, and `x instanceof foo` returns `false`. Every once in a blue
+moon this is handy, but it often runs into the same problems as strongly-typed
+languages, in which direct class-equivalence isn't all that importance
+and it's more likely you want to ask whether the object has methods or
+properties you need in your code, not its origin.
 
 ## See Also
 
