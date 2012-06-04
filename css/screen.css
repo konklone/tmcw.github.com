@@ -117,6 +117,10 @@ a:hover {
   color:#2F314B;
 }
 
+ol {
+  margin-left:30px;
+}
+
 footer, .post-footer {
   color:#D5D9E7;
 }
@@ -216,13 +220,14 @@ div.image-cube a:hover {
   text-decoration:none;
 }
 
-p code, .highlight {
+code, .highlight {
   font: 15px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   background-color:#f0f7f7;
 }
 
 pre code {
   font: 15px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  background:transparent;
 }
 
 .highlight, blockquote {
