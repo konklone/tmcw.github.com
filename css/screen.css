@@ -24,6 +24,10 @@ body {
 div.wrapper {
 }
 
+ol {
+  margin-left:30px;
+}
+
 header {
   display:block;
   margin-top:10px;
@@ -115,10 +119,6 @@ p a:hover, div.content ul li a:hover {
 
 a:hover {
   color:#2F314B;
-}
-
-ol {
-  margin-left:30px;
 }
 
 footer, .post-footer {
@@ -220,20 +220,18 @@ div.image-cube a:hover {
   text-decoration:none;
 }
 
-code, .highlight {
+p code, .highlight {
   font: 15px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   background-color:#f0f7f7;
 }
 
 pre code {
   font: 15px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-  background:transparent;
 }
 
 .highlight, blockquote {
-  background: #E3E6E6;
   padding:10px;
-  border-top:1px solid #C9D4D4;
+  border:1px solid #C9D4D4;
 }
 
 div.post blockquote p {
