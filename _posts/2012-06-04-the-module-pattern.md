@@ -261,7 +261,11 @@ shows. But _dispatching method calls on those objects_ is slower.
 
 But unless you're doing some very serious, millions-of-iterations
 computation, Javascript engine level optimizations probably aren't
-the biggest worry.
+the biggest worry. In V8, small, prototype-based objects tend to out-perform
+literal objects created with the module pattern - good insights can
+be found in [this bit of Lars Bak's talk on the subject](http://youtu.be/hWhMKalEicY?t=48s)
+and the aha moment for objects versus arrays came from reading
+[this bit of pre3d.js](https://github.com/deanm/pre3d/blob/master/pre3d.js#L32).
 
 As far as the **abusable power to do private members**. There can be
 the feeling that you start off with an object like
