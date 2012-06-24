@@ -106,6 +106,11 @@ function thing() {
     // You can also create functions here that are scoped
     // and use them as callbacks, and they'll have access to
     // this t object's scoped variables.
+    //
+    // Functions that aren't attached to t are just like
+    // the scoped variables above - they aren't accessible to
+    // the API user. This is kind of like the private keyword
+    // elsewhere
     function handler() {
         count++;
     }
@@ -117,7 +122,7 @@ function thing() {
     };
 
     // Finally, when you're done with t, return it.
-    t;
+    return t;
 
     // In terms of the idea of a 'closure', this is how you
     // 'close over' the scope of the object. Someone who calls
