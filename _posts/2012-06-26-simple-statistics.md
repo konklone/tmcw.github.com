@@ -53,12 +53,6 @@ are written by smarter people and are probably more performant and shiny.
 The point of `simple-statistics` is that it's simple, accessible,
 and aims to be as low on concept as possible.
 
-Or, in other terms,
-unlike `descriptive-statistics`, it doesn't change built-in prototypes,
-unlike `science.js`, it has comments and multi-character variable names -
-[there's the source in docco](http://macwright.org/simple-statistics/docs/simple_statistics.html),
-and unlike R, it's in a common language.
-
 Install `simple-statistics` with [npm](http://npmjs.org/) or download
 `simple_statistics.js` from GitHub to use it in the browser.
 
