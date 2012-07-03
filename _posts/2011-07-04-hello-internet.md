@@ -6,8 +6,8 @@ categories: blog
 ---
 
 <div class='shutter-300'>
-  <a href='http://www.flickr.com/photos/tmcw/4177402805/in/photostream'>
-    <img src='http://farm3.static.flickr.com/2627/4177402805_00fdf1db62_z.jpg' />
+  <a href='http://www.flickr.com/photos/tmcw/5757000880/in/photostream'>
+    <img src='http://farm3.staticflickr.com/2506/5757000880_509440308e_z.jpg' />
   </a>
 </div>
 

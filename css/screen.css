@@ -11,8 +11,14 @@ p, li {
   font: 15px/30px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
-html {
-  border-top:1px solid #111;
+/*
+ * This will cinch in the page until theres
+ * 10px of margin aroun the body element
+ */
+@media (min-width:860px) {
+    html {
+        border-right:200px solid #000;
+    }
 }
 
 body {
@@ -48,8 +54,7 @@ header ul.navigation li {
 }
 
 header ul.navigation li a, header h1, h2, h3, .post-footer, footer {
-  font: 12px/40px 'Helvetica Neue', helvetica, sans-serif;
-  font-weight:bold;
+  font: normal 12px/40px 'Helvetica Neue', helvetica, sans-serif;
 }
 
 header ul.navigation li a.active {
