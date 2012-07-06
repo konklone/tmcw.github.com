@@ -17,14 +17,27 @@ p, li {
  */
 @media (min-width:860px) {
     html {
-        border-right:200px solid #000;
+        border-right:200px solid #ccc;
     }
 }
+
 
 body {
   color:#333;
   width:640px;
   margin:0 auto;
+}
+
+@media only screen and (max-device-width: 480px) {
+    body {
+        width:300px;
+        margin:0 10px;
+    }
+
+    img {
+        max-width:300px;
+        height:auto;
+    }
 }
 
 div.wrapper {
@@ -235,6 +248,7 @@ pre code {
 }
 
 .highlight, blockquote {
+  overflow-x:auto;
   padding:10px;
   border:1px solid #C9D4D4;
 }
