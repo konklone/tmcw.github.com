@@ -38,6 +38,26 @@ body {
         max-width:300px;
         height:auto;
     }
+
+    header {
+        margin:0px;
+    }
+
+    header h1 {
+        display:none;
+    }
+
+    header ul.navigation {
+        width:300px;
+        margin:0;
+        padding:0;
+    }
+
+    header ul.navigation li, header ul.navigation li a {
+        margin:0 !important;
+        display:inline;
+        padding:0 !important;
+    }
 }
 
 div.wrapper {
