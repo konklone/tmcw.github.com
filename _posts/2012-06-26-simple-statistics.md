@@ -13,7 +13,7 @@ I wrote to understand statistics better. It's useful as a [node](http://nodejs.o
 module as well as in the browser with visualization frameworks like
 [d3](http://d3js.org/).
 
-<img src='http://farm8.staticflickr.com/7108/7436872376_4e2fd4e5a2_z.jpg' title='Simple Statistics' height='225' width='640' />
+<img src='http://farm8.staticflickr.com/7108/7436872376_0a7461806d_h.jpg' title='Simple Statistics' height='225' width='640' />
 
 Here are some of the kinds of things you can do:
 
