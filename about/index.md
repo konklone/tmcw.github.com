@@ -39,6 +39,7 @@ I've spoken at quite a few different events.
 * [Project it Yourself](http://macwright.org/presentations/projections) at Geo DC
 * [Big Data with node.js, polymaps, and redis](http://macwright.org/presentations/nodedc/) at node.js DC
 * [Beyond the Google Maps Paradigm](http://macwright.org/presentations/beyond/#0) at [FOSS4G NA](http://foss4g-na.org/)
+* [An Open Web Mapping Toolbox](http://dhcole.github.com/whereconf/) with [Dave Cole](https://github.com/dhcole) at [Where 2.0](http://whereconf.com/where2012/public/schedule/detail/23598)
 
 ## Colophon
 

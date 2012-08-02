@@ -17,7 +17,7 @@ p, li {
  */
 @media (min-width:860px) {
     html {
-        border-right:200px solid #ccc;
+        border-right:200px solid #f1fdff;
     }
 }
 
