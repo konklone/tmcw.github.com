@@ -8,7 +8,7 @@ categories:
 - releases
 ---
 
-<img src='http://farm9.staticflickr.com/8282/7711892138_6a4c08cd71_b.jpg' width='640' height='309' />
+<img src='/graphics/stream.gif' width='640' height='309' />
 
 [stream-statistics](https://github.com/tmcw/stream-statistics/) is a Javascript library
 that implements [online algorithms](http://en.wikipedia.org/wiki/Online_algorithm) for
