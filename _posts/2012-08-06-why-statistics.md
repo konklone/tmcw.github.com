@@ -1,26 +1,28 @@
 ---
 layout: post
-date: 2012-08-12 10:00:00 UTC
+date: 2012-08-06 10:00:00 UTC
 title: Why Statistics?
 hn:
 categories:
 - blog
 ---
 
-Because _hard algorithms are unsexy, difficult, and rewarding_. And few
-people want to implement them, so the implementations that do exist get
-spread and ported, and have a much longer half-life than your typical
-jQuery plugin.
+<div style='text-align:center;line-height:200px;font-style:italic;width:638px;height:200px;border:1px solid #000;'>it's hard to show the void with a picture</div>
 
-Because _visualization is bad at some tasks_. Most of all, it's bad at
+Because _visualization is bad at some things. Most of all, it's bad at
 _[saying no](http://en.wikipedia.org/wiki/Null_hypothesis)_.
 We're great at pattern recognition and correlation:
 that's what makes the [geospatial sector](http://mapbox.com/) so hot. Everything
 has latitude and longitude, so geodata is inherently compatible. But sometimes
-there's nothing: most hard research ends up finding no cause, or too little
-evidence to make a strong statement. How often does a pretty visualzation do
+there's nothing. Hard research often ends up validating the null hypthesis or
+finding inconclusive evidence - how often does a pretty visualzation do
 the same? If the goal is to [understand](http://en.wikipedia.org/wiki/Exploratory_data_analysis),
 it should include understanding the void.
+
+Because _hard algorithms are unsexy, difficult, and rewarding_. Few
+people want to implement them so the implementations have a much longer
+half-life than your typical jQuery plugin, and a much greater effect in
+what they enable.
 
 Because _statistics is poorly taught and poorly explained_. Math jargon is taken
 as a matter of course, with only
