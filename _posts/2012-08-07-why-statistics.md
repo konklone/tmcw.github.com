@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2012-08-06 10:00:00 UTC
+date: 2012-08-07 10:00:00 UTC
 title: Why Statistics?
 hn:
 categories:
