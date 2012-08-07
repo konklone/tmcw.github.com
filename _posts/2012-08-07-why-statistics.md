@@ -15,7 +15,7 @@ We're great at pattern recognition and correlation:
 that's what makes the [geospatial sector](http://mapbox.com/) so hot. Everything
 has latitude and longitude, so geodata is inherently compatible. But sometimes
 there's nothing. Hard research often ends up validating the null hypthesis or
-finding inconclusive evidence - how often does a pretty visualzation do
+finding inconclusive evidence - how often does a pretty visualization do
 the same? If the goal is to [understand](http://en.wikipedia.org/wiki/Exploratory_data_analysis),
 it should include understanding the void.
 
