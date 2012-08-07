@@ -9,7 +9,7 @@ categories:
 
 <div style='text-align:center;line-height:200px;font-style:italic;width:638px;height:200px;border:1px solid #000;'>it's hard to show the void with a picture</div>
 
-Because _visualization is bad at some things. Most of all, it's bad at
+Because _visualization is bad at some things_. Most of all, it's bad at
 _[saying no](http://en.wikipedia.org/wiki/Null_hypothesis)_.
 We're great at pattern recognition and correlation:
 that's what makes the [geospatial sector](http://mapbox.com/) so hot. Everything
