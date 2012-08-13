@@ -253,24 +253,29 @@ that they know will not be accessible to the API user.
 
 ## Disadvantages
 
-1. This method is slower for certain cases
+1. <strike>This method is slower for certain cases</strike>
 2. The power to have private methods and variables can be abused
 3. Extending objects is unclear
 4. Object identities is unclear - `instanceof` doesn't work.
-5. This may have higher memory usage, because creating new
-   objects can create new copies of their members.
+5. <strike>This may have higher memory usage, because creating new
+   objects can create new copies of their members.</strike>
 
 As far as **speed**. Creating object literals is faster than instantiating
 objects with constructors in most browsers, as [this jsperf test from Mike Bostock](http://jsperf.com/prototype-vs-literal)
-shows. But _dispatching method calls on those objects_ is slower.
+shows. <strike>But dispatching method calls on those objects is slower.</strike>
 
 But unless you're doing some very serious, millions-of-iterations
 computation, Javascript engine level optimizations probably aren't
-the biggest worry. In V8, small, prototype-based objects tend to out-perform
+the biggest worry. <strike>In V8, small, prototype-based objects tend to out-perform
 literal objects created with the module pattern - good insights can
-be found in [this bit of Lars Bak's talk on the subject](http://youtu.be/hWhMKalEicY?t=48s)
+be found in [this bit of Lars Bak's talk on the subject](http://youtu.be/hWhMKalEicY?t=48s)</strike>
 and the aha moment for objects versus arrays came from reading
 [this bit of pre3d.js](https://github.com/deanm/pre3d/blob/master/pre3d.js#L32).
+
+*Update:* [V8](http://code.google.com/p/v8/)'s
+[hidden classes](https://developers.google.com/v8/design)
+don't actually correspond to 'classes', and don't provide a performance
+boost to prototype-oriented code.
 
 As far as the **abusable power to do private members**. There can be
 the feeling that you start off with an object like
@@ -295,13 +300,13 @@ needed.
 
 ### Extending Classes
 
-I rarely encounter the problem of really **extending classes**,
-but maybe that's just the problem area. Anyway, Ben Cherry's linked
-article has one possibility, and you can also just use an object
+I rarely encounter the problem of really **extending classes**.
+Ben Cherry's linked article has one possibility, and you can also just use an object
 that uses another object internally - like how [Wax's](http://mapbox.com/wax/)
 [interaction lib](https://github.com/mapbox/wax/blob/master/control/lib/interaction.js) is
 used in [specialized API-specific controls](https://github.com/mapbox/wax/blob/master/control/mm/interaction.js)
-which 'customize' the object internally.
+which 'customize' the object internally. This is the idea of using
+[composition over inheritance](http://en.wikipedia.org/wiki/Composition_over_inheritance).
 
 ### instanceof
 
@@ -340,3 +345,6 @@ object.
   writing reminded me of the possible memory issue, so that section was added.
 * [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
   by [Addy Osmani](http://addyosmani.com/blog/) covers this and many other patterns.
+
+Have more ideas on this subject? Let me know over email or by tweeting at
+`@tmcw`.
