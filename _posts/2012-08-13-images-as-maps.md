@@ -64,3 +64,7 @@ application ([QGIS](http://www.qgis.org/) is another good one) easily!
   with photographers.
 * You can hack the [Google Maps API](https://developers.google.com/maps/documentation/javascript/reference) to
   produce a similar effect, or use [OpenLayers](http://openlayers.org/)
+* If your images have something to do with the world, and you want to combine
+  them with other maps, none of these techniques will work: you should check
+  out image rectification. [Map Warper](http://mapwarper.net/) and
+  [Map Knitter](http://mapknitter.org/) are great options for doing that.
