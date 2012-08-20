@@ -8,6 +8,10 @@ categories:
 _these are just collected thoughts; always remember that I have
 no idea what I'm doing_
 
+> style sheets constitute a wormhole into unspeakable universes
+
+<span class='image-credit'><a href='https://listserv.heanet.ie/cgi-bin/wa?A3=ind9411&L=HTML-WG&E=0&P=291154&B=--&T=text%2Fplain'>Dr. James D. Mason</a></span>
+
 I remember explaining to friends in 2002<sup>[*](#css-1)</sup> that
 monitors are just the displays of computers, that the humming box below
 it is the bit that thinks. And that learning [HTML](http://en.wikipedia.org/wiki/HTML)
@@ -21,7 +25,7 @@ Javascript, and HTML has made friends in
 [Markdown](http://daringfireball.net/projects/markdown/), Textile,
 and older comrades like [LaTeX](http://www.latex-project.org/).
 
-**But CSS is still the only established stylesheet language.**
+**CSS is still the only established stylesheet language.**
 
 Now the internet runs on [worse is better](http://www.jwz.org/doc/worse-is-better.html)
 thinking. We turned down the XML-correctness
@@ -40,63 +44,42 @@ lets you nest selectors, `spin()` colors, and
 use variables. [Stylus](http://learnboost.github.com/stylus/)
 allows omission of nearly everything, plus everything noted above.
 
-But these are syntax sugar, not alternatives.
+But these are [syntax sugar](http://en.wikipedia.org/wiki/Syntactic_sugar)s, not alternatives.
 
-## When and How
+## Weak Critique
 
-One of the things that's becoming strange about CSS is the idea of when and
-how.
+I don't like leading with critique, especially in this case when it would likely
+be for the purpose of convincing people that they shouldn't like what they
+do like.
 
-The assumption is that you have a page, and you have a stylesheet. The page
-refers to the stylesheet with a `link` or `style` tag, and that stylesheet
-gets applied to the page. The HTML on that page acquires the style,
-and any new HTML that you add to the page programmatically does as well.
+But there are things at the corners of CSS that are a bit concerning and probably
+appear to others as concern.
 
-This model starts to leak a little bit. First with media queries. This
-website, for instance, contains the style:
+CSS is easiest to reason about when thought of as stateless, timeless,
+and [orthogonal](http://en.wikipedia.org/wiki/Separation_of_concerns) to
+non-style concerns. But CSS breaks these sometimes:
 
-{% highlight css %}
-@media (min-width:860px) {
-    html {
-        border-right:200px inset #888;
-    }
-}
-{% endhighlight %}
+1. The [`pointer-events`](https://developer.mozilla.org/en-US/docs/CSS/pointer-events)
+property crosses into Javascript's events system, prior to [event bubbling](http://www.quirksmode.org/js/events_order.html)
+and in a way that amusingly clashes with [IE7's event handling that changes based on background image and color](http://nuhk.blogspot.com/2010/10/click-event-not-fired-if-background-is.html).
+2. [CSS Transitions](https://developer.mozilla.org/en-US/docs/CSS/Using_CSS_transitions?redirectlocale=en-US&redirectslug=CSS%2FCSS_transitions)
+make CSS a temporal entity, allowing Javascript to [listen to the end](https://developer.apple.com/library/safari/#documentation/InternetWeb/Conceptual/SafariVisualEffectsProgGuide/AnimatingCSSTransitions/AnimatingCSSTransitions.html#//apple_ref/doc/uid/TP40008032-CH13-SW8),
+but not control or hear the start, of a transition that could take
+several seconds.
+3. [Media queries](http://www.w3.org/TR/css3-mediaqueries/) introduce logic to CSS,
+as well as the potential for a page's rulesets to change due to factors like
+resizing the browser window.
 
-So, when the browser window is greater than 860px, the page has a big
-right border. It might be an ugly style, but grant me my 'design flexibility'
-or my opt-out of designerdom.
+## A Limited Ability To Wonder
 
-But, unlike other rules in CSS, you now can change the browser window,
-and the 'CSS stylesheet' changes dynamically - this rule doesn't practically
-exist or apply.
+Critiquing sucks, though.
 
-The other element of time in CSS is transitions: by setting a
-'transition property', you can cause an element to move, brighten, expand,
-and so on during a certain time period:
+The scariest thing is not the flaw in a system but the idea that
+a system can be a forever-plateau. Abstraction is the godsend of computer science,
+but it can be the wall to learning: it glorifies what's been made and in
+containing its complexity also exaggerates it.
 
-{% highlight css %}
-.slider {
-    position: absolute;
-    left: 0px;
-    transition: left 1s linear;
-}
-.slider.slide {
-    left:100px;
-}
-{% endhighlight %}
 
-Now this is tremendously cool, but it requires a bit of detail: what happens
-if you want to cancel the transition? What happens at the end of the
-transition? What about multiple simultaneous transitions?
-
-## DOM CSS is Weak
-
-The Javascript API for [accessing stylesheets and their rules](http://www.quirksmode.org/dom/w3c_css.html)
-is rarely used. It's odd that we never think of it: that the possibility
-of temporarily disabling a CSS rule with Javascript never enters the mind,
-or dynamically adding and removing stylesheets to precisely match
-page content.
 
 <ul>
   <li id='css-1'><a href='http://www.youtube.com/watch?v=nSWTkI_aVSo'>I done got old</a></li>
