@@ -11,21 +11,15 @@ p, li {
   font: 15px/30px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
-/*
- * This will cinch in the page until theres
- * 10px of margin aroun the body element
- */
-@media (min-width:860px) {
-    html {
-        border-right:200px inset #888;
-    }
-}
-
 
 body {
   color:#333;
   width:640px;
   margin:0 auto;
+}
+
+br {
+    line-height:10em;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -143,7 +137,6 @@ header h1 a:hover {
 
 a {
   color:#31356F;
-  background:#F1FDFF;
   text-decoration:none;
 }
 
