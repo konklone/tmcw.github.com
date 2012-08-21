@@ -9,7 +9,7 @@ categories:
 
 This is an article on the _module pattern_ for Javascript, and some of
 its neat properties. I've been using it recently for projects like
-[Wax](http://mapbox.com/wax/) and [mmg](http://mapbox.com/mmg), and think
+[mapbox.js](http://mapbox.com/mapbox.js/api/v0.6.4/), and think
 it's a neat way to structure code and avoid some of the less likable parts
 of the language.
 
