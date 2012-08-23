@@ -141,6 +141,7 @@ a {
 }
 
 p a, div.content ul li a {
+    text-decoration:underline;
 }
 
 p a:hover, div.content ul li a:hover {
