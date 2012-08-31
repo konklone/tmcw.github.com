@@ -26,6 +26,13 @@ millions of roads as part of MapBox's visualization of mapping priorities.
 
 <br />
 
+<a href='http://macwright.org/stories/policetweets/'><img src='http://farm9.staticflickr.com/8177/7895556026_77504361ae_b.jpg' width='640' height='344' /></a>
+
+<a href='http://macwright.org/2012/08/31/policetweets.html'>Finding patterns
+in three thousand things the DC Police Department tweeted about.</a>
+
+<br />
+
 <a href='http://macwright.org/2011/09/07/maze.html'><img src='/graphics/map-maze.png' width='640' height='391' /></a>
 <a href='http://macwright.org/2012/02/05/shadowplay.html'><img src='/graphics/map-shadowplay.png' width='640' height='391' /></a>
 
