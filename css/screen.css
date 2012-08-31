@@ -309,16 +309,11 @@ table.data-table td,
 table.data-table th {
   border-collapse:collapse;
   padding:5px;
-  border-bottom:1px solid #b8d3d3;
+  border-bottom:1px solid #f2f2f2;
 }
 
 table.data-table th {
-  background:#f0f7f7;
-  font-weight:bold;
-}
-
-tr.odd {
-  background:#f3fdff;
+  font-weight:normal;
 }
 
 iframe {
