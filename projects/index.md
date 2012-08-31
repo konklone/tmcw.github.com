@@ -41,6 +41,12 @@ toy</a> made to make a complicated thing seem changeable.
 
 <br />
 
+<a href='http://macwright.org/superfund/'><img src='http://farm9.staticflickr.com/8033/7901870614_fb7a18b78b_h.jpg' width='640' height='312' /></a>
+
+<a href='http://macwright.org/2011/09/30/voronoi-polygons.html'>Mapping
+Superfund sites near you.
+<br />
+
 <a href='http://macwright.org/running/'><img src='/graphics/map-running.png' width='640' height='296' /></a>
 
 <a href='http://macwright.org/running/'>Hundreds of my runs</a> and heartbeats
