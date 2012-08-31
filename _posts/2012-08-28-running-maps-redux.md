@@ -23,4 +23,4 @@ Some of the highlights, playing with new toys, like `colorize-alpha` in
 <span class='image-credit'><a href='http://mapbox.com/demo/running/runs.gif'>view gigantic</a></span>
 
 <img src='https://tiles.mapbox.com/v3/tmcw.map-hdp4ovjc/-77.034,38.924,17/640x300.png'>
-<span class='image-credit'><a href='https://tiles.mapbox.com/v3/tmcw.map-hdp4ovjc.html#14.00/38.9260/-77.0250'>view as map</a></span>
+<span class='image-credit'><a href='http://a.tiles.mapbox.com/v3/tmcw.map-hdp4ovjc.html#14.00/38.9260/-77.0250'>view as map</a></span>
