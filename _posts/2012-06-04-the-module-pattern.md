@@ -8,8 +8,9 @@ categories:
 ---
 
 This is an article on the _module pattern_ for Javascript, and some of
-its neat properties. I've been using it recently for projects like
-[mapbox.js](http://mapbox.com/mapbox.js/api/v0.6.4/), and think
+its neat properties when used for instances.
+I've been using it recently for projects like
+[mapbox.js](http://mapbox.com/mapbox.js/api/), and think
 it's a neat way to structure code and avoid some of the less likable parts
 of the language.
 
@@ -216,7 +217,7 @@ document.getElementById('tell').onclick = function() {
 
 This is a mixed bag, but there are some good examples of why
 it's awesome. Let's say you have a library that [manages a
-set of markers on a map](https://github.com/mapbox/mmg).
+set of markers on a map](https://github.com/mapbox/markers.js).
 
 Of course, this will require the functionality of adding a marker
 to the map. With a classical object, in most cases an uninformed
@@ -249,7 +250,39 @@ function mmg() {
 
 On this note, mostly just read [Writing Javascript For Size](http://macwright.org/2011/10/06/javascript.html).
 The public/private split allows compression to 'mangle' more names
-that they know will not be accessible to the API user.
+that they know will not be accessible to the global scope.
+
+For instance, the code
+
+{% highlight js %}
+function thing() {
+    var t = {};
+    function internalFunction() { console.log('foo'); }
+    function internalFunctionTwo() { console.log('foo'); }
+    t.do = function() {
+        internalFunctionTwo();
+        internalFunction();
+    }
+};
+{% endhighlight %}
+
+Allows a Javascript compressor like [UglifyJS](https://github.com/mishoo/UglifyJS)
+to shorten the names of `internalFunction` and `internalFunctionTwo` to
+single-letter names - there's no way that you'll be able to access them, so
+the names can change. By contrast, after minifying the code:
+
+{% highlight js %}
+function thing() { }
+thing.prototype.internalFunction() { console.log('foo'); };
+thing.prototype.internalFunctionTwo() { console.log('foo'); };
+thing.prototype.do = function() {
+    internalFunctionTwo();
+    internalFunction();
+};
+{% endhighlight %}
+
+The long function names `internalFunction` and `internalFunctionTwo` will
+remain in their entirety.
 
 ## Disadvantages
 
@@ -284,7 +317,7 @@ the feeling that you start off with an object like
 function beautifulworld() {
     var bw,
         a, b, c;
-    bw.setthings(x) {
+    bw.setthings = function(x) {
         a = x * 10;
         b = x * 20;
         c = x * 30;
