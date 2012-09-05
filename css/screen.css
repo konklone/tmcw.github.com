@@ -273,8 +273,8 @@ div.post blockquote p {
 
 div.link-block {
   font: bold 16px/40px 'Helvetica Neue', helvetica, sans-serif;
-  background:#f0f7f7;
-  padding:3px;
+  background:#f0f0f0;
+  padding:5px;
   text-align:center;
 }
 
