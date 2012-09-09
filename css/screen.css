@@ -11,6 +11,9 @@ p, li {
   font: 15px/30px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
+small {
+  font: 11px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+}
 
 body {
   color:#333;

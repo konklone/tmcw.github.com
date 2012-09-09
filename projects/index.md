@@ -41,6 +41,14 @@ during work on [TileMill](http://mapbox.com/tilemill/).
 
 <br />
 
+<a href='http://macwright.org/stories/bikelawdc/'>
+<img src='/graphics/bikelaw.jpg' width='640' height='247' />
+</a>
+<a href='http://macwright.org/stories/bikelawdc/'>a smartphone website
+  for bicyclists, drivers, and pedestrians in Washington, DC</a>
+
+<br />
+
 <a href='http://macwright.org/2012/03/12/project-it-yourself.html'><img src='/graphics/project-yourself.png' width='640' height='358' /></a>
 
 <a href='http://macwright.org/2012/03/12/project-it-yourself.html'>A projection
