@@ -26,6 +26,13 @@ millions of roads as part of MapBox's visualization of mapping priorities.
 
 <br />
 
+<a href='http://macwright.org/stories/policetweets/'><img src='http://farm9.staticflickr.com/8177/7895556026_77504361ae_b.jpg' width='640' height='344' /></a>
+
+<a href='http://macwright.org/2012/08/31/policetweets.html'>Finding patterns
+in three thousand things the DC Police Department tweeted about.</a>
+
+<br />
+
 <a href='http://macwright.org/2011/09/07/maze.html'><img src='/graphics/map-maze.png' width='640' height='391' /></a>
 <a href='http://macwright.org/2012/02/05/shadowplay.html'><img src='/graphics/map-shadowplay.png' width='640' height='391' /></a>
 
@@ -34,11 +41,25 @@ during work on [TileMill](http://mapbox.com/tilemill/).
 
 <br />
 
+<a href='http://macwright.org/stories/bikelawdc/'>
+<img src='/graphics/bikelaw.jpg' width='640' height='247' />
+</a>
+<a href='http://macwright.org/stories/bikelawdc/'>a smartphone website
+  for bicyclists, drivers, and pedestrians in Washington, DC</a>
+
+<br />
+
 <a href='http://macwright.org/2012/03/12/project-it-yourself.html'><img src='/graphics/project-yourself.png' width='640' height='358' /></a>
 
 <a href='http://macwright.org/2012/03/12/project-it-yourself.html'>A projection
 toy</a> made to make a complicated thing seem changeable.
 
+<br />
+
+<a href='http://macwright.org/superfund/'><img src='http://farm9.staticflickr.com/8033/7901870614_fb7a18b78b_h.jpg' width='640' height='312' /></a>
+
+<a href='http://macwright.org/2011/09/30/voronoi-polygons.html'>Mapping
+Superfund sites near you.
 <br />
 
 <a href='http://macwright.org/running/'><img src='/graphics/map-running.png' width='640' height='296' /></a>
