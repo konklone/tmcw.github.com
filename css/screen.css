@@ -5,8 +5,6 @@
  *
  * */
 
-@import url("/css/font/Inconsolata/stylesheet.css");
-
 p, li {
   font: 15px/30px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
@@ -256,12 +254,12 @@ div.image-cube a:hover {
 }
 
 p code, .highlight {
-  font: 15px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 15px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   background-color:#f0f7f7;
 }
 
 pre code {
-  font: 15px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 15px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 .highlight, blockquote {
