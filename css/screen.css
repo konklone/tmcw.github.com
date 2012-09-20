@@ -328,3 +328,9 @@ iframe {
 .archive-images img {
   margin:3px;
 }
+
+div.four-320 img {
+  width:160px;
+  height:160px;
+  display:inline;
+}
