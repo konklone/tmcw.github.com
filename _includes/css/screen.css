@@ -255,7 +255,6 @@ div.image-cube a:hover {
 
 p code, .highlight {
   font: 15px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-  background-color:#f0f7f7;
 }
 
 pre code {
@@ -265,7 +264,7 @@ pre code {
 .highlight, blockquote {
   overflow-x:auto;
   padding:10px;
-  border:1px solid #C9D4D4;
+  border:1px solid #ccc;
 }
 
 div.post blockquote p {
