@@ -5,27 +5,22 @@
  *
  * */
 
-@import url("/css/font/Inconsolata/stylesheet.css");
-
 p, li {
   font: 15px/30px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
-/*
- * This will cinch in the page until theres
- * 10px of margin aroun the body element
- */
-@media (min-width:860px) {
-    html {
-        border-right:200px inset #888;
-    }
+small {
+  font: 11px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
-
 
 body {
   color:#333;
   width:640px;
   margin:0 auto;
+}
+
+br {
+    line-height:10em;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -143,11 +138,11 @@ header h1 a:hover {
 
 a {
   color:#31356F;
-  background:#F1FDFF;
   text-decoration:none;
 }
 
 p a, div.content ul li a {
+    text-decoration:underline;
 }
 
 p a:hover, div.content ul li a:hover {
@@ -259,12 +254,12 @@ div.image-cube a:hover {
 }
 
 p code, .highlight {
-  font: 15px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 15px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   background-color:#f0f7f7;
 }
 
 pre code {
-  font: 15px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 15px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 .highlight, blockquote {
@@ -279,8 +274,8 @@ div.post blockquote p {
 
 div.link-block {
   font: bold 16px/40px 'Helvetica Neue', helvetica, sans-serif;
-  background:#f0f7f7;
-  padding:3px;
+  background:#f0f0f0;
+  padding:5px;
   text-align:center;
 }
 
@@ -315,16 +310,11 @@ table.data-table td,
 table.data-table th {
   border-collapse:collapse;
   padding:5px;
-  border-bottom:1px solid #b8d3d3;
+  border-bottom:1px solid #f2f2f2;
 }
 
 table.data-table th {
-  background:#f0f7f7;
-  font-weight:bold;
-}
-
-tr.odd {
-  background:#f3fdff;
+  font-weight:normal;
 }
 
 iframe {
@@ -337,4 +327,10 @@ iframe {
 
 .archive-images img {
   margin:3px;
+}
+
+div.four-320 img {
+  width:160px;
+  height:160px;
+  display:inline;
 }

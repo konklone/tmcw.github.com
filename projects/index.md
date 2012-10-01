@@ -1,54 +1,70 @@
 ---
-layout: post
+layout: projects
 title: Projects
 ---
 
-At [MapBox](http://mapbox.com), part of [Development Seed](http://developmentseed.org), I've been working on [TileMill](http://tilemill.com), TileStream, [Wax](http://developmentseed.org/blog/2011/jun/10/wax-custom-advanced-ui-web-maps), and lots of other fun mapping-related projects. It's a cool job, and thus I'm not looking for work.
+My hope is to enable those with more talent and time than myself; all of the
+projects below are open-source and I'll continue to try to document and explain
+everything.
 
-# Releases
+<br />
 
-<ul>
-{% for post in site.categories.release limit:5 %}
-<li>
-{{ post.date | date: "%b %d, %Y"  }} &raquo; <a href='{{ post.url }}'>{{ post.title }}</a>
-</li>
-{% endfor %}
-</ul>
+<a href='http://macwright.org/2012/02/15/minute.html'><img src='http://macwright.org/graphics/minute_new.png'></a>
+<a href='http://macwright.org/2012/02/15/minute.html'><img src='http://farm6.staticflickr.com/5463/6943235334_2d3a1a2ff9_z.jpg'></a>
+<a href='http://macwright.org/2012/02/15/minute.html'><img src='http://farm6.staticflickr.com/5156/6942276854_a0523c5c9d_z.jpg'></a>
 
-# Software, downloadables
+<a href='http://macwright.org/2012/02/15/minute.html'>minute</a> is a keycounter
+that I wrote to track my sleep cycles in the inverse. It's an open source
+OSX application with pluggable visualization and calculation.
 
-* [Easey](http://github.com/mapbox/easey) - easing transitions for Modest Maps
-  ([homepage](http://mapbox.github.com/easey/))
-* [Wax](http://github.com/mapbox/wax) - UI and common functionality for Modest Maps
-  ([homepage](http://mapbox.github.com/wax/))
-* [Sketch](https://github.com/mapbox/sketch) - fun vector drawing for Polymaps
-  ([homepage](http://mapbox.github.com/sketch/))
-* [Carto](https://github.com/mapbox/carto) - CSS-like styling for Mapnik
-* [Heckle](https://github.com/tmcw/heckle) - a node.js project site generator
-* [D&D](https://github.com/tmcw/dnd) - cross-browser, cross-platform drag & drop
-  and sorting
-* [node-get](https://github.com/tmcw/node-get) - a slightly higher-level HTTP
-  library for node.js
-* [node-banner](https://github.com/tmcw/node-banner) - a header generator for
-  client-side distributed libraries
-* [node-bloopsaphone](https://github.com/tmcw/bloopsaphone) - node.js bindings
-  for the wonderful bloopsaphone project started by _why
-* [Dead Sea](http://macwright.org/deadsea) - a tiny library for fixing web
-  map zooming fail.
+<br />
 
-# Applications, websites
+<a href='http://mapbox.com/foursquare-checkins'><img src='/graphics/map-foursquare.png' width='640' height='320' /></a>
 
-* [Enable Web Developer Extensions](http://macwright.org/enable-web-developer-extensions/)
-  tells you how to do what it says on the tin.
-* [Your Superfund](http://macwright.org/superfund) is a project to improve
-  mapping of America's Superfund sites. You can read about it on the accompanying
-  [blog post](http://macwright.org/2011/10/30/voronoi-polygons.html).
-* [A New Running Map](http://macwright.org/2011/07/28/mapping-runs.html) that
-  got [on Runners World](http://othervoices.runnersworld.com/2011/08/the-art-of-the-run/)
-  and [Fuck Yes Maps](http://fuckyesmaps.tumblr.com/day/2011/08/02), both of which
-  I read reguarly and was pretty psyched about.
-* [Swem Signal](https://swem.wm.edu/um/swemsignal/),
-  which lives on with the help of [Swem Library](https://swem.wm.edu/)'s awesome,
-  inspiring staff. Librarians are cool people. It was a nice adventure - which spawned
-  library locators at [UMass Dartmouth](http://www.lib.umassd.edu/libraryinfo/findmehere.html)
-  and a [Facebook port](http://code.google.com/p/facebook-athenaeum/).
+<a href='http://mapbox.com/foursquare-checkins'>Millions of checkins</a> over
+millions of roads as part of MapBox's visualization of mapping priorities.
+
+<br />
+
+<a href='http://macwright.org/stories/policetweets/'><img src='http://farm9.staticflickr.com/8177/7895556026_77504361ae_b.jpg' width='640' height='344' /></a>
+
+<a href='http://macwright.org/2012/08/31/policetweets.html'>Finding patterns
+in three thousand things the DC Police Department tweeted about.</a>
+
+<br />
+
+<a href='http://macwright.org/2011/09/07/maze.html'><img src='/graphics/map-maze.png' width='640' height='391' /></a>
+<a href='http://macwright.org/2012/02/05/shadowplay.html'><img src='/graphics/map-shadowplay.png' width='640' height='391' /></a>
+
+Maps in the negative or not really geographical maps at all. Experiments
+during work on [TileMill](http://mapbox.com/tilemill/).
+
+<br />
+
+<a href='http://macwright.org/stories/bikelawdc/'>
+<img src='/graphics/bikelaw.jpg' width='640' height='247' />
+</a>
+<a href='http://macwright.org/stories/bikelawdc/'>a smartphone website
+  for bicyclists, drivers, and pedestrians in Washington, DC</a>
+
+<br />
+
+<a href='http://macwright.org/2012/03/12/project-it-yourself.html'><img src='/graphics/project-yourself.png' width='640' height='358' /></a>
+
+<a href='http://macwright.org/2012/03/12/project-it-yourself.html'>A projection
+toy</a> made to make a complicated thing seem changeable.
+
+<br />
+
+<a href='http://macwright.org/superfund/'><img src='http://farm9.staticflickr.com/8033/7901870614_fb7a18b78b_h.jpg' width='640' height='312' /></a>
+
+<a href='http://macwright.org/2011/09/30/voronoi-polygons.html'>Mapping
+Superfund sites near you.
+<br />
+
+<a href='http://macwright.org/running/'><img src='/graphics/map-running.png' width='640' height='296' /></a>
+
+<a href='http://macwright.org/running/'>Hundreds of my runs</a> and heartbeats
+in Washington DC.
+
+<br />
