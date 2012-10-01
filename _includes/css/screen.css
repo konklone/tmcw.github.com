@@ -9,6 +9,9 @@ p, li {
   font: 15px/30px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
+small {
+  font: 11px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+}
 
 body {
   color:#333;
@@ -271,8 +274,8 @@ div.post blockquote p {
 
 div.link-block {
   font: bold 16px/40px 'Helvetica Neue', helvetica, sans-serif;
-  background:#f0f7f7;
-  padding:3px;
+  background:#f0f0f0;
+  padding:5px;
   text-align:center;
 }
 
@@ -307,16 +310,11 @@ table.data-table td,
 table.data-table th {
   border-collapse:collapse;
   padding:5px;
-  border-bottom:1px solid #b8d3d3;
+  border-bottom:1px solid #f2f2f2;
 }
 
 table.data-table th {
-  background:#f0f7f7;
-  font-weight:bold;
-}
-
-tr.odd {
-  background:#f3fdff;
+  font-weight:normal;
 }
 
 iframe {
@@ -329,4 +327,10 @@ iframe {
 
 .archive-images img {
   margin:3px;
+}
+
+div.four-320 img {
+  width:160px;
+  height:160px;
+  display:inline;
 }
