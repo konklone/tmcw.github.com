@@ -172,3 +172,12 @@ function() {
     $(this).css('color', 'blue');
 });
 {% endhighlight %}
+
+**What the heck are CSS selectors anyway?** The word 'selector' isn't really
+used much elsewhere, and keeping it isolated in CSS-land limits our
+ability to think about it relative to other concepts.
+
+Selectors are match statements, like regular expressions or search terms. Their
+closest cousin might be [XPath](http://en.wikipedia.org/wiki/XPath), a selector
+system for all XML documents.
+
