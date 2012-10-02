@@ -19,6 +19,13 @@ OSX application with pluggable visualization and calculation.
 
 <br />
 
+<a href='http://macwright.org/2012/10/01/heard.html'><img src='/graphics/heard-giant.png' width='640' height='640' /></a>
+
+<a href='http://macwright.org/2012/10/01/heard.html'>A minimal iTunes listener for
+OSX</a> that provides fuel for self-analysis visualization.
+
+<br />
+
 <a href='http://mapbox.com/foursquare-checkins'><img src='/graphics/map-foursquare.png' width='640' height='320' /></a>
 
 <a href='http://mapbox.com/foursquare-checkins'>Millions of checkins</a> over
