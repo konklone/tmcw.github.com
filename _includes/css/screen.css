@@ -254,16 +254,16 @@ div.image-cube a:hover {
 }
 
 p code, .highlight {
-  font: 15px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 13px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 pre code {
-  font: 15px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 13px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 .highlight, blockquote {
   overflow-x:auto;
-  padding:10px;
+  padding:9px 10px;
   border:1px solid #ccc;
 }
 
