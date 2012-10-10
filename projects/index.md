@@ -49,7 +49,7 @@ during work on [TileMill](http://mapbox.com/tilemill/).
 <br />
 
 <a href='http://macwright.org/stories/bikelawdc/'>
-<img src='/graphics/bikelaw.jpg' width='640' height='247' />
+<img src='http://farm9.staticflickr.com/8178/7966708706_79017dfef1_b.jpg' width='640' height='247' />
 </a>
 <a href='http://macwright.org/stories/bikelawdc/'>a smartphone website
   for bicyclists, drivers, and pedestrians in Washington, DC</a>
