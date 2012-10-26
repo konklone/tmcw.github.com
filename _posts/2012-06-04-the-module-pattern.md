@@ -367,7 +367,13 @@ For objects that you'll want thousands of, it might be a better option
 to either go with _literal objects_ - for instance, the data types
 in [Modest Maps](http://modestmaps.com/) would probably become
 simple arrays and their methods could easily become part of a singleton
-object.
+object. [John Firebaugh](http://jfire.io/) confirmed this with a [test that shows](https://gist.github.com/3961693)
+that for objects with many functionst that are initialized many
+times, there's a serious (5x) difference in memory usage, due
+to more heap closures. So, it makes sense to use the module pattern
+for smaller objects, like UI widgets, map objects, and so on, while
+other techniques work well for atomic data, like pixel measures or
+nodes in a tree.
 
 ## See Also
 
