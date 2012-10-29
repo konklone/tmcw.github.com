@@ -2,43 +2,12 @@
 layout: default
 title: Archive
 ---
-<h2 id='intro'>Everything I've written on macwright.org</h2>
-
-<form>
-  <input type="text" id="st-search-input" class="st-search-input" />
-</form>
-<div id="st-results-container"></div>
-<script type="text/javascript">
-  var Swiftype = window.Swiftype || {};
-  (function() {
-    Swiftype.key = '4wPjsgJYZ16uvck6q13h';
-    Swiftype.inputElement = '#st-search-input';
-    Swiftype.resultContainingElement = '#st-results-container';
-    Swiftype.attachElement = '#st-search-input';
-    Swiftype.renderStyle = "overlay";
-
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.async = true;
-    script.src = "//swiftype.com/embed.js";
-    var entry = document.getElementsByTagName('script')[0];
-    entry.parentNode.insertBefore(script, entry);
-  }());
-</script>
-
 <table class='data-table' style='width:100%;'>
-  <tr>
-    <th></th>
-    <th>n</th>
-    <th>date</th>
-    <th>#words</th>
-  </th>
 {% for post in site.categories.blog %}
-  <tr class="{% cycle 'even', 'odd' %}">
+  <tr>
+    <td>{{ forloop.rindex  }}</td>
     <td><a href='{{ post.url }}'>{{ post.title }}</a></td>
-    <td>#{{ forloop.rindex  }}</td>
     <td>{{ post.date | date: "%b %d, %Y"  }}</td>
-    <td>{{ post.content | number_of_words  }}</td>
   </tr>
 {% endfor %}
-</table>
+</table class="{% cycle 'even', 'odd' %}">

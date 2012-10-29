@@ -36,9 +36,10 @@ I've spoken at quite a few different events.
 * [Making Beautiful Maps from Data](http://macwright.org/presentations/foss4g/1.html) ([Development Seed Blog](http://developmentseed.org/blog/2011/09/14/presenting-fast-beautiful-maps-foss4g/)) at [FOSS4G 2011](http://2011.foss4g.org/)
 * [MBTiles, etc](http://www.archive.org/details/MbtilesStandardsAtTheOgc) ([Development Seed Blog](http://developmentseed.org/blog/2011/09/20/advancing-fast-open-mapping-standards/)) at [The OGC in Boulder, CO](http://www.opengeospatial.org/event/1109tc)
 * [The State of Open Source GIS](http://macwright.org/presentations/wherecampboston2/#0) at [Where Camp Boston](http://www.wherecampboston.com/), October 29th, 2011
-* [Project it Yourself](macwright.org/presentations/projections) at Geo DC
+* [Project it Yourself](http://macwright.org/presentations/projections) at Geo DC
 * [Big Data with node.js, polymaps, and redis](http://macwright.org/presentations/nodedc/) at node.js DC
 * [Beyond the Google Maps Paradigm](http://macwright.org/presentations/beyond/#0) at [FOSS4G NA](http://foss4g-na.org/)
+* [An Open Web Mapping Toolbox](http://dhcole.github.com/whereconf/) with [Dave Cole](https://github.com/dhcole) at [Where 2.0](http://whereconf.com/where2012/public/schedule/detail/23598)
 
 ## Colophon
 

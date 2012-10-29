@@ -1,36 +1,30 @@
-<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'
-    'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
-<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en-us'>
+<!DOCTYPE html>
+<html>
 <head>
     <meta http-equiv='content-type' content='text/html; charset=utf-8' />
     <title>{% if page.title %}{{ page.title }} - {% endif %} macwright.org</title>
     <meta name='author' content='Tom MacWright' />
-    <meta name='description' content='Tom MacWright' />
-    <!-- faaacebook -->
+    <meta name='description' content='New things and writing about learning, technology, and art' />
+    <meta name="viewport" content="initial-scale=1.0 maximum-scale=1.0">
     <meta property="og:site_name" content="macwright.org"/>
     <meta property="og:email" content="tom@macwright.org"/>
     <meta property="og:type" content="blog" />
-    <!-- Homepage CSS -->
-    <link rel='alternate' type='application/atom+xml' title='Tom MacWright' href='http://feeds.feedburner.com/tommacwright/odWX'>
-    <link rel='stylesheet' href='/css/reset.css' type='text/css' media='screen, projection' />
-    <link rel='stylesheet' href='/css/screen.css' type='text/css' media='screen, projection' />
-    <link rel='stylesheet' href='/css/pygments.css' type='text/css' media='screen, projection' />
-    <!-- keybindings for the front page -->
-    <script src="/js/jkjk.min.js"></script>
-    <!-- Begrudging acceptance of IE7's existence -->
+    <link rel='alternate' type='application/atom+xml' title='Tom MacWright' href='http://feeds.feedburner.com/tommacwright/odWX' />
+    <link rel='stylesheet' href='/css/site.css' type='text/css' media='screen, projection' />
     <!--[if lt IE 9]>
     <script src="/js/html5shim.js"></script>
     <![endif]-->
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
 </head>
-<body>
+<body class='{{page.class}}'>
     <header>
       <ul class='navigation'>
-        <li><a href='/'>Blog</a>
-        <li><a href='/projects'>Projects</a>
-        <li><a href='/music'>Music</a>
-        <li><a href='/about'>About</a>
-        <li><a href='/archive'>Archive</a>
-        <li><a href='http://feeds.feedburner.com/tommacwright/odWX'>RSS</a>
+        <li><a href='/'>Blog</a></li>
+        <li><a href='/projects/'>Projects</a></li>
+        <li><a href='/music/'>Music</a></li>
+        <li><a href='/about/'>About</a></li>
+        <li><a href='/archive/'>Archive</a></li>
+        <li><a href='http://feeds.feedburner.com/tommacwright/odWX'>RSS</a></li>
       </ul>
       <h1>
         <a href='/'><span class='name'>
@@ -42,19 +36,9 @@
     <div class='content'>
       {{ content }}
     </div>
-    {% if paginator.page %}
-    <div id="paginator">
-      {% if paginator.next_page %}
-      <a href="/page{{ paginator.next_page }}/">Older entries</a>
-      {% endif %}
-      {% if paginator.previous_page %}
-      <a href="/page{{ paginator.previous_page }}/">Newer entries</a>
-      {% endif %}
-    </div>
-    {% endif %}
     <footer>
-    <center><a href='/archive'>&rarr; Archive &larr;</a></center>
-    &copy; <a href='http://macwright.org/about'>Tom MacWright</a> | <a href='http://twitter.com/tmcw'>@tmcw</a> | <a href='http://feeds.feedburner.com/tommacwright/odWX'>Subscribe to this blog</a>
+    &copy; <a href='http://macwright.org/about'>Tom MacWright</a> | <a href='http://twitter.com/tmcw'>@tmcw</a> |
+    <a href='/archive'>Archive</a>
     </footer>
   </div>
   <script type="text/javascript">
@@ -72,4 +56,3 @@
   </script>
 </body>
 </html>
-

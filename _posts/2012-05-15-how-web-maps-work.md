@@ -272,3 +272,8 @@ client itself, since web browser implement their own caching.
 * macwright.org: [Understanding Map Projections](http://macwright.org/2012/01/27/projections-understanding.html)
 * modest maps: [How Modest Maps Works](https://github.com/modestmaps/modestmaps-js/wiki/How-it-Works)
 * axis maps: [Your Map And The Internet](http://www.axismaps.com/blog/2012/05/your-map-and-the-internet/)
+
+## Updates
+
+* [This was rewritten and crossposted on MapBox](http://mapbox.com/developers/guide/)
+  for its [developers section](http://mapbox.com/developers/)

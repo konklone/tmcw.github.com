@@ -201,3 +201,7 @@ If you're using OpenLayers with [MapBox Hosting](http://tiles.mapbox.com/)
 maps (as I'd recommend you do), try the [connector provided by the Wax library](http://mapbox.com/wax/connector-ol.html).
 With the magic of [TileJSON](https://github.com/mapbox/tilejson), it
 removes a lot of the potential configuration fail in using OpenLayers.
+
+## See Also
+
+* [Chris Schmidt's Response to my Historical Rant on OpenLayers](http://crschmidt.net/blog/archives/476/more-on-flaws-in-openlayers/)

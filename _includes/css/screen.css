@@ -5,14 +5,12 @@
  *
  * */
 
-@import url("/css/font/Inconsolata/stylesheet.css");
-
 p, li {
   font: 15px/30px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
-html {
-  border-top:1px solid #111;
+small {
+  font: 11px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
 body {
@@ -21,7 +19,47 @@ body {
   margin:0 auto;
 }
 
+br {
+    line-height:10em;
+}
+
+@media only screen and (max-device-width: 480px) {
+    body {
+        width:300px;
+        margin:0 10px;
+    }
+
+    img {
+        max-width:300px;
+        height:auto;
+    }
+
+    header {
+        margin:0px;
+    }
+
+    header h1 {
+        display:none;
+    }
+
+    header ul.navigation {
+        width:300px;
+        margin:0;
+        padding:0;
+    }
+
+    header ul.navigation li, header ul.navigation li a {
+        margin:0 !important;
+        display:inline;
+        padding:0 !important;
+    }
+}
+
 div.wrapper {
+}
+
+ol {
+  margin-left:30px;
 }
 
 header {
@@ -44,8 +82,7 @@ header ul.navigation li {
 }
 
 header ul.navigation li a, header h1, h2, h3, .post-footer, footer {
-  font: 12px/40px 'Helvetica Neue', helvetica, sans-serif;
-  font-weight:bold;
+  font: normal 12px/40px 'Helvetica Neue', helvetica, sans-serif;
 }
 
 header ul.navigation li a.active {
@@ -101,11 +138,11 @@ header h1 a:hover {
 
 a {
   color:#31356F;
-  background:#F1FDFF;
   text-decoration:none;
 }
 
 p a, div.content ul li a {
+    text-decoration:underline;
 }
 
 p a:hover, div.content ul li a:hover {
@@ -159,6 +196,10 @@ div.shutter-300 img {
 img.white-on-white {
   border:1px solid #000;
   margin:-1px;
+}
+
+img {
+    max-width:640px;
 }
 
 span.image-credit {
@@ -217,18 +258,17 @@ div.image-cube a:hover {
 }
 
 p code, .highlight {
-  font: 15px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-  background-color:#f0f7f7;
+  font: 13px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 pre code {
-  font: 15px/20px 'InconsolataMedium',Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 13px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 .highlight, blockquote {
-  background: #E3E6E6;
-  padding:10px;
-  border-top:1px solid #C9D4D4;
+  overflow-x:auto;
+  padding:9px 10px;
+  border:1px solid #ccc;
 }
 
 div.post blockquote p {
@@ -237,8 +277,8 @@ div.post blockquote p {
 
 div.link-block {
   font: bold 16px/40px 'Helvetica Neue', helvetica, sans-serif;
-  background:#f0f7f7;
-  padding:3px;
+  background:#f0f0f0;
+  padding:5px;
   text-align:center;
 }
 
@@ -273,16 +313,11 @@ table.data-table td,
 table.data-table th {
   border-collapse:collapse;
   padding:5px;
-  border-bottom:1px solid #b8d3d3;
+  border-bottom:1px solid #f2f2f2;
 }
 
 table.data-table th {
-  background:#f0f7f7;
-  font-weight:bold;
-}
-
-tr.odd {
-  background:#f3fdff;
+  font-weight:normal;
 }
 
 iframe {
@@ -295,4 +330,10 @@ iframe {
 
 .archive-images img {
   margin:3px;
+}
+
+div.four-320 img {
+  width:160px;
+  height:160px;
+  display:inline;
 }
