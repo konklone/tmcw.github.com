@@ -198,6 +198,10 @@ img.white-on-white {
   margin:-1px;
 }
 
+img {
+    max-width:640px;
+}
+
 span.image-credit {
   float:right;
   margin:0 0 10px 10px;
