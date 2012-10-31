@@ -75,6 +75,12 @@ share noncritical parts of their code as open source. They're just perpetuating
 an [O'Reilly book](http://search.oreilly.com/?q=objective-c&x=0&y=0)-driven slow
 progress system based on closed-source hoarding.
 
+windchime uses the same core for getting keystroke data as my [minute](http://macwright.org/2012/02/15/minute.html)
+project. It uses the same hook in the [accessibility API](https://developer.apple.com/library/mac/#documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXModel/OSXAXmodel.html),
+so it also requires access for assistive devices to be enabled:
+
+![](http://farm9.staticflickr.com/8184/8141535663_8c690914d1_z.jpg)
+
 The only project that contained a full, working implementation of an OSX app
 sending midi to an external source was [the accordion project](http://code.google.com/p/accordion/),
 which came up in a random Google search. Without that code example, this project
@@ -107,6 +113,11 @@ The sound is sometimes quite helpful and pleasing and sometimes frankly
 annoying. Since it goes through speakers, there's the problem of volume -
 ideally I would want it to be as loud as an old IBM keyboard clicking and
 no louder.
+
+windchime is not a text editor - it passes keystrokes through, so you can
+use any editor or not a text editor at all.
+
+![](http://farm9.staticflickr.com/8048/8141595169_5dd1d03107_o.png)
 
 ## For Now
 
