@@ -1,7 +1,6 @@
 ---
 layout: post
 title: GIS with Python, Shapely, and Fiona
-hn:
 categories:
 - blog
 ---
@@ -46,10 +45,15 @@ since that road is filled with tears. I am sorry.
 
 [Python](http://www.python.org/) is an open-source programming language. It
 doesn't have anything to do with GIS itself, but has become one of the key
-languages to use for GIS. This is mainly because it's very commonly available,
+languages to use for GIS. This is mainly because it's very commonly available
+and
 integrates well with the C++ code which forms the basis of a lot of GIS
 functionality ([GEOS](http://geos.osgeo.org/), [Mapnik](http://mapnik.org/),
 and [OGR](http://www.gdal.org/ogr/) are written in C++).
+
+Plus, Python is known for being pretty easy to use - [MIT switched to using it](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/)
+and it's a language that doesn't bother you too much with its own baggage or
+complexity.
 
 ## Shapely
 
@@ -82,7 +86,8 @@ Shapely for making and manipulating geodata. Got it? Let's go.
 
 ## Turning Arbitrary Data into Geodata
 
-Okay, so you have a CSV file called `some.csv` with latitude and longitude
+Okay, so you have a [CSV](http://en.wikipedia.org/wiki/Comma-separated_values)
+file called `some.csv` with latitude and longitude
 values, and you want to turn it into a Shapefile.
 
     name,lat,lon
@@ -217,7 +222,7 @@ Beautiful, right? Here's [that script as a gist](https://gist.github.com/3987659
 Pretty much the same process as before, I'll cut through the narrative.
 The big trick is [cascaded union](http://toblerity.github.com/shapely/manual.html#shapely.ops.cascaded_union),
 a fast way of making unions of lots of geometries - it's way faster than using
-QGIS.
+[QGIS](http://www.qgis.org/).
 
 {% highlight python %}
 from shapely.geometry import mapping, shape
