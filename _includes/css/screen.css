@@ -257,7 +257,7 @@ div.image-cube a:hover {
   text-decoration:none;
 }
 
-p code, .highlight {
+p code, li code,g.highlight {
   font: 13px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
