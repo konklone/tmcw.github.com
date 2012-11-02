@@ -19,6 +19,13 @@ OSX application with pluggable visualization and calculation.
 
 <br />
 
+<iframe src="http://player.vimeo.com/video/52421539?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" width="640" height="360" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+<a href='http://macwright.org/2012/10/30/windchime.html'>Ambient, assistive
+music generation</a> as a sidecar to typing.
+
+<br />
+
 <a href='http://macwright.org/2012/10/01/heard.html'><img src='/graphics/heard-giant.png' width='640' height='640' /></a>
 
 <a href='http://macwright.org/2012/10/01/heard.html'>A minimal iTunes listener for
