@@ -116,7 +116,11 @@ CartoCSS does this with attachments:
 {% endhighlight %}
 
 The attachment syntax (stolen from CSS pseudo-elements) lets you say that
-'for this style I'm going to have multiples of a symbolizer'.
+'for this style I'm going to have multiples of a symbolizer'. Cacadenik
+approached this problem differently - you had `line-outline` and `line-inline` -
+like preset attachments that gave you a few bonus symbolizers for specific
+purposes. Cascadenik now supports attachments, so there's no real difference
+here.
 
 The idea of the painter's model not having a guaranteed order also affects
 how ordering in the language works:
@@ -228,6 +232,24 @@ text-face-name: "Georgia Regular", "Arial Italic";
 Behind the scenes this is intelligent; if a lot of rules use the same list
 of fonts, CartoCSS does its best to condense all of the generated XML
 fontsets into one reference.
+
+## MapCSS
+
+Cascadenik is, as far as I know, the first CSS-like map styling language -
+aka 'the grandaddy'.
+
+**[MapCSS](http://wiki.openstreetmap.org/wiki/MapCSS)** is used by the
+[OpenStreetMap](http://www.openstreetmap.org/) project in quite a few places -
+[Potlatch 2](http://wiki.openstreetmap.org/wiki/Potlatch_2), [JOSM](http://josm.openstreetmap.de/),
+and an in-browser renderer called [Kothic JS](https://github.com/kothic/kothic-js).
+The main difference of MapCSS is that it is relatively data-specific -
+while CartoCSS targets any relational datasource with `key=value` pairs
+that can be filtered upon, MapCSS is very specific to the OSM data model:
+
+* You refer to OSM data types like `way`, `node`, and `relation` rather than
+  tables or datasources.
+* Filter syntax supports tagging like `way[highway=primary]`
+* There are a few features like `eval()` and `z-index` that are implementation-specific.
 
 ## The Future in Browsers
 
