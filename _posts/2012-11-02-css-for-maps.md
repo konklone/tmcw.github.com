@@ -11,6 +11,8 @@ December 1, 2010. Since then it's gotten a lot of developer love - most of
 its speed is thanks to [Konstantin](https://kkaefer.com/)'s genius and recent
 refinements are thanks to [Dane](http://dbsgeo.com/).
 
+<img src='/graphics/map_css_gif.gif' />
+
 It's been a while, and, thanks to its inclusion in [TileMill](http://mapbox.com/tilemill/),
 a lot of people have used CartoCSS. It's about time for some reflection.
 
@@ -131,6 +133,60 @@ how ordering in the language works:
 }
 {% endhighlight %}
 
+Another big difference is that with the data model of maps, **there is no nesting**.
+
+Nesting is essential in HTML & CSS - HTML is a document _tree_ and we very
+often uses classes like `p a` to style links within paragraphs differently
+than links links in menus. Expressing this nesting is one of the major
+advantages of using LESS on top of CSS - instead of writing
+
+{% highlight css %}
+#world {
+    background: red;
+}
+#world .link {
+    color: blue;
+}
+{% endhighlight %}
+
+You can write
+
+{% highlight css %}
+#world {
+    background: red;
+    &.link {
+        color: blue;
+    }
+}
+{% endhighlight %}
+
+This leads to rather better code structuring. Since every object in Mapnik
+is an atom - it doesn't contain anything else - we use LESS's nesting exclusively
+for combination and drop some of its syntax.
+
+{% highlight css %}
+#world {
+    background-color: red;
+    .link {
+        line-color: blue;
+    }
+}
+{% endhighlight %}
+
+Turns into
+
+{% highlight css %}
+#world {
+    background-color: red;
+}
+#world.link {
+    line-color: blue;
+}
+{% endhighlight %}
+
+Note the lack of the space between `#world` and `.link` - it's combination,
+not nesting.
+
 ## Evolution
 
 A lot has changed with CartoCSS over its life. One of the biggest changes
@@ -173,7 +229,7 @@ Behind the scenes this is intelligent; if a lot of rules use the same list
 of fonts, CartoCSS does its best to condense all of the generated XML
 fontsets into one reference.
 
-## The Future
+## The Future in Browsers
 
 There are scattered attempts at supporting CartoCSS in-browser - the furthest
 advanced being [Vizzuality's Vecnik project](https://github.com/Vizzuality/VECNIK).
@@ -182,6 +238,29 @@ While my heart immediately wanted to just go straight CSS and used [SVG](http://
 for maps, this doesn't seem to be a viable option - given that SVG mainly
 uses the same rendering model as HTML (with odd exclusions like no z-indexes),
 it's very difficult to render complex scenes without lots of elements and hacks.
+It's no wonder that the only viable vector street maps in browsers -
+Google's MapsGL - use a 'proprietary' renderer based on [WebGL](http://en.wikipedia.org/wiki/WebGL)
+instead of 2D Canvas or SVG.
 
 But, for simple maps SVG and CSS can cut it - as they do in
 [the iD editor project I've been recently working on](https://github.com/systemed/iD).
+
+## The Future Elsewhere
+
+Together with [Stamen](http://stamen.com/), [Google](http://www.google.com/),
+[OpenGeo](http://opengeo.org/), and some community members I've met to talk about
+what to do about a cascading style sheet language for more common maps.
+Besides CartoCSS, there are scattered smaller languages and then a few common
+but unliked languages like [SLD](http://blog.geoserver.org/2010/04/09/sld-cookbook/).
+
+It's going to be difficult - CartoCSS is made to support everything that Mapnik
+supports - to expose its full power, and to make a 'subset' that works
+with everything will be difficult to communicate, just as CSS has had
+a terrible struggle with [vendor prefixes](http://www.alistapart.com/articles/the-vendor-prefix-predicament-alas-eric-meyer-interviews-tantek-celik/).
+
+But, it's a worthwhile goal and will happen. It will be especially interesting
+to think of CartoCSS as a simple language that can be generated, or as
+the source of a much simpler subset. As far as its future with Mapnik,
+[carto-parser](https://github.com/rundel/carto-parser) is an incredible
+effort to do native parsing - so we can drop the [node.js](http://nodejs.org/)
+requirement for people who want stylesheet-ed maps in Mapnik.
