@@ -16,6 +16,33 @@ refinements are thanks to [Dane](http://dbsgeo.com/).
 It's been a while, and, thanks to its inclusion in [TileMill](http://mapbox.com/tilemill/),
 a lot of people have used CartoCSS. It's about time for some reflection.
 
+## Introduction
+
+For the most part, web maps are images: when you go to [Google Maps](http://maps.google.com/)
+or make a map with [TileMill](http://mapbox.com/tilemill/), you are seeing
+[PNG](http://www.libpng.org/pub/png/) image files which have been rendered
+by a renderer. In the case of TileMill, that renderer is [Mapnik](http://mapnik.org/),
+a successful open-source project - Google Maps is proprietary technology.
+
+These maps are styled; roads have a color, width, label style, halos, and
+so on - very complex styles, that are made 'once' - by assigning a type to
+a style and letting that dictate the world. And so this styling is rarely
+done with a [WYSIWYG](http://en.wikipedia.org/wiki/WYSIWYG) interface like
+Adobe Photoshop - it's more likely similar to coding.
+
+Renderers thus support style formats. Mapnik natively supports XML stylesheets,
+which are great for control, but can be difficult to learn and write by
+hand, especially for people who are mainly designers and artists rather than
+programmers.
+
+This article is about a specific style format called CartoCSS which extends
+the metaphor of CSS to maps. The kernel of the idea was devised by
+[Mike Migurski in 2008](http://mike.teczno.com/notes/cascadenik.html), and the
+most recent iteration was done by myself and the team at [MapBox](http://mapbox.com/)
+starting in 2010. This post is about the evolution of CartoCSS, thoughts
+on whether this metphor of CSS-to-maps is a [leaky abstraction](http://en.wikipedia.org/wiki/Leaky_abstraction)
+or if its usefulness outweights its awkwardness.
+
 ## The Why of CartoCSS
 
 TileMill was originally implemented in [Python](https://github.com/mapbox/tilemill/commit/5b870b04d8e2a75855f7523a1937f5bad0eb0ae8).
