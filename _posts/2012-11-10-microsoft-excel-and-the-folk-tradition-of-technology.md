@@ -5,9 +5,9 @@ categories:
 - blog
 ---
 
-Right now I'm on a Megabus back from New York City to Washington DC. I just
-gave a talk at a conference called Visualized about my running maps and work on
-seeing the progress of OpenStreetMap's attempt to redo several hundreds of
+Right now I'm on a [Megabus](http://us.megabus.com/) back from New York City to Washington DC. I just
+gave a talk at a conference called [Visualized](http://visualized.com/) about my running maps and work on
+seeing the progress of [OpenStreetMap](http://www.openstreetmap.org/)'s attempt to redo several hundreds of
 years of building roads in seven or eight years of typing and drawing on
 computers.
 
@@ -61,7 +61,7 @@ communicate.
 
 When I say copying, I mean this: authorship in a folk tradition is about
 creative force rather than creative origin. A girl I went to school with
-is now a popular folk ballad singer known for her incredible commitment
+is now a [popular folk ballad singer](https://www.facebook.com/annaandelizabeth) known for her incredible commitment
 to learning tradition on a both academic and instinctive level. When she
 performs a song, she notes not only the original author, if known, but the
 author of that particular version, and, if any, the performer that she
@@ -90,7 +90,7 @@ clear is a sort of tension.
 The first source of tension is medium.
 
 The talks at Visualized ranged from people who have created software that
-was downloadable during the talk, to an artist who created a certain work in
+was downloadable during the talk, to an artist who created [a certain work](http://theluxuryofprotest.com/) in
 vinyl, laser-cut paper, and frosted plastic. Of those who push pixels, the gap
 between the Illustrator & Photoshop crowd and the code crowd was significant.
 
@@ -151,8 +151,8 @@ learned someone's technique, and I think that's a real difference.
 I'll circle back someday. Okay, here it is:
 
 A great deal of the visualization community's energy is expended in criticism
-and avoidance. We now know that rainbow scales, nonzero axes, pie charts,
-3D charts, all-at-once transitions, RGB interpolation, big numbers,
+and avoidance. We now know that [rainbow scales](http://blog.visual.ly/rainbow-color-scales/), [nonzero axes](http://vis4.net/blog/posts/doing-the-line-charts-right/), pie charts,
+3D charts, all-at-once transitions, [RGB interpolation](http://vis4.net/blog/posts/choropleth-maps/), big numbers,
 choropleths for absolutes, scaled points for relatives, bubble charts,
 and, of course the spherical mercator projection, are bad, evil terrible
 things. Our recent heroes like Tufte and Bertin had cautionary lessons about
@@ -206,4 +206,4 @@ It's bound to be pretty bad, but the thing
 that excites me most is that two of my good friends are also going to try
 writing and recording an album.
 
-I would rather that happen than to just leave it to talented and beautiful people.
+I would rather that happen than to [just leave it to talented and beautiful people.](http://hmtpng.com/)
