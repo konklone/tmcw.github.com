@@ -22,8 +22,8 @@ of professional criticism and then did a lackluster job of supporting that
 point.
 
 Here's that point, anyway. This is unlikely to be one of those pieces with the
-perfect mix of poignant and inane and the perfect end-loop - read Paul Ford
-or Aaron Straup Cope instead.
+perfect mix of poignant and inane and the perfect end-loop - read [Paul Ford](http://www.ftrain.com/)
+or [Aaron Straup Cope](http://www.aaronstraupcope.com/) instead.
 
 <hr />
 
@@ -50,7 +50,7 @@ structure, chord fingerings, vocal technique, and instrument itself are some of
 the levels.
 
 Reductionism is always possible; sounds are the lowest level,
-copiable and subject to analysis in themselves; but this isn't a practical
+copyable and subject to analysis in themselves; but this isn't a practical
 way to look at music if you want to create it. Creating music starts
 in the opposite direction: playing guitar means that you can copy from more
 people, take lessons from the guy down the street and imitate YouTube videos
@@ -103,8 +103,8 @@ But there are some other differences.
 
 Physical media makes everything seem far away. After one talk which mentioned
 the transition from print to digital, I tweeted that 'The Internet makes
-everything seem similar', and Brandon Martin-Anderson summarized that idea
-much better: 'The internet makes everything smell like the room my computer is in'.
+everything seem similar', and [Brandon Martin-Anderson](http://bmander.com/) summarized that idea
+much better: 'The internet makes every idea in the world smell like the room that my computer is in.'.
 Physical presentation is not only filled with more cues, like your having
 to drive to a gallery or the price of a wall-art, but it also presents context
 in a vastly different way; a poster on the wall can cite influences by name,
@@ -130,8 +130,8 @@ that can be shared by multiple 'applications'. For instance, browsers
 and desktop games can and do share libraries for networking and graphics.
 
 Using a library and following a tutorial are ways of building on the work of
-others; smaller problems, like how to do a fast fourier transform or how to
-pan-sharpen images are more common and more shared than the larger ideas that
+others; smaller problems, like how to do a [fast fourier transform](http://en.wikipedia.org/wiki/Fast_Fourier_transform) or how to
+[pan-sharpen](http://en.wikipedia.org/wiki/Pansharpened_image) images are more common and more shared than the larger ideas that
 tend to be thought of as 'the final work'.
 
 But the feel different. In programming, you install a library easily and can
@@ -155,7 +155,7 @@ and avoidance. We now know that [rainbow scales](http://blog.visual.ly/rainbow-c
 3D charts, all-at-once transitions, [RGB interpolation](http://vis4.net/blog/posts/choropleth-maps/), big numbers,
 choropleths for absolutes, scaled points for relatives, bubble charts,
 and, of course the spherical mercator projection, are bad, evil terrible
-things. Our recent heroes like Tufte and Bertin had cautionary lessons about
+things. Our recent heroes like [Tufte](http://www.edwardtufte.com/) and Bertin had cautionary lessons about
 the limitations of understanding and the dangers of complexity. They have
 been for the most part Reformation-era purifiers instead of Renaissance-era
 creators.
@@ -164,8 +164,10 @@ Anyway, I like Excel. I like it because there are tutorials all over the
 internet for how to use it. I like it because it enables people who are neither
 designers nor developers to create things. I like it because it isn't
 intimidating: one of Aaron Straup Cope's recent bits where he talks about
-how Flickr failed at being a place where everyone felt welcome to create
-and Instagram succeeded.
+how [Flickr](http://www.flickr.com/) failed at being a place where everyone felt welcome to create
+and [Instagram](http://instagram.com/) succeeded.
+
+> The reason that I have such a problem with all the talk about how awful and retrograde people filtering their photos is that if we did anything wrong, at Flickr, it was letting people believe that their photos weren't good enough to be worth uploading to the site.
 
 It's important that people create, even if they aren't good at it. Having
 created a thing makes you look at the thing differently. If you've ever
@@ -179,7 +181,7 @@ charts; that we have suffered long under mediocre aesthetics and poor design
 and now it is time to move beyond. I don't believe this. The relevance
 design in charts and even the idea that we _need_ custom-designed charts
 is because bad tools like Microsoft Excel made visualization normal; they
-turned a specific, cloistered practice into someting that we can picture
+turned a specific, cloistered practice into something that we can picture
 in our heads and feel like we understand.
 
 So popularity, normality, and mediocrity aren't things to be eliminated;
@@ -189,7 +191,7 @@ And so I guess I should conjure some take-aways.
 
 The critical view of visualization is negative, and should only
 be the counterpoint to creation, not the center of attention by itself. Like
-the typographer's collective witchhunt of Comic Sans, criticism has given us
+the typographer's [collective witchhunt of Comic Sans](http://www.comicsanscriminal.com/), criticism has given us
 something to hate but nothing to love - and much less to say about what we do
 love.
 
