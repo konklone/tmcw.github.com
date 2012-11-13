@@ -282,3 +282,4 @@ The full documentation for this code is in the [Shapely manual](http://toblerity
 * [Paul Smith's presentation on spatial and web mapping with Python](http://youtu.be/qmgh14LUOjQ)
   at PyCon 2012
 * [Sean Gillies blog](http://sgillies.net/blog) and [post on spatially cleaning features with Fiona and Shapely](http://sgillies.net/blog/1106/fiona-and-shapely-spatially-cleaning-features/)
+* [Zain Memon also gave a great talk on GIS in Python with Shapely](http://vimeo.com/53041159)
