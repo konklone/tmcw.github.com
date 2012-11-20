@@ -80,7 +80,9 @@ an 8MB file, which is above my 'browsers can do this' threshold.
 Here's an example of an inverted index & a trie in action, using the code from
 this site, but applying it to Genesis.
 
-<iframe src='http://bl.ocks.org/d/4072696/' width='640' height='310' frameborder='no'></iframe>
+<div class='link-block'>
+  <a href='http://bl.ocks.org/4072696/'>searching genesis</a>
+</div>
 
 ## So Then Comes Hashing & Sharding
 
@@ -134,7 +136,9 @@ For this, I used a **[trie](http://en.wikipedia.org/wiki/Trie)**, aka a prefix t
 in which each node has a letter of a word, and words that share prefixes
 share parts of the tree.
 
-<iframe src='http://bl.ocks.org/d/4063830' width='640' height='310' frameborder='no'></iframe>
+<div class='link-block'>
+  <a href='http://bl.ocks.org/4063830'>trie demo</a>
+</div>
 
 Play with it!
 

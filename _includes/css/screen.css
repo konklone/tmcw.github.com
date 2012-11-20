@@ -106,7 +106,8 @@ h1 {
 }
 
 h2 {
-  font: bold 26px/40px 'Helvetica Neue', Helvetica, sans-serif;
+  font: bold 24px/30px 'Helvetica Neue', Helvetica, sans-serif;
+  margin:10px 0;
 }
 
 em {
