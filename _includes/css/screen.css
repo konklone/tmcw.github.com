@@ -6,7 +6,7 @@
  * */
 
 p, li {
-  font: 15px/30px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  font: 15px/30px 'Palatino', 'Georgia', Times, 'Times New Roman', serif;
 }
 
 small {
@@ -102,11 +102,11 @@ h1, h2 {
 }
 
 h1 {
-  font: bold 35px/50px 'Helvetica Neue', Helvetica, sans-serif;
+  font: bold 30px/40px 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h2 {
-  font: bold 24px/30px 'Helvetica Neue', Helvetica, sans-serif;
+  font: bold 20px/30px 'Helvetica Neue', Helvetica, sans-serif;
   margin:10px 0;
 }
 
