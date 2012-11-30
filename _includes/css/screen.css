@@ -103,10 +103,12 @@ h1, h2 {
 
 h1 {
   font: bold 30px/40px 'Helvetica Neue', Helvetica, sans-serif;
+  font: normal 30px/40px 'Georgia', serif;
 }
 
 h2 {
   font: bold 20px/30px 'Helvetica Neue', Helvetica, sans-serif;
+  font: normal 20px/40px 'Georgia', serif;
   margin:10px 0;
 }
 
