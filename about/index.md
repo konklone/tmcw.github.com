@@ -1,14 +1,16 @@
 ---
 layout: post
-date: 2011-07-04 10:00:00 UTC
 title: About
 ---
 
 <img src="/graphics/about.jpg" />
 
-<p itemscope itemtype="http://schema.org/Person">
-I'm <span itemprop='name'>Tom MacWright</span>, a <span itemprop='jobTitle'>hacker</span> at <a itemprop='worksFor' href='http://mapbox.com/'>MapBox</a> and <a itemprop='worksFor' href='http://developmentseed.org/'>Development Seed</a>. Please <a itemtype='email' href='mailto:tom@macwright.org'>email me</a> to get in contact. I'm <a itemtype='contactPoint' href='http://twitter.com/tmcw'>@tmcw</a> on Twitter, and don't actively use any other social networks.
-</p>
+I'm Tom MacWright, a developer at [MapBox](http://mapbox.com/).
+<a href='mailto:tom@macwright.org'>email me</a>
+to get in contact, but [file tickets at support](http://support.mapbox.com/dashboard)
+or [issues on github](https://github.com/tmcw) for anything specific about a project
+I'm involved in. I'm [@tmcw](http://twitter.com/tmcw) on Twitter,
+and don't actively use any other social networks.
 
 <div class='image-cube'>
   <div>
@@ -40,6 +42,8 @@ I've spoken at quite a few different events.
 * [Big Data with node.js, polymaps, and redis](http://macwright.org/presentations/nodedc/) at node.js DC
 * [Beyond the Google Maps Paradigm](http://macwright.org/presentations/beyond/#0) at [FOSS4G NA](http://foss4g-na.org/)
 * [An Open Web Mapping Toolbox](http://dhcole.github.com/whereconf/) with [Dave Cole](https://github.com/dhcole) at [Where 2.0](http://whereconf.com/where2012/public/schedule/detail/23598)
+* [OpenStreetMap Technology Now & Future](http://macwright.org/presentations/sotmus/) at [SOTM.us](http://stateofthemap.us/)
+* [open source & open data](https://speakerdeck.com/tmcw/visualized) at [Visualized](http://visualized.com/)
 
 ## Colophon
 
@@ -47,4 +51,6 @@ If you're curious, this site uses [Jekyll](http://jekyllrb.com) and is hosted by
 Images are hosted on [Flickr](http://flickr.com) and maps on [MapBox Hosting](http://tiles.mapbox.com/).
 I use vim and [have my .vim on GitHub](https://github.com/tmcw/.vim).
 
-If you're looking for another MacWright, here are a few (all 'of relation' - it's a rare name): [MacWright Studios](http://macwright.com/), [Sarah MacWright](http://sarahmacwright.com), [Gloria](http://orthostatictremor.org), [Doug](http://www.highlandercapital.com/).
+If you're looking for another MacWright, here are a few (all 'of relation' - it's a rare name):
+[MacWright Studios](http://macwright.com/), [Sarah MacWright](http://sarahmacwright.com),
+[Gloria](http://orthostatictremor.org), [Doug](http://www.highlandercapital.com/).
