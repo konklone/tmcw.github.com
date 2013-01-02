@@ -17,7 +17,6 @@ body {
   color:#333;
   width:640px;
   margin:0 auto;
-  border-top:15px solid black;
 }
 
 br {
@@ -69,12 +68,12 @@ header {
   margin-bottom:20px;
 }
 
-header ul.navigation {
+ul.navigation {
   float:right;
   list-style:none;
 }
 
-header ul.navigation li {
+ul.navigation li {
   display:inline-block;
   margin-left:20px;
   /* abolish when IE7 is gone. */
@@ -82,11 +81,11 @@ header ul.navigation li {
   *display:inline;
 }
 
-header ul.navigation li a, header h1, h2, h3, .post-footer, footer {
+ul.navigation li a, h1.site-name, h2, h3, .post-footer, footer {
   font: normal 12px/40px 'Helvetica Neue', helvetica, sans-serif;
 }
 
-header ul.navigation li a.active {
+ul.navigation li a.active {
   text-decoration:underline;
   color:#334051;
 }
@@ -116,27 +115,24 @@ em {
   font-style:italic;
 }
 
-header h1 span.name {
+h1.site-name span.name {
   color:#333;
 }
 
-header h1 a:hover span.name {
+h1.site-name a:hover span.name {
   color:#000;
 }
 
-header h1 a span.name span.b {
+h1.site-name a span.name span.b {
   -moz-transition:color 0.1s;
   -webkit-transition:color 0.1s;
 }
 
-header h1 a:hover span.name span.b {
+h1.site-name a:hover span.name span.b {
   color:#ddd;
 }
 
-header h1 a:hover span.name span.a {
-}
-
-header h1 a:hover {
+h1.site-name a:hover {
   text-decoration:none;
 }
 
