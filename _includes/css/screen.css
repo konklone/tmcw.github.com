@@ -123,15 +123,6 @@ h1.site-name a:hover span.name {
   color:#000;
 }
 
-h1.site-name a span.name span.b {
-  -moz-transition:color 0.1s;
-  -webkit-transition:color 0.1s;
-}
-
-h1.site-name a:hover span.name span.b {
-  color:#ddd;
-}
-
 h1.site-name a:hover {
   text-decoration:none;
 }
@@ -147,7 +138,7 @@ p a, div.content ul li a {
 
 p a:hover, div.content ul li a:hover {
   color:#11143D;
-  background:#FFF9C9;
+  text-shadow:0 0 2px #FFF9C9;
 }
 
 a:hover {
