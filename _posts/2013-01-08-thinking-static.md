@@ -34,7 +34,7 @@ static generation. For instance, look at
 [game complexity](http://en.wikipedia.org/wiki/Game_complexity). At first
 glance, tic-tac-toe and chess appear to be the same sort of problem, but
 tic-tac-toe has only 255,168 possible positions - in contrast to
-chess's 10<sup>47</sup>.
+chess's 10^47.
 
 Consider then, a blog with 10 posts. A basic site would include ten
 individual pages for posts, and one front page: 11 things to generate.
