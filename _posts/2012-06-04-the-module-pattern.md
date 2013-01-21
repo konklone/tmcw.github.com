@@ -7,6 +7,8 @@ categories:
 - blog
 ---
 
+_Once you've read this, [read the update which has more detailed information about the module pattern's performance profile!](http://macwright.org/2013/01/22/javascript-module-pattern-memory-and-closures.html)_
+
 This is an article on the _module pattern_ for Javascript, and some of
 its neat properties when used for instances.
 I've been using it recently for projects like
