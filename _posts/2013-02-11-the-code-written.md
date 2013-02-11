@@ -42,6 +42,8 @@ removed when they expire.
 
 [![](http://farm9.staticflickr.com/8193/8385658798_a7823fb31b_b.jpg)](http://www.flickr.com/photos/tmcw/8385658798/sizes/o/in/photostream/)
 
+The [source for this image is available and liberally licensed](https://github.com/tmcw/dc-government).
+
 See also: [How a Bill Becomes a Law](http://www.dccouncil.washington.dc.us/pages/how-a-bill-becomes-a-law).
 Photo by [Andrew Bossi](http://www.flickr.com/photos/thisisbossi/6142590857/in/photostream/),
 [CC](http://creativecommons.org/licenses/by-nc-sa/2.0/deed.en). Feel free to
