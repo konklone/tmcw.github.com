@@ -35,14 +35,14 @@ Here's how the process works for Washington, DC.
 The DC Council discusses and edits bills in Microsoft Word or WordPerfect format.
 They're emailed around, collected and edited just like any other document.
 
-When bills are passed, they're added by staffers to the Council's
+When bills are passed, staffers add them to the
 [Law Information Management System](http://dcclims1.dccouncil.us/lims/),
 a .NET web application that stores and serves metadata and PDF downloads
 of resolutions, bills, and more. Here's an [example of a ceremonial resolution](http://bit.ly/14O6B1W) proposed in 2013.
 
 <a href='http://dcclims1.dccouncil.us/lims/'><img src='http://farm9.staticflickr.com/8379/8465131479_fc0c05b550_b.jpg' class='white-on-white' /></a>
 
-The Law Information Management System, or LIMS, is hosted by the Council's
+This Law Information Management System, or LIMS, is hosted by the Council's
 own server, [owned, operated, and even hosted in DC](http://toolbar.netcraft.com/site_report?url=http://dccouncil.us/).
 It's a Windows server running IIS which handles about 0.5 requests/sec before timing out.
 But it's entirely their property, and thus
@@ -50,13 +50,15 @@ the contents of the LIMS are very clearly the property of the DC Government.
 
 ## Becomes Law
 
+![](/graphics/bill_changes.png)
+
 Each bill is then downloaded by an employee of the company that wins
 the contract for maintaining the bill. This person must hold a law degree
 from an ABA accredited law school, and they cannot be a subcontractor.
 
 What they do, every two weeks, is download each bill, read it, and apply
-the changes to the code. The code, in full, is stored by the contractor
-and updated by the contractor's employees.
+the changes to the code. The contractor stores the full code
+and has employees who update it.
 
 The contractor then provides services around the compiled law, and contractually
 is the only provider of the 'official version.' They are the only business
