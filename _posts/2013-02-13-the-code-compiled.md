@@ -14,15 +14,16 @@ by bills.
 
 A bill, for instance, could contain the provision
 
-    Sec. 2. Section 107 of the Inclusionary Zoning
-    Implementation Amendment Act of 2006, effective
-    March 14, 2007 (D.C. Law 16-275; D.C.
-    Official Code § 6-1041.07), is
-    amended by adding a new subsection (c) to read as follows:
-    
-    (c)(1) No later than February 6, 2009, the Mayor,
-    pursuant to Title I of the District of
-    Columbia Administrative Procedure Act...
+> Sec. 2. Section 107 of the Inclusionary Zoning
+> Implementation Amendment Act of 2006, effective
+> March 14, 2007 (D.C. Law 16-275; D.C.
+> Official Code § 6-1041.07), is
+> amended by adding a new subsection c to read as follows:
+
+
+> c(1) No later than February 6, 2009, the Mayor,
+> pursuant to Title I of the District of
+> Columbia Administrative Procedure Act...
 
 In programming terms, a bill is a [changeset](http://bit.ly/dGc5LL). Or
 it's like track changes in Microsoft Word.
@@ -56,11 +57,10 @@ Each bill is then downloaded by an employee of the company that wins
 the contract for maintaining the bill. This person must hold a law degree
 from an ABA accredited law school, and they cannot be a subcontractor.
 
-What they do, every two weeks, is download each bill, read it, and apply
-the changes to the code. The contractor stores the full code
-and has employees who update it.
+Every two weeks, these employees download the bills from the public server
+and apply their changes to the code. The contractor stores the full code
+in a proprietary database with a content management system.
 
 The contractor then provides services around the compiled law, and contractually
 is the only provider of the 'official version.' They are the only business
-or government entity to possess a full digital copy of the code that
-is copiable.
+or government entity to possess a full digital copy of the code.
