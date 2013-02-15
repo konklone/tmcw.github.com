@@ -5,7 +5,10 @@ categories:
 - blog
 ---
 
-Part two: read [How the Law is Written and Passed in Washington DC](http://macwright.org/2013/02/11/the-code-written.html).
+Last time [we talked about how the Law is written and passed in Washington DC](http://macwright.org/2013/02/11/the-code-written.html).
+DC's system is more complex than most because it isn't a state: Congress has
+ultimate power over its laws and thus the DC Council, its legislative body,
+has multiple ways to expedite the process.
 
 A 'bill' is a document that adds, removes, and changes laws.
 
@@ -64,3 +67,7 @@ in a proprietary database with a content management system.
 The contractor then provides services around the compiled law, and contractually
 is the only provider of the 'official version.' They are the only business
 or government entity to possess a full digital copy of the code.
+
+## Keep Reading
+
+[DC's bills and laws are public domain: what does this mean, legally and practically?](http://macwright.org/2013/02/14/the-law-is-public-domain.html)
