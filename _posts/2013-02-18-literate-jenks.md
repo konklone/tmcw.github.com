@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Literate Jenks Natural Breaks and Mystery Ports
+title: Literate Jenks Natural Breaks and How The Idea Of Code is Lost
 categories:
 - blog
 ---
@@ -36,13 +36,15 @@ Every implementation I could find of Jenks is **a port from Fortran IV**,
 with the same terrible variable names, no comments, and absolutely no evidence that
 the porting author knew absolutely anything about **what the code was doing**.
 
+<img src='http://farm9.staticflickr.com/8520/8484141228_5d14487c78_b.jpg' class='white-on-white' />
+
 Let's be clear: the algorithms we use for Jenks are directly ported from an algorithm
 that accepted punch cards, documented in a paper composed and published
 on a typewriter.
 
 It's not clear who renamed the matrices (originally `OP` and `LC`) to `mat1` and `mat2`,
 but that naming stuck and sucks.
-The Javascript ports don't just taste like Fortran, but Python too - zeroes
+The Javascript ports don't just taste like Fortran, but Python too - zeros
 are initialized as `0.0` as if the language had an integer type, and have
 about half comma-free style.
 
@@ -61,14 +63,14 @@ But on the other hand, how could they know?
 
 <span class='image-credit'><a href='http://via.me/-9hyi8hu'>Bill Morris</a></span>
 
-Jenks natural breaks is explained in a 1977 article by George F. Jenks entitled
+George F. Jenks proposed jenks natural breaks in his 1977 article entitled
 'Optimal Data Classification for Choropleth Maps'.
 
 This article isn't available online, or in print. As far as I can tell,
 it has never been digitized. It's ostensibly still owned by the [University of Kansas Geography Department](http://www.geog.ku.edu/),
 so the copy that [Bill Morris](http://www.geosprocket.com/) was kind enough
 to share I can't safely post. Even if the university doesn't claim copyright,
-since Professor Jenks passed in 1996, it'll be copyrighted in his name until 2072.
+because Professor Jenks passed in 1996, it'll be copyrighted in his name until 2072.
 
 Bother your senator today about copyright term limits.
 
@@ -88,20 +90,20 @@ took me several times longer to do things this way than to just get the code
 working.
 
 But the sad and foreboding state of this algorithm's existing implementations
-said that in order to think critically about this code, its result, and possibilities
-for improvement, we need at least one version that's really clear about what
+said that to think critically about this code, its result, and possibilities
+for improvement, we need at least one version that's clear about what
 it's doing.
 
-[simple-statistics](https://github.com/tmcw/simple-statistics), by [library for literate, beginner-friendly statistics](http://macwright.org/2012/06/26/simple-statistics.html),
+[simple-statistics](https://github.com/tmcw/simple-statistics), my [library for literate, beginner-friendly statistics](http://macwright.org/2012/06/26/simple-statistics.html),
 now has a [literate implementation](http://macwright.org/simple-statistics/docs/simple_statistics.html#section-116) of
 Jenks natural breaks. In the process of understanding the implementation,
-I found that the matrix system is in fact a sort of [dynamic programming](http://en.wikipedia.org/wiki/Dynamic_programming)
+I found that the matrix system is a sort of [dynamic programming](http://en.wikipedia.org/wiki/Dynamic_programming)
 that cleverly solves all breaks from `1-k` when you request `k` breaks.
 Thus my implementation breaks it into two parts - creating the matrices
 and pulling a solution out of them.
 
-It's also in Javascript. A lot of smart geospatial code has been in Python
-or C++, with only a recent trend towards JS. I don't see this as mattering
-much, since it's a basic mathematical algorith - not exactly a chance
+It's in Javascript. A lot of smart geospatial code has been in Python
+or C++, with only a recent trend toward JS. I don't see this as mattering
+much, since it's a basic mathematical algorithm - not exactly a chance
 to use language features. But Javascript is fast, as in, [the V8 engine](https://code.google.com/p/v8/) is fast.
 In basic benchmarks, it's [12x faster than a Python implementation](https://gist.github.com/anonymous/4973559).
