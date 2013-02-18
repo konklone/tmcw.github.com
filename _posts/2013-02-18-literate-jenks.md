@@ -48,16 +48,16 @@ The Javascript ports don't just taste like Fortran, but Python too - zeros
 are initialized as `0.0` as if the language had an integer type, and have
 about half comma-free style.
 
-This is not quibbling about style: [the Wikipedia article about Jenks natural breaks](http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization)
+And this is not quibbling about style:
+[the Wikipedia article about Jenks natural breaks](http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization)
 describes an algorithm entirely unlike these ones. There's no mention
-of dynamic-programming matrices, the 'sum of deviations between classes'
-is nowhere mentioned.
+of dynamic-programming matrices, and there's no hint in the implementations
+of something like the 'sum of deviations between classes.' Of course, there
+are no comments in any of the ports, so it's hard to tell.
 
 > The lack of interest, the disdain for history is what makes computing not-quite-a-field. - [Alan Kay](http://www.drdobbs.com/architecture-and-design/interview-with-alan-kay/240003442)
 
-## Anti History via Control
-
-But on the other hand, how could they know?
+**But on the other hand, how could they know?**
 
 ![](http://farm9.staticflickr.com/8381/8482577349_809d767117_o.png)
 
@@ -69,8 +69,8 @@ George F. Jenks proposed jenks natural breaks in his 1977 article entitled
 This article isn't available online, or in print. As far as I can tell,
 it has never been digitized. It's ostensibly still owned by the [University of Kansas Geography Department](http://www.geog.ku.edu/),
 so the copy that [Bill Morris](http://www.geosprocket.com/) was kind enough
-to share I can't safely post. Even if the university doesn't claim copyright,
-because Professor Jenks passed in 1996, it'll be copyrighted in his name until 2072.
+to scan and share I can't safely post. Even if the university doesn't assert
+copyright, because Professor Jenks passed in 1996, it'll be copyrighted in his name until 2072.
 
 Bother your senator today about copyright term limits.
 
@@ -80,7 +80,7 @@ to the last link to the unreachable text.
 
 ## Jenks in simple-statistics
 
-I spent two days reading the original text and decoding as much as possible
+I spent a day reading the original text and decoding as much as possible
 of the code's intention, so that I could write a 'literate' implementation.
 My definition of literate is highly descriptive variable names, detailed and narrative
 comments, and straightforward code with no hijinks.
@@ -106,4 +106,26 @@ It's in Javascript. A lot of smart geospatial code has been in Python
 or C++, with only a recent trend toward JS. I don't see this as mattering
 much, since it's a basic mathematical algorithm - not exactly a chance
 to use language features. But Javascript is fast, as in, [the V8 engine](https://code.google.com/p/v8/) is fast.
-In basic benchmarks, it's [12x faster than a Python implementation](https://gist.github.com/anonymous/4973559).
+In basic benchmarks, it's [12x faster than a Python implementation](https://gist.github.com/llimllib/4974446).
+As [Bill Mill points out](https://twitter.com/llimllib/status/303337147321155584), [PyPy](http://pypy.org/)
+is on par with Javascript and there are a [few other tweaks](https://twitter.com/llimllib/status/303316590190006273)
+that improve performance, but it's interesting that CPython is so slow
+at computationally-heavy, repetitive work.
+
+## Conclusion
+
+Try out Jenks in [simple-statistics](https://github.com/tmcw/simple-statistics).
+If the assortment of [other algorithms included](https://github.com/tmcw/simple-statistics/blob/master/API.md)
+make you feel like you should create a new 'micro library', you can
+also [just use the jenks implementation as a standalone](https://gist.github.com/tmcw/4977508).
+Please don't delete the comments: if you need compression, use [uglify-js](https://github.com/mishoo/UglifyJS)
+as a separate step.
+
+And so here's a literate implementation of Jenks natural breaks in Javascript.
+If you can, please help to improve it by making the implementation more
+explanatory.
+
+If you're an academic, take this as a cautionary lesson to
+promote the free distribution of your work - if not now, for the future.
+If you're a coder, consider whether the abstraction of software can
+be misused to mask ignorance of basic principles.
