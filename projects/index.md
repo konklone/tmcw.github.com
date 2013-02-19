@@ -26,6 +26,13 @@ music generation</a> as a sidecar to typing.
 
 <br />
 
+<a href='http://macwright.org/mistakes/'>
+<img src='http://farm9.staticflickr.com/8050/8440178754_8e7f5906cc_b.jpg' /></a>
+
+<a href='http://macwright.org/mistakes/'>A minimal, interactive tool</a> for <a href='http://macwright.org/2013/02/05/mistakes.html'>demonstrating and learning Javascript</a>.
+
+<br />
+
 <a href='http://macwright.org/2012/10/01/heard.html'><img src='/graphics/heard-giant.png' width='640' height='640' /></a>
 
 <a href='http://macwright.org/2012/10/01/heard.html'>A minimal iTunes listener for
