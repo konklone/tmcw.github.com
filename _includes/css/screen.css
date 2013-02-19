@@ -30,8 +30,14 @@ br {
     }
 
     img {
-        max-width:300px;
+        max-width:100% !important;
         height:auto;
+    }
+
+    div.shutter-300 {
+      overflow:hidden;
+      height:100px;
+      margin:20px 0;
     }
 
     header {
@@ -49,13 +55,11 @@ br {
     }
 
     header ul.navigation li, header ul.navigation li a {
-        margin:0 !important;
+        margin:0 10px 0 0 !important;
         display:inline;
         padding:0 !important;
+        line-height:20px;
     }
-}
-
-div.wrapper {
 }
 
 ol {
