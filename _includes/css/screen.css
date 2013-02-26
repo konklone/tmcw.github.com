@@ -336,3 +336,9 @@ div.four-320 img {
   height:160px;
   display:inline;
 }
+
+.addendum {
+  font-size:small;
+  padding:5px;
+  background:#eee;
+}

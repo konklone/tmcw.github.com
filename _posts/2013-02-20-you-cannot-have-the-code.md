@@ -9,6 +9,12 @@ categories:
 
 <span class='image-credit'><a href='http://legalsolutions.thomsonreuters.com/law-products/Statutes/District-of-Columbia-Official-Code/p/100000736'>printed</a></span>
 
+<div class='addendum'>
+<em>addendum</em>: The problem is <em>acquiring a public domain digital copy of the code</em>, not
+about accessing the code: it's <a title='Westlaw portal' href='http://government.westlaw.com/linkedslice/default.asp?RS=GVT1.0&VR=2.0&SP=dcc-1000&Action=Welcome'>accessible online</a>.
+Read <a href='http://macwright.org/2013/02/22/access-ownership.html'>access vs ownership, a followup, for more information</a>
+</div>
+
 You cannot have a digital copy of the DC Code. You cannot have a public domain
 version of the code, despite it being legally [public domain](http://macwright.org/2013/02/14/the-law-is-public-domain.html).
 
