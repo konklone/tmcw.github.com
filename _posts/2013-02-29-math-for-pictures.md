@@ -63,4 +63,31 @@ of the circle. The center of the circle, for a unit circle, is at
 the coordinate 0, 0, and so it radiates outwards to 1 and -1 in x and y
 dimensions.
 
+So: in this narrow usage of trigonometry, sine and cosine are used to go
+from angles into coordinates. How do you go back?
+
+## atan2 and Angles
+
+Let's do the opposite: going from coordinates to angles. Doing this is useful
+for a number of reasons - like if you have a 'dial' control in which the
+user can drag a circular UI element, and you want to know what angle they're
+currently dragging it to. Or if you have existing data and you want to do
+something that requires working with the angles from a → b → c, like
+[my running map](http://macwright.org/2011/07/28/mapping-runs.html).
+
+Sine, cosine, and tangent have inverse versions: [arcsine, arctan, and arccos](http://en.wikipedia.org/wiki/Inverse_trigonometric_functions) -
+but they're not that convenient. Why? Because, while an angle going into
+sine and cosine will give you a point in x & y, giving arcsine a y coordinate
+and arccos an x coordinate is not enough, because there's no one-to-one
+mapping - the point x=0 could be a the the top of the sphere or at the bottom,
+and arccos doesn't know.
+
+In school, you would learn how to figure out what quadrant the point is in,
+and use a different little equation for each. Luckily there's some
+**new math**:
+
+[atan2](http://en.wikipedia.org/wiki/Atan2) is awesome: it takes a coordinate
+and gives you the angle to it, and handles the quadrant problem internally.
+The only catch is that atan2 takes arguments in a confusing `y, x` order.
+
 <a name='1'>1.</a> [Sine and Cosine in other languages](https://gist.github.com/tmcw/5057199)
