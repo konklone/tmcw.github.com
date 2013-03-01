@@ -63,6 +63,25 @@ of the circle. The center of the circle, for a unit circle, is at
 the coordinate 0, 0, and so it radiates outwards to 1 and -1 in x and y
 dimensions.
 
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/tmcw/mWhzt/embedded/" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
+
+## Radial Shapes from Circles
+
+What's even better is that, with this basic knowledge, you can draw other
+kinds of shapes as well.
+
+Here's an equilateral triangle, drawn by choosing three angles - 0°, 120°, and 240°,
+from a unit circle. Besides just being an easy way to compute this, you
+also know that this triangle will be inscribed in a circle made from
+the same formula.
+
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/tmcw/eNapM/1/embedded/" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
+
+Here's a square, made the exact same way, which you can also guarantee is
+inscribed in a circle of radius 90.
+
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/tmcw/rRetG/embedded/" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
+
 So: in this narrow usage of trigonometry, sine and cosine are used to go
 from angles into coordinates. How do you go back?
 
@@ -89,5 +108,18 @@ and use a different little equation for each. Luckily there's some
 [atan2](http://en.wikipedia.org/wiki/Atan2) is awesome: it takes a coordinate
 and gives you the angle to it, and handles the quadrant problem internally.
 The only catch is that atan2 takes arguments in a confusing `y, x` order.
+
+Here's an example of looping this around - this uses `Math.atan2` to find the
+angle from a point a picture to the mouse position, and then draws a line
+at that angle using `Math.cos` and `Math.sin`:
+
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/tmcw/EaZPu/embedded/" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
+
+## There and back again
+
+Here's [a demo of turning an angle into a point on a unit circle and then back into an angle](http://macwright.org/mistakes/#5059825).
+You'll notice that the final number is slightly off - that's because of
+[floating point numbers](http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html),
+which lose accuracy over operations.
 
 <a name='1'>1.</a> [Sine and Cosine in other languages](https://gist.github.com/tmcw/5057199)
