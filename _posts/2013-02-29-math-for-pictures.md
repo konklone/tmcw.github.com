@@ -22,18 +22,29 @@ there's no 'degrees mode' or 'radian mode', so we're stuck with them.
 For code that bridges the gap and accepts degrees as input, you'll usually
 see a chunk like
 
-{% highlight js %}
-// degrees to radians
-// (90 * D2R) = 1.57; // Math.PI / 2
-var D2R = Math.PI / 180;
-
-// radians to degrees
-// (1.57 * R2D) = 90;
-var R2D = 180 / Math.PI;
-{% endhighlight %}
+<iframe width='640' height='350' class='white-on-white' src='http://macwright.org/mistakes/#5069332'> </iframe>
 
 The angles in a circle go from 0° to 360°. In the land of radians, that's
 0 radians to 2π radians. So, halfway around is π and 90° is π/2.
+
+## Our Friends Math.sin and Math.cos
+
+Before diving in to `Math.sin` and `Math.cos`, let's think quickly about
+what they are.
+
+<iframe width='640' height='200' class='white-on-white' src='http://macwright.org/mistakes/#5069307'> </iframe>
+
+`Math.sin` and `Math.cos` are _functions_ that take one numeric argument
+and return a numeric value. While you can give them any number and they'll
+give a value, the values repeat every `2 * Math.PI`, because that's their
+[wavelength](http://en.wikipedia.org/wiki/Wavelength).
+
+_Where do Math.cos and Math.sin come from?_ You may not be asking,
+but I'm answering. [Here's how the V8 engine (Chrome and node.js)](https://gist.github.com/tmcw/5069385)
+computes sine and cosine: in short, they're done at the lowest level
+possible, in hardware with assembly instructions. You can DIY
+the functions with a [Taylor series](http://en.wikipedia.org/wiki/Taylor_series)
+but chips are faster.
 
 ## Sine, Cosine, and Unit Circles
 
