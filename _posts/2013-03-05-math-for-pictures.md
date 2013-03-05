@@ -5,6 +5,8 @@ categories:
 - blog
 ---
 
+![](http://farm1.staticflickr.com/16/21820420_3afd71f654_b.jpg)
+
 Recently I [talked about d3 at a jQuery meetup](http://macwright.org/presentations/dcjq/)
 in DC. After the talk, a few people asked how to learn the necessary math
 for this kind of visualization work, and I responded that I actually
@@ -22,7 +24,7 @@ there's no 'degrees mode' or 'radian mode', so we're stuck with them.
 For code that bridges the gap and accepts degrees as input, you'll usually
 see a chunk like
 
-<iframe width='640' height='350' class='white-on-white' src='http://macwright.org/mistakes/#5069332'> </iframe>
+<iframe width='640' height='350' class='white-on-white' src='http://mistakes.io/#5069332'> </iframe>
 
 The angles in a circle go from 0° to 360°. In the land of radians, that's
 0 radians to 2π radians. So, halfway around is π and 90° is π/2.
@@ -32,7 +34,7 @@ The angles in a circle go from 0° to 360°. In the land of radians, that's
 Before diving in to `Math.sin` and `Math.cos`, let's think quickly about
 what they are.
 
-<iframe width='640' height='200' class='white-on-white' src='http://macwright.org/mistakes/#5069307'> </iframe>
+<iframe width='640' height='200' class='white-on-white' src='http://mistakes.io/#5069307'> </iframe>
 
 `Math.sin` and `Math.cos` are _functions_ that take one numeric argument
 and return a numeric value. While you can give them any number and they'll
@@ -47,6 +49,8 @@ the functions with a [Taylor series](http://en.wikipedia.org/wiki/Taylor_series)
 but chips are faster.
 
 ## Sine, Cosine, and Unit Circles
+
+![](http://farm9.staticflickr.com/8525/8530467688_46698099ae_b.jpg)
 
 Many visualizations come down to circles, circle fitting, or 'radial' layouts.
 For instance, [this geometry daily redo](http://bl.ocks.org/tmcw/raw/4678085/),
@@ -68,6 +72,11 @@ In terms of a unit circle, using `Math.sin` and `Math.cos` is simple:
 the sine function generates `y` coordinates, and cosine generates `x`
 coordinates.
 
+<iframe width='640' height='300' class='white-on-white' src='http://mistakes.io/#5087852'> </iframe>
+
+We call it a _unit circle_ because the distance from the center to
+each point is 1.
+
 Both functions take as an argument an angle in radians,
 and return a number which you can interpret as a distance from the center
 of the circle. The center of the circle, for a unit circle, is at
@@ -78,7 +87,9 @@ dimensions.
 
 ## Radial Shapes from Circles
 
-What's even better is that, with this basic knowledge, you can draw other
+![](http://farm9.staticflickr.com/8104/8530470952_6a02dcf5dc_b.jpg)
+
+With this basic knowledge, you can draw other
 kinds of shapes as well.
 
 Here's an equilateral triangle, drawn by choosing three angles - 0°, 120°, and 240°,
@@ -109,7 +120,7 @@ Sine, cosine, and tangent have inverse versions: [arcsine, arctan, and arccos](h
 but they're not that convenient. Why? Because, while an angle going into
 sine and cosine will give you a point in x & y, giving arcsine a y coordinate
 and arccos an x coordinate is not enough, because there's no one-to-one
-mapping - the point x=0 could be a the the top of the sphere or at the bottom,
+mapping - the point x=0 could be at the the top of the sphere or at the bottom,
 and arccos doesn't know.
 
 In school, you would learn how to figure out what quadrant the point is in,
@@ -118,19 +129,14 @@ and use a different little equation for each. Luckily there's some
 
 [atan2](http://en.wikipedia.org/wiki/Atan2) is awesome: it takes a coordinate
 and gives you the angle to it, and handles the quadrant problem internally.
-The only catch is that atan2 takes arguments in a confusing `y, x` order.
+The only catch is that atan2 takes arguments in an atypical `y, x` order.
+
+<iframe width='640' height='300' class='white-on-white' src='http://mistakes.io/#5087892'> </iframe>
 
 Here's an example of looping this around - this uses `Math.atan2` to find the
 angle from a point a picture to the mouse position, and then draws a line
 at that angle using `Math.cos` and `Math.sin`:
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/tmcw/EaZPu/embedded/" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
-
-## There and back again
-
-Here's [a demo of turning an angle into a point on a unit circle and then back into an angle](http://macwright.org/mistakes/#5059825).
-You'll notice that the final number is slightly off - that's because of
-[floating point numbers](http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html),
-which lose accuracy over operations.
 
 <a name='1'>1.</a> [Sine and Cosine in other languages](https://gist.github.com/tmcw/5057199)
