@@ -182,3 +182,4 @@ reduce noise in the index.
 
 * [Simon Tokumine's trigram_search](https://github.com/tokumine/trigram_search) project does static trigram indexes
 * [Seriously, read how we built Google Code Search](http://swtch.com/~rsc/regexp/regexp4.html)
+* [lunr.js](http://lunrjs.com/) is simple full-text search in Javascript

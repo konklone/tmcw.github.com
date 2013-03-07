@@ -111,3 +111,7 @@ got the concept, it starts turning up in unusual places, like materialization
 in databases, and templates in programming. It's also useful to think about
 making services static-able in the same way you think about making them
 testable: as a design element.
+
+### See Also
+
+* [Using Jekyll and GitHub Pages for Our Site (developmentseed.org)](http://developmentseed.org/blog/2011/09/09/jekyll-github-pages/)

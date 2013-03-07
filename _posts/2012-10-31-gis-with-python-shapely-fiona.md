@@ -283,3 +283,5 @@ The full documentation for this code is in the [Shapely manual](http://toblerity
   at PyCon 2012
 * [Sean Gillies blog](http://sgillies.net/blog) and [post on spatially cleaning features with Fiona and Shapely](http://sgillies.net/blog/1106/fiona-and-shapely-spatially-cleaning-features/)
 * [Zain Memon also gave a great talk on GIS in Python with Shapely](http://vimeo.com/53041159)
+* [A Redo of an ESRI Tutorial - Combining Fields with Python, Shapely, and Fiona](https://gist.github.com/tmcw/5078699)
+* [Using Open Source GIS Tools for Spatial Data](https://openshift.redhat.com/community/blogs/using-open-source-gis-tools-for-spatial-data-qgis-gdal-python)

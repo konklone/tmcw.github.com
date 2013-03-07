@@ -11,7 +11,7 @@ Here's the small subset of math that I use for the vast majority of visualizatio
 ideally it's a good introduction to those who want to make pretty things
 with [d3js](http://d3js.org/), canvas, or other tools.
 
-In essence, I'll try to explain four parts of Javascript's built-in math
+In essence, I'll try to explain four parts of Javascript's built-in `Math`
 object:
 
 * `Math.cos(a)`, which we use to get x positions from angles
@@ -31,7 +31,7 @@ go from 0° to 360°. In the land of radians, that's
 
 Core Math functions use radians exclusively. For code that bridges the gap
 and accepts degrees as input, you'll usually see a chunk like this,
-that defines `D2R` and `R2D`, which convert radians (R) to degrees (D) and back again.
+that defines `D2R` and `R2D`, which convert radians `R` to degrees `D` and back again.
 
 <iframe width='640' height='350' class='white-on-white' src='http://mistakes.io/#5069332'> </iframe>
 
