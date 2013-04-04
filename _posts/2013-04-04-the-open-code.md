@@ -11,7 +11,7 @@ let's [meet april 14th in washington, dc to realize the massive potential of thi
 ![](http://farm9.staticflickr.com/8124/8620236456_8c9f5c58df_b.jpg)
 
 I couldn't be happier to write that the project to bring DC's laws into
-the digital eras and put them in everyone's hands made a big breakthrough:
+the digital era and put them in everyone's hands made a big breakthrough:
 today you can [download an unofficial copy of the
 Code (current through December 11, 2012) from the DC Council's website](http://dccouncil.us/UnofficialDCCode).
 Not only that, but the licensing for this copy is officially [CC0](http://creativecommons.org/choose/zero/),
