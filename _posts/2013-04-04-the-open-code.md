@@ -50,5 +50,5 @@ Printable copies for DIY and for print-on-demand services. And lots more.
 We're not waiting till then to start though: [dc-decoded](https://github.com/openlawdc/dc-decoded) is a
 project I started today to finish the long-awaited task of bringing DC's laws
 into [The State Decoded](http://www.statedecoded.com/). The [openlawdc organization on GitHub](https://github.com/openlawdc)
-will be dedicated towards working on these problems, and it's **open**:
+is dedicated to working on these problems, and it's **open**:
 [you can and should get access if you want to contribute](https://github.com/openlawdc/openlawdc.github.com/issues/1).
