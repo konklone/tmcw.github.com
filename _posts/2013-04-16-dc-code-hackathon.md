@@ -35,7 +35,13 @@ This means anyone can contribute to anything in that
 space, and people can create new repositories for any reason.
 We started with [a big codepad that everyone had access to](http://piratepad.net/ep/pad/view/ro.PxBhfsFjx-S/latest)
 and was pre-populated with tasks, questions, and links. Tasks for non-technical
-users are incredibly important.
+users are incredibly important. [Carl Malamud](http://en.wikipedia.org/wiki/Carl_Malamud),
+who was instrumental in [raising public awareness](http://boingboing.net/2013/03/27/municipal-codes-of-dc-free-fo.html)
+of this issue and is a leader in understanding how to make closed open,
+donated bagels, lox, and more, which was delivered by [Alex Howard](http://radar.oreilly.com/alexh),
+who also provided important publicity. Also a massive thanks to
+[Ari Greenwood, who wrote about this event](http://www.huffingtonpost.com/2013/04/09/dc-code-hackathon_n_3039271.html)
+in Huff Post DC Around Town.
 
 The Council handled this incredibly well: [V. David Zvenyach](https://twitter.com/vdavez)
 of the [Office of the General Counsel](http://www.dccouncil.washington.dc.us/offices/office-of-the-general-counsel)
