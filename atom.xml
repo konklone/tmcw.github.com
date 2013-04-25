@@ -14,7 +14,7 @@ layout: nil
   </author>
   {% for post in site.posts limit:10 %}
   <entry>
-    <title>{{ post.title }}</title>
+    <title>{{ post.title | xml_escape }}</title>
     <link href="http://macwright.org{{ post.url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <id>http://macwright.org{{ post.id }}</id>
