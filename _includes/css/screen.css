@@ -99,6 +99,10 @@ div.wrapper ul {
   margin:10px 20px;
 }
 
+div.wrapper ol li ul {
+  margin:5px 20px;
+}
+
 h1, h2 {
   color:#34404D;
   font-weight:bold;
@@ -138,10 +142,15 @@ h1.site-name a:hover {
 a {
   color:#31356F;
   text-decoration:none;
+  transition:border 100ms ease-in;
+  border-bottom:1px solid #D5D5E9;
+}
+
+a:hover {
+  border-bottom:1px solid #31356F;
 }
 
 p a, div.content ul li a {
-    text-decoration:underline;
 }
 
 p a:hover, div.content ul li a:hover {
