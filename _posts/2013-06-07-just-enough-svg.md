@@ -36,21 +36,99 @@ and is positioned with `x` and `y` attributes, or transforms.
 
 <iframe width="100%" height="300" src="http://dabblet.com/gist/5708913" frameborder="0"></iframe>
 
-However, it's important to remember that _all shapes in SVG can be represented
-as paths_: `path` is the magic element.
-
-`<path>` is any path in space: filled, it can look like a polygon, unfilled
+`<path>` is the most versatile kind of shape: filled, it can look like a polygon, unfilled
 it can look like a line. You can shape it into a circle or a rectangle, or use
-it as the path for text to shape around.
+it as the path for text to shape around. Even though SVG also has a
+`<polygon>` and `<polyline>` element, most of the [maps](http://bl.ocks.org/mbostock/2206590)
+and drawings you see in d3 are made of paths.
 
 <iframe width="100%" height="400" src="http://dabblet.com/gist/5708954" frameborder="0"></iframe>
 
+## The `d` Attribute
+
+The [path data attribute](http://www.w3.org/TR/SVG/paths.html#PathData) is a source of much confusion for new users of
+d3, since it's confusing. That is, for the purposes of efficiency, it's very
+concise and has optional syntax: sometimes coordinates are separated with `,`
+but they don't have to be, and saying `L10 10 L10 10` is equivalent to saying
+`L10 10 10 10`.
+
+![](http://farm4.staticflickr.com/3830/8955549268_6d6450191c_b.jpg)
+
+This [railroad diagram](http://en.wikipedia.org/wiki/Syntax_diagram) may or
+may not bring you some sense of higher enlightenment about path data. If not,
+
+
+
+{% comment %}
+Diagram(
+    NonTerminal('M'),
+    NonTerminal('X'),
+    NonTerminal('Y'),
+    OneOrMore(
+        Choice(
+            0,
+            Sequence(
+                Choice(
+                    0,
+                    NonTerminal('M'),
+                    NonTerminal('L'),
+                    NonTerminal('T')
+                ),
+            NonTerminal('X'),
+            NonTerminal('Y')),
+            Sequence(
+                NonTerminal('C'),
+                NonTerminal('x1'),
+                NonTerminal('y1'),
+                NonTerminal('x2'),
+                NonTerminal('y2'),
+                NonTerminal('x'),
+                NonTerminal('y')
+            ),
+            Sequence(
+                NonTerminal('S'),
+                NonTerminal('x2'),
+                NonTerminal('y2'),
+                NonTerminal('x'),
+                NonTerminal('y')
+            ),
+            Sequence(
+                NonTerminal('Q'),
+                NonTerminal('x1'),
+                NonTerminal('y1'),
+                NonTerminal('x'),
+                NonTerminal('y')
+            ),
+            Sequence(
+                NonTerminal('H'),
+                NonTerminal('y')
+            ),
+            Sequence(
+                NonTerminal('V'),
+                NonTerminal('x')
+            ),
+            NonTerminal('Z')
+    ),
+  ',')
+)
+{% endcomment %}
+
 ## Positioning
 
-Unlike in HTML, where often elements are often flowed around each other, like
-with `float` or `position: inline-block`, SVG tends to treat positioning
-as absolute: all elements support a `transform` property, which [supports a variety of linear transformations](https://developer.mozilla.org/en-US/docs/SVG/Attribute/transform)
-but is often just a `translate(x, y)` to move an element around the page.
+You may be familar with [CSS Transforms](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transforms) -
+they're an efficient way to move around HTML elements without causing
+[browser reflows](https://developers.google.com/speed/articles/reflow), and with
+more flexibility than usual old CSS positioning.
+
+Unlike HTML which has [multiple systems of positioning](http://alistapart.com/article/css-positioning-101),
+SVG on the whole treats position as nested absolutes: adding a new element
+to an `<svg>` container rarely shuffles it around.
+
+SVG has its own transforms built in, which behave very similarly to CSS Transforms,
+though sometimes their performance is different. This is quite nice because
+otherwise, as you may have noticed, SVG's positioning is odd - a circle
+is positioned with `cx` and `cy` whereas a rectangle is positioned with
+`x` and `y`, and so on.
 
 These transforms are often nested, like with a `<g>` element: you'll use
 a group to shift your drawing by a few pixels to provide a margin, and then
@@ -71,7 +149,7 @@ in the page - for instance, the [iD editor](http://ideditor.com/) uses
 several `<g>` elements to stack roads, buildings, and rivers on top of
 each other in the right order.
 
-SVG also doesn't do **nesting** the same way as HTML, so SVG is used
+SVG also doesn't use **nesting** as much as HTML, so `<g>` is used
 to group items that are really just stacked on top of each other, like
 if you need a multi-circle stack for a bullseye.
 
@@ -97,4 +175,17 @@ The SVG equivalent is
     stroke: #000;
     stroke-width: 1;
 }
+{% endhighlight %}
+
+And unlike HTML, in which a div with a specific background color would tend
+to express that background color in a style definition:
+
+{% highlight html %}
+<div style='background:#eee;'></div>
+{% endhighlight %}
+
+In SVG it's common to set style options as attributes:
+
+{% highlight html %}
+<circle fill='#eee'></circle>
 {% endhighlight %}
