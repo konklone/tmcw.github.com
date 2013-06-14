@@ -18,6 +18,8 @@ part, or an even-lower-level one: [SVG](http://en.wikipedia.org/wiki/Scalable_Ve
 integrates with HTML and is implemented by most browsers. Unlike [Canvas](http://diveintohtml5.info/canvas.html),
 it's not raster-based but rather preserves the structure of your drawing
 and is much like HTML in terms of events, updates, and being-a-tree.
+Unlike Canvas, it's [old](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics#Development_history),
+big, and complex.
 
 Just like [math](macwright.org/2013/03/05/math-for-pictures.html), we tend
 to use a subset of SVG for most drawings: here's that.
@@ -189,3 +191,34 @@ In SVG it's common to set style options as attributes:
 {% highlight html %}
 <circle fill='#eee'></circle>
 {% endhighlight %}
+
+## SVG from Javascript
+
+d3 protects us from the oddity of interacting with SVG elements through some
+built-in magic. If you used d3 before v3, you would see code like
+
+{% highlight js %}
+svg.append("svg:text")
+{% endhighlight %}
+
+Instead of the simpler
+
+{% highlight js %}
+svg.append("text")
+{% endhighlight %}
+
+Herein lies a little detail: HTML and SVG use [XML Namespaces](http://en.wikipedia.org/wiki/XML_namespace)
+so that SVG can have a tag named `text` and so can HTML, if it wants to.
+SVG uses the namespace `http://www.w3.org/2000/svg`, and instead of simply
+calling [`document.createElement`](https://developer.mozilla.org/en-US/docs/Web/API/document.createElement), you'll need to use its cousin
+[`document.createElementNS`](https://developer.mozilla.org/en-US/docs/Web/API/document.createElementNS).
+
+So, to create an SVG element with a circle of radius 5, the necessary
+JavaScript would be:
+
+<iframe width="100%" height="300" src="http://jsfiddle.net/tmcw/e2pyx/3/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+A little dirty, right? Anyway, d3 simplifies this [since 2.6](https://github.com/mbostock/d3/issues/272)
+by automatically using the namespace `http://www.w3.org/2000/svg` to create
+the `<svg>` element, and then [selections](http://bost.ocks.org/mike/selection/)
+automatically use that namespace for each new insertion.
