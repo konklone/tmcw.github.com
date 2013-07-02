@@ -6,7 +6,7 @@
  * */
 
 p, li {
-  font: 15px/30px 'Georgia', Times, 'Times New Roman', serif;
+  font: 15px/30px 'Lora', 'Georgia', Times, 'Times New Roman', serif;
 }
 
 small {
@@ -14,7 +14,8 @@ small {
 }
 
 body {
-  color:#333;
+  -webkit-font-smoothing:antialiased;
+  color:#516066;
   width:640px;
   margin:0 auto;
 }
@@ -136,17 +137,15 @@ h1.site-name a:hover {
 }
 
 a {
-  color:#31356F;
+  color:#00588F;
   text-decoration:none;
 }
 
 p a, div.content ul li a {
-    text-decoration:underline;
 }
 
 p a:hover, div.content ul li a:hover {
-  color:#11143D;
-  text-shadow:0 0 2px #FFF9C9;
+  background: #FFF9C9;
 }
 
 a:hover {
@@ -256,11 +255,7 @@ div.image-cube a:hover {
   text-decoration:none;
 }
 
-p code, li code,g.highlight {
-  font: 13px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
-
-pre code {
+p code, li code,g.highlight, pre code {
   font: 13px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
