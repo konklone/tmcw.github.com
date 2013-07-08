@@ -3,6 +3,7 @@ layout: post
 title: The Open Code
 categories:
 - blog
+- dccode
 ---
 
 **tl;dr: thanks to good people, we now have an unencumbered digital copy of dc's laws.

@@ -3,6 +3,7 @@ layout: post
 title: A Sunday & An Open DC Code
 categories:
 - blog
+- dccode
 ---
 
 <p class='addendum'>
