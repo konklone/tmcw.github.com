@@ -80,7 +80,7 @@ ul.navigation {
 
 ul.navigation li {
   display:inline-block;
-  margin-left:20px;
+  margin-left:10px;
   /* abolish when IE7 is gone. */
   zoom:1;
   *display:inline;
@@ -106,17 +106,16 @@ h1, h2 {
 }
 
 h1 {
-  font: bold 30px/40px 'Helvetica Neue', Helvetica, sans-serif;
-  font: normal 30px/40px 'Georgia', serif;
+  font: normal 35px/40px 'Lora', serif;
 }
 
 h2 {
-  font: normal 20px/40px 'Georgia', serif;
+  font: normal 20px/40px 'Lora', serif;
   margin:10px 0;
 }
 
 h3 {
-  font: normal 18px/30px 'Georgia', serif;
+  font: normal 18px/30px 'Lora', serif;
   margin:10px 0;
 }
 
