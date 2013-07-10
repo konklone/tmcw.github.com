@@ -62,7 +62,7 @@ that the code that handles clicks won't run until there's a click. But all
 _around_ that code that can wait is normal code that runs immediately, as
 soon as your computer sees it.
 
-<iframe src='http://bl.ocks.org/tmcw/raw/5962074/3fdefaff4cb424535590aab153b1fe206d74bb64' width='100%' height=200></iframe>
+<iframe src='http://bl.ocks.org/tmcw/raw/5962074' width='100%' height=200></iframe>
 
 Why doesn't this say 'Hi, Tom'? Well, the code that adds ', Tom' is _below_
 the code that adds 'Hi', which usually means that it runs _after_.
