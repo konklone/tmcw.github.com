@@ -65,6 +65,10 @@ think more about this kind of thing.
 
 [![Daily Bus Supply](http://farm6.staticflickr.com/5464/9507634971_22a17fa8e0_o.png)](http://www.flickr.com/photos/tmcw/9507634971/sizes/o/in/photostream/)
 
+<a href='http://imgur.com/ESPtf1p'><img src='http://i.imgur.com/ESPtf1p.gif' width=640 height=640 /></a>
+
+<span class='image-credit'>buses traveling through the system</span>
+
 There are often almost 400 buses on the roads at one time, but the number is
 anything but consistent. Gaps are due to the wmataapiapi instance starting to sleep,
 but the falloff at midnight I think is WMATA shutting off tracking.
