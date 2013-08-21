@@ -3,6 +3,7 @@ layout: post
 title: How the Law is Compiled in Washington DC
 categories:
 - blog
+- dccode
 ---
 
 Last time [we talked about how the Law is written and passed in Washington DC](http://macwright.org/2013/02/11/the-code-written.html).

@@ -3,6 +3,7 @@ layout: post
 title: You Cannot Have the DC Code
 categories:
 - blog
+- dccode
 ---
 
 ![](http://farm9.staticflickr.com/8108/8489366246_68dce8f0c8_o.png)

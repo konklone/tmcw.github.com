@@ -3,6 +3,7 @@ layout: post
 title: How The Law Is Written and Passed in Washington, DC
 categories:
 - blog
+- dccode
 ---
 
 **The DC Code is the compilation of all laws passed by the DC Council.** It includes

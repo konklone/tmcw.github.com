@@ -53,8 +53,14 @@ the same kind of object and same basic approach as before.
 
 `new`-based objects in red, `closure` based objects in green. It takes
 87ms to initialize 524,288 instances with `new`, and 347ms to initialize
-with closures. I'm assuming that this is caused by the increased cost of context
-objects as before with memory.
+with closures. <strike>I'm assuming that this is caused by the increased cost of context
+objects as before with memory.</strike>
+
+[Petka Antonov](https://github.com/petkaantonov) writes that function objects,
+not contexts, are the reason for the memory-usage difference, and the difference
+is amplified as more functions are enclosed, since V8 stores a function object
+for each and every function created. Function objects occupy roughly 2x the size
+of regular objects in V8.
 
 ## Using This Knowledge
 

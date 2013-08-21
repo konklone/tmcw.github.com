@@ -3,6 +3,7 @@ layout: post
 title: "The Code: Access vs. Ownership"
 categories:
 - blog
+- dccode
 ---
 
 My previous article about [the inaccessibility of complete copies of the DC Code](http://macwright.org/2013/02/20/you-cannot-have-the-code.html)

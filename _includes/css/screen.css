@@ -6,7 +6,7 @@
  * */
 
 p, li {
-  font: 15px/30px 'Georgia', Times, 'Times New Roman', serif;
+  font: 15px/30px 'Lora', 'Georgia', Times, 'Times New Roman', serif;
 }
 
 small {
@@ -14,7 +14,8 @@ small {
 }
 
 body {
-  color:#333;
+  -webkit-font-smoothing:antialiased;
+  color:#516066;
   width:640px;
   margin:0 auto;
 }
@@ -79,7 +80,7 @@ ul.navigation {
 
 ul.navigation li {
   display:inline-block;
-  margin-left:20px;
+  margin-left:10px;
   /* abolish when IE7 is gone. */
   zoom:1;
   *display:inline;
@@ -109,17 +110,16 @@ h1, h2 {
 }
 
 h1 {
-  font: bold 30px/40px 'Helvetica Neue', Helvetica, sans-serif;
-  font: normal 30px/40px 'Georgia', serif;
+  font: normal 35px/40px 'Lora', serif;
 }
 
 h2 {
-  font: normal 20px/40px 'Georgia', serif;
+  font: normal 20px/40px 'Lora', serif;
   margin:10px 0;
 }
 
 h3 {
-  font: normal 18px/30px 'Georgia', serif;
+  font: normal 18px/30px 'Lora', serif;
   margin:10px 0;
 }
 
@@ -140,7 +140,7 @@ h1.site-name a:hover {
 }
 
 a {
-  color:#31356F;
+  color:#00588F;
   text-decoration:none;
   transition:border 100ms ease-in;
   border-bottom:1px solid #D5D5E9;
@@ -154,8 +154,7 @@ p a, div.content ul li a {
 }
 
 p a:hover, div.content ul li a:hover {
-  color:#11143D;
-  text-shadow:0 0 2px #FFF9C9;
+  background: #FFF9C9;
 }
 
 a:hover {
@@ -265,11 +264,7 @@ div.image-cube a:hover {
   text-decoration:none;
 }
 
-p code, li code,g.highlight {
-  font: 13px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
-
-pre code {
+p code, li code,g.highlight, pre code {
   font: 13px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
