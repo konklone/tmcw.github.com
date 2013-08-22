@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Repetitive Process
-categories:
-- blog
+categories: 
+  - blog
+published: true
 ---
 
 ![](http://farm6.staticflickr.com/5455/9564812531_f4db056347_b.jpg)
@@ -49,7 +50,7 @@ categories:
     - A 'See Also' section if this project has open-source brothers and sisters,
       or took heavy inspiration from some other project or paper.
     - READMEs _do not_ need to include the software license (this can be in
-      LICENSE, nor the name of authors (this is in `package.json` and the commit
+      LICENSE), nor the name of authors (this is in `package.json` and the commit
       history), nor TODOs (this is in your issue tracker or code). READMEs
       are about present code, not people, laws, or plans.
 13. Add files and a message for the first commit with [vim-fugitive](https://github.com/tpope/vim-fugitive)
@@ -69,14 +70,14 @@ categories:
 ---
 
 <ol>
-<li id='open'>**an open need**: a finite need that people have. People can be just
+<li id='open'><strong>an open need</strong>: a finite need that people have. People can be just
 you, but it should not be just you just right now: the impact of technology
 is people × time.</li>
-<li id='naming'>**do not name your project yet**: registering domain names
+<li id='naming'><strong>do not name your project yet</strong>: registering domain names
 for projects before they have code on the ground has cursed every single one.
 and if your project is code, you <em>do not know what it will be yet</em>:
 it could be one piece, a lot of parts, or just documentation and a blog post.</li>
-<li id='gh-pages'>**use gh-pages for everything**: you don't _need_ a master branch.
+<li id='gh-pages'><strong>use gh-pages for everything</strong>: you don't _need_ a master branch.
 If something else is default, people will clone that by default, automatically.
 `gh-pages` is just like `master`, except with perks: automatic, free web hosting.</li>
 </ul>
