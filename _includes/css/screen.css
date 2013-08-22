@@ -143,10 +143,13 @@ a {
   color:#00588F;
   text-decoration:none;
   transition:border 100ms ease-in;
+}
+
+.body a {
   border-bottom:1px solid #D5D5E9;
 }
 
-a:hover {
+.body a:hover {
   border-bottom:1px solid #31356F;
 }
 
