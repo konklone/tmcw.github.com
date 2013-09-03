@@ -6,43 +6,87 @@ categories:
 published: true
 ---
 
-The increasing structural complexity of open projects reframes userbase growth
-as a threat rather than a boon for success.
+In order for the internet's major collaborative projects to gain momentum,
+they need to reach non-expert users with simpler tools. Realizing this
+is a challenge for reasons beyond technology.
 
-[OpenStreetMap](http://www.openstreetmap.org/) is a collaborative map project.
-Like Wikipedia, it's created and owned by a large base of unpaid collaborators
-and accurate because of community process rather than oversight and control.
+In the last few months, I worked on the [iD editor](http://ideditor.com/) project
+for [OpenStreetMap](http://www.openstreetmap.org/), a collaborative map.
+Editing OpenStreetMap tends to look like this.
 
-Like text needs a tool for editing, like Microsoft Word or a `<textarea>` element
-on the web, maps need editors. We saw OpenStreetMap's existing editors and saw
-room for growth - [JOSM](http://josm.openstreetmap.de/) is a massive, intimdating
-Java application, whereas [Potlatch 2](http://wiki.openstreetmap.org/wiki/Potlatch_2)
-is a homely Flash-powered project.
+<img src='http://farm3.staticflickr.com/2850/9630393054_087048b37f_b.jpg' class='white-on-white' />
 
-In short, map data is an inherently global resource, and existing tools would
-only empower a small set of potential collaborators.
+This interface could be better, it could be prettier, but this editing tool,
+[JOSM](http://josm.openstreetmap.de/), is a perfectly effective option for
+advanced users.
 
-So, mid-2013, the [iD editor project](http://ideditor.com/) was gearing up for launch on
-[OpenStreetMap](http://www.openstreetmap.org/).
-The functionality was sufficient for most and few people commented on details
-like design and internal architecture.
+<img src='http://farm8.staticflickr.com/7443/9627187431_8992b8d781_b.jpg' class='white-on-white' />
 
-Instead of technical feedback, the protests against iD were cultural and theoretical:
-new tools enable new users to do things we only trust ourselves to do.
+iD is simpler, and in practice we've found that it requires less intensive education and
+fewer explanatory [YouTube videos](http://www.youtube.com/watch?v=jRqn-S9maL0).
+
+Launching iD has been an interesting experience<sup><small><a href='#john'>j</a></small></sup>:
+in the threads that resulted <sup><small><a href='#threads'>t</a></small></sup>,
+the objections centered around potential damage to the map, about the danger
+of letting newbies tinker with the community's resource.
 
 > As others posted, I think the trash can icon is far too prominent: three
 clicks from the home page and an new contributor's first action with OSM
-could be to accidentally delete something!
+could be to accidentally delete something! [*](http://lists.openstreetmap.org/pipermail/talk/2013-August/067872.html)
 
-[*](http://lists.openstreetmap.org/pipermail/talk/2013-August/067872.html)
+The phenomenon was crystallized when I received a nice note from
+[Steven Walling](http://bit.ly/15Trivv) that [pointed out the similarity between
+our project and VisualEditor](https://twitter.com/StevenWalling/status/356875662964953088),
+a project by the [WikiMedia Foundation](http://wikimediafoundation.org/wiki/Home)
+to [simplify editing Wikipedia](http://www.mediawiki.org/wiki/VisualEditor).
 
-> I tried deleting a few things and there was no warning that I was acting
-destructively.
+And, within a few minutes, a now-deleted tweet from [Gregory Kohs](http://www.mywikibiz.com/Directory:Gregory_J._Kohs)
+linking [his article in examiner.com](http://www.examiner.com/article/wikipedia-s-new-editing-software-gets-failing-grade)
+about how the editor is - you guessed it, potentially damaging the community's
+resource, managed by a sinister for-profit by a character-assassinated project
+manager.
 
-[*](http://lists.openstreetmap.org/pipermail/talk/2013-August/067912.html)
+## Structural Complexity
 
-The massive threads, for those with patience and tolerance: [1](http://lists.openstreetmap.org/pipermail/talk/2013-August/thread.html#67850),
-[2](http://lists.openstreetmap.org/pipermail/talk/2013-May/thread.html#66959)
+It's very difficult to build a safe editor for OpenStreetMap,
+just the same as it is to build a safe editor for Wikipedia. OSM
+may be 'just roads' and Wikipedia is just text.
+
+But in the struggle to reflect the world's idiosyncracies, the data models
+of collaborative projects become twisted, fragile, and subtle in ways that
+work counter to the idea of collaboration.
+
+### Relations
+
+In OpenStreetMap, the best example is the idea of a '[relation](http://wiki.openstreetmap.org/wiki/Relation)'. While what
+you see on the map is made up of simple points and lines between them
+([nodes](http://wiki.openstreetmap.org/wiki/Node) and [ways](http://wiki.openstreetmap.org/wiki/Ways) in the lingo),
+relations form an invisible third layer - connecting boundaries, bus routes,
+multipolygons, turn restrictions, [themselves, recursively](http://wiki.openstreetmap.org/wiki/Super-Relation),
+[and much more](http://wiki.openstreetmap.org/wiki/Types_of_relation).
+
+Relations are non-geometric, non-visual entities with implied meaning
+that can be deleted carelessly by users who don't know their existence in the
+first place, and to try to explain them to newcomers is, let's say, tough.
+
+### Wiki markup & Templates
+
+The axis of Wikipedia is [wiki markup](https://en.wikipedia.org/wiki/Help:Wiki_markup),
+a non-standardized, expansive set of commands that connect pages and declare
+styles.
+
+Markup languages are, as a species, divided into dialects - HTML into XHTML and
+HTML5, [Markdown](http://daringfireball.net/projects/markdown/) quickly
+splintering into extended and GitHub-flavored versions. The difficulty
+of representing information means that standards leak at the edges into trades
+of compatibility for power.
+
+This happened with Wikitext - a [standardized version called Creole](http://bit.ly/17By6wk)
+failed to catch on to Wikipedia itself. And Wikipedia's version has expanded
+into relation-like complexity - [interdependent templates](https://en.wikipedia.org/wiki/Help:Template)
+form much of the structure of the encyclopedia, and those 'most active editors'
+actually spend much of their time refining style and dealing with 'special syntax',
+as discovered in [Aaron Swartz's incredible Who Writes Wikipedia?](http://www.aaronsw.com/weblog/whowriteswikipedia).
 
 ## Permission and Ability
 
@@ -64,20 +108,11 @@ map editing interface.
 "Your Edit Was Approved". This is [Google Map Maker](http://www.google.com/mapmaker),
 with an unimportant change.
 
-<img src='http://farm3.staticflickr.com/2850/9630393054_087048b37f_b.jpg' class='white-on-white' />
-
-The [JOSM](http://josm.openstreetmap.de/) interface.
-
-<img src='http://farm8.staticflickr.com/7443/9627187431_8992b8d781_b.jpg' class='white-on-white' />
-
-The [iD editor](http://ideditor.com/) interface.
-
-## Invisible Data
-
-
-
-## Details and Style
-
-There's no better counter to traditional long-tail crowdsourcing thought
-than [Aaron Swartz's Who Writes Wikipedia?](http://www.aaronsw.com/weblog/whowriteswikipedia):
-instead of having 
+<ul>
+<li id='john'>All credit to <a href='https://github.com/jfirebaugh'>John Firebaugh</a>
+for persisting through waves of critique and the massive work required to make
+this a reality.</li>
+<li id='threads'><a href='http://lists.openstreetmap.org/pipermail/talk/2013-August/thread.html#67850'>1</a>
+<a href='http://lists.openstreetmap.org/pipermail/talk/2013-May/thread.html#66959'>2</a>
+</li>
+</ul>
