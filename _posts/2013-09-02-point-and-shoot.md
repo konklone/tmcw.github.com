@@ -88,15 +88,13 @@ form much of the structure of the encyclopedia, and those 'most active editors'
 actually spend much of their time refining style and dealing with 'special syntax',
 as discovered in [Aaron Swartz's incredible Who Writes Wikipedia?](http://www.aaronsw.com/weblog/whowriteswikipedia).
 
-## Permission and Ability
+## Expectations and Trust
 
-One of the most interesting parts of explaining OpenStreetMap is answering the
-inevitable 'permission' question: can a new user just delete data from the map?
+<img src='http://farm6.staticflickr.com/5464/9666530668_26fbd1d4cc_b.jpg' class='white-on-white' />
 
-Can _anyone_ really change the map? It's a reasonable expectation coming
-from the GIS world obsessed with authenticity, permission, and authority,
-to think that some parallel to these values will exist elsewhere, but the truth
-is that, in this case, it doesn't. Or, rather, it doesn't directly.
+[Real-life feedback](https://en.wikipedia.org/wiki/Wikipedia:VisualEditor/Feedback#Good_for_vandalism) on the VisualEditor project.
+
+## Controls
 
 <img src='http://farm6.staticflickr.com/5329/9627077599_7d794680b8_b.jpg' class='white-on-white' />
 
@@ -107,6 +105,8 @@ map editing interface.
 
 "Your Edit Was Approved". This is [Google Map Maker](http://www.google.com/mapmaker),
 with an unimportant change.
+
+## Footnotes
 
 <ul>
 <li id='john'>All credit to <a href='https://github.com/jfirebaugh'>John Firebaugh</a>
