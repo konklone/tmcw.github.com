@@ -6,33 +6,69 @@ categories:
 published: true
 ---
 
-In order for the internet's major collaborative projects to gain momentum,
-they need to reach non-expert users with simpler tools. Realizing this
-is a challenge for reasons beyond technology.
+Accessibility is a subtle and complex attribute of technology.
 
-In the last few months, I worked on the [iD editor](http://ideditor.com/) project
-for [OpenStreetMap](http://www.openstreetmap.org/), a collaborative map.
-Editing OpenStreetMap tends to look like this.
+On first glance, ease of use is simply positive. When email became easy to use,
+it started to reach grandmothers and public servants, not just programmers
+and scientists.
+
+The expansion of a userbase, what some might call 'empowerment', isn't simple.
+
+That is to say, technological hurdles can be intentional, acting as a filter
+preserving social and demographic aspects of a community.
+
+## OpenStreetMap & iD
+
+In the last few months, a team at MapBox worked on a new editor for
+[OpenStreetMap](http://www.openstreetmap.org/). OpenStreetMap is a Wikipedia-like
+project that has constructed a map of the world with the help of volunteers.
+And an 'editor' like iD is a tool that enables members of that community to
+do things like draw roads and houses, or add detail to nearby stores.
+
+OSM already has quite a few options for that kind of tool, but all lacked
+a level of friendliness on par with modern software.
 
 <img src='http://farm3.staticflickr.com/2850/9630393054_087048b37f_b.jpg' class='white-on-white' />
 
-This interface could be better, it could be prettier, but this editing tool,
-[JOSM](http://josm.openstreetmap.de/), is a perfectly effective option for
-advanced users.
+Here's [JOSM](http://josm.openstreetmap.de/), the preferred power-tool for editing
+OSM. My configuration is rather pared down.
 
 <img src='http://farm8.staticflickr.com/7443/9627187431_8992b8d781_b.jpg' class='white-on-white' />
 
 iD is simpler, and in practice we've found that it requires less intensive education and
 fewer explanatory [YouTube videos](http://www.youtube.com/watch?v=jRqn-S9maL0).
 
-Launching iD has been an interesting experience<sup><small><a href='#john'>j</a></small></sup>:
-in the threads that resulted <sup><small><a href='#threads'>t</a></small></sup>,
-the objections centered around potential damage to the map, about the danger
-of letting newbies tinker with the community's resource.
+## The Launch
+
+And so we built iD, and got it pretty much ready to launch - we posted notes
+<sup><small><a href='#john'>j</a></small></sup>
+<sup><small><a href='#threads'>t</a></small></sup>
+to the OSM community and listened to what they had to say.
+
+While conversations veered into tangents and filled inboxes,
+two concerns emerged:
+
+1. Will this software hurt the map?
+2. What will 'newbies' do?
+
+Both are interesting and surprisingly general.
+
+## Software Meets Community Resource
+
+Like Wikipedia in its early days, there are few restrictions on what a
+newcomer can do to OSM's database. Someone can sign up and delete all the houses
+in a city, or draw a heart in the ocean - and people do, but it's usually noticed
+and undone by a more experienced, mature person.
+
+But the potential for damaging the map is more complex than simple vandalism:
+the fear is that software doesn't know the full extent of how OpenStreetMap
+works, and will unknowingly corrupt data.
 
 > As others posted, I think the trash can icon is far too prominent: three
 clicks from the home page and an new contributor's first action with OSM
 could be to accidentally delete something! [*](http://lists.openstreetmap.org/pipermail/talk/2013-August/067872.html)
+
+## VisualEditor
 
 The phenomenon was crystallized when I received a nice note from
 [Steven Walling](http://bit.ly/15Trivv) that [pointed out the similarity between
