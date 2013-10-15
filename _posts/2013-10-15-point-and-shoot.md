@@ -8,6 +8,8 @@ published: true
 
 This is about the function of difficulty in collaborative communities.
 
+![](http://farm4.staticflickr.com/3830/10290614074_4263d6cbde_b.jpg)
+
 A little while ago I worked on a project called [iD](http://ideditor.com/),
 a bit of software that tries to make a big open data project called
 [OpenStreetMap](http://www.openstreetmap.org/) easier to contribute to.
@@ -131,6 +133,12 @@ map editing interface.
 
 "Your Edit Was Approved". This is [Google Map Maker](http://www.google.com/mapmaker),
 with an unimportant change.
+
+These 'access controls' look corporate and un-free from the other side, but
+in a way they are an explicit way to make sure that users have only as much
+power as they have knowledge and experience. It's an explicit implementation
+of the implicit partitioning that Wikipedia & OSM have with technical learning
+curves.
 
 ## Which Is To Say
 
