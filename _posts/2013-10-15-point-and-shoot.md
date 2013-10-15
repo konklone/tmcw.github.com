@@ -47,7 +47,7 @@ lead the user to delete and then create a new object. [*](https://lists.openstre
 
 <img src='http://farm3.staticflickr.com/2858/10279271506_5d4e4e2a2c_c.jpg' class='white-on-white' />
 
-> [@stevenwalling](https://twitter.com/StevenWalling) [@tmcw](https://twitter.com/tmcw)
+> [@stevenwalling](https://twitter.com/StevenWalling): [@tmcw](https://twitter.com/tmcw)
   I see a ton of parallels btwn what you're doing and what we're doing [@Wikimedia](https://twitter.com/Wikimedia) with VisualEditor and educating new Wikipedians.
 
 A little while later, I received a note from
