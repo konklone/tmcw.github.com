@@ -33,8 +33,8 @@ simple ray tracers to learn from. Prior work skews either to barely-finished
 homework assignments or intimidating industrial-strength
 research projects.
 
-It will need more work to be totally straightforward - writing code in this
-fashion - so that it works in a linear explanation and there are no undocumented
-mysteries - is a significant challenge and I've done it in parallel to actually
+It will need more work to be totally straightforward: writing code in this
+fashion, so that it works in a linear explanation and there are no undocumented
+mysteries, is a significant challenge and I've done it in parallel to actually
 learning the concepts. If you can help clarify the implementation, or point
 out potential stumbling blocks, [head over to the open source project.](https://github.com/tmcw/literate-raytracer),
