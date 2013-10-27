@@ -6,14 +6,35 @@ categories:
 published: true
 ---
 
-**Raytracing** is a relatively simple way to render images of 3D objects. The core is an elegant idea, that one can simulate the real-world behavior of photons of light bouncing off of surfaces and colors accumulating from their paths. It's not inherently fast, but the simplicity of the core lets it model interesting things like reflections and depth of field in ways that mirror natural processes.
+![](http://farm4.staticflickr.com/3781/10524236814_8fcbe98e4e_h.jpg)
 
-## CS 301: Raytracing
+[Literate ray tracer is a simple implementation of raytracing in JavaScript](http://macwright.org/literate-raytracer/)
+in the [literate programming](http://en.wikipedia.org/wiki/Literate_programming)
+style. It aims to fuse the mathematical explanation of the algorithm with
+an actual implementation, shunning any undocumented or unexplained corners.
 
-This happens to be a popular subject for education: implementing a raytracer requires a student to understand vector math, fast code, and even recursion. The reward is a pretty image - more compelling than the blasé debug output that students get from most assignments.
+Ideally after reading it, you not only have some idea how it works, but also
+have some creative thoughts about new things that could be built with the same
+concepts.
 
-But it's still hard to learn: explanations are written either in the language of mathematics or programming, and rarely connect all the dots. Raytracer implementations tend to extremes: one [fits on a business card](http://fabiensanglard.net/rayTracing_back_of_business_card/), another [supports nearly every potential feature](http://www.povray.org/), and most of the rest are [homework assignments](https://github.com/search?q=raytracer+cs&ref=cmdform), implemented just enough to run, never enough to have comments and documentation.
+[Ray tracing](http://en.wikipedia.org/wiki/Ray_tracing_(graphics) is a beautifully
+simple way to draw 3D scenes from the ground up, using just math. Unlike
+WebGL, you can write the whole thing in any simple language, like JavaScript or
+Python.
 
-## Literate Raytracer
+Ray tracing isn't great for realtime graphics, but I think it's incredibly
+effective for learning, and a great basis for creative rendering techniques.
 
-[Literate raytracer](https://github.com/tmcw/literate-raytracer) is a simple implementation of raytracing in Javascript. It's [made to be read as a narrative](http://macwright.org/literate-raytracer/), and intends to [explain vector operations](http://macwright.org/literate-raytracer/vector.html) as well.
+![](http://farm3.staticflickr.com/2851/10524788334_b3b0d58e16_h.jpg)
+
+Unfortunately it's not easy to learn ray tracing, and for mostly silly
+reasons. There's a near-total lack of commented, explained,
+simple ray tracers to learn from. Prior work skews either to barely-finished
+homework assignments or intimidating industrial-strength
+research projects.
+
+It will need more work to be totally straightforward - writing code in this
+fashion - so that it works in a linear explanation and there are no undocumented
+mysteries - is a significant challenge and I've done it in parallel to actually
+learning the concepts. If you can help clarify the implementation, or point
+out potential stumbling blocks, [head over to the open source project.](https://github.com/tmcw/literate-raytracer),
