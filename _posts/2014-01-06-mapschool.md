@@ -11,7 +11,7 @@ published: true
 [**mapschool** is an educational project about maps.](http://macwright.org/mapschool/)
 In modern-day terms, it's about GIS, cartography, and a bit of everything else.
 
-It's for people how the earth and its stuff becomes data and how that data
+It's for teaching people how the earth and its stuff becomes data and how that data
 turns into pictures and ideas.
 
 I hope that it's a
