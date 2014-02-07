@@ -3,9 +3,18 @@ layout: projects
 title: Projects
 ---
 
-My hope is to enable those with more talent and time than myself; all of the
-projects below are open-source and I'll continue to try to document and explain
-everything.
+<br />
+
+<a href='http://mapschool.io/'><img src='http://farm3.staticflickr.com/2833/12127751556_4d9fa46422_b.jpg'></a>
+
+<a href='http://mapschool.io/'>mapschool</a> is a free, simple, and open introduction
+to the world of maps.
+
+<br />
+
+<a href='http://geojson.io/'><img src='http://farm8.staticflickr.com/7446/12372667554_8e4a3613f1_b.jpg'></a>
+
+You can draw, share, and edit maps with <a href='http://geojson.io/'>geojson.io</a>.
 
 <br />
 
