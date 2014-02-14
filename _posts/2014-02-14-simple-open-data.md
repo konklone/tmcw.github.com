@@ -15,7 +15,7 @@ Simple Open Data fills a void: concrete, straightforward information. Each eleme
 
 So simpleopendata.com is simple. Which means it has a few opinions.
 
-[API](http://en.wikipedia.org/wiki/Application_programming_interface)s are optional. For large datasets that lend themselves to APIs and for organizations that have the resources, they can be beneficial. Elsewhere, hard rules like "APIs for everything" are dangers: they devalue vital incremental steps, like simple downloads. The mistake of 'checking all the boxes' leads too many local governments to buy a license to [Socrata](http://www.socrata.com/) or spend a few weeks setting up [CKAN](http://ckan.org/) when an FTP server would have done just fine, and would actually be superior for bulk downloading data.
+[API](http://en.wikipedia.org/wiki/Application_programming_interface)s are optional. For large datasets that lend themselves to APIs and for organizations that have the resources, they can be beneficial. Elsewhere, hard rules like "APIs for everything" are harmful: they devalue vital incremental steps, like simple downloads. The mistake of 'checking all the boxes' leads too many local governments to buy a license to [Socrata](http://www.socrata.com/) or spend a few weeks setting up [CKAN](http://ckan.org/) when an FTP server would have done just fine, and would actually be superior for bulk downloading data.
 
 The [ODbL](http://opendatacommons.org/licenses/odbl/) license and others with [share-alike](https://en.wikipedia.org/wiki/Share-alike) clauses are not recommended. I've seen firsthand the detrimental effect of untested and broad legal language on potential users.
 
