@@ -5,6 +5,12 @@ title: Projects
 
 <br />
 
+<a href='http://simpleopendata.com/'><img src='http://farm3.staticflickr.com/2855/12510583234_2d46d5ec00_h.jpg' class='white-on-white' /></a>
+
+<a href='http://simpleopendata.com/'>simpleopendata.com</a> guides & explains open data without jargon or complexity.
+
+<br />
+
 <a href='http://mapschool.io/'><img src='http://farm3.staticflickr.com/2833/12127751556_4d9fa46422_b.jpg'></a>
 
 <a href='http://mapschool.io/'>mapschool</a> is a free, simple, and open introduction
