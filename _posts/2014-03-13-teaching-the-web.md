@@ -58,19 +58,30 @@ It wasn't easy to choose an editor, and I think Sublime was the wrong choice. It
 3. The 'tabs + sidebar' navigation was confusing. Disappearing tabs are poorly communicated by the interface, and tabs don't convey the difference between files with the same name in different folders.
 4. By default, Sublime doesn't have JavaScript formatting and I didn't have enough time to configure a plugin for it (or find some hidden preference).
 
-Point #2 could use a little more detail: while I think there's a larger problem of premature optimization of writing code when editing & refactoring are the main tasks, let's see one example:
+## Exercises make working knowledge
 
-A student has the code
+Sarah wisely added exercises after each short lesson. After we learn a few more HTML tags, we make a quick 'about me' page or make a `<table>` of our favorite foods. Doing this quickly gave us a gauge of how kids were catching on and gave students the ability to see why they were learning this stuff.
 
-{% highlight js %}
-player.moveLeft();
-{% endhighlight %}
+## Projects
 
-And I'm helping them add a condition that tells the player only to move left when a key is down, so they write
+On day three, we started on projects: four students built photo portfolios, two built games, and four worked in a group creating a student blog with Tumblr.
 
-{% highlight js %}
-if (keyDown) {}
-player.moveLeft();
-{% endhighlight %}
+## Portfolios
 
-The second `}` is inserted by the editor, and there's no real way to write this code without having to write `{`, delete `}`, and then write `}` in the right place.
+I built a quick [template](https://github.com/tmcw/intersession/tree/gh-pages/starts/photos) for photo galleries, which was modified by the students - quickly we went towards Google Fonts for a custom look, switched to auto-advancing slides, switched up colors and other details.
+
+## Games
+
+The two students playing games, a junior and senior, built their creations with [Coquette](#), an excellent library by Mary Rose Cook. One game, called Flying Mario, evolved from a side-scroller to a helicopter-like game with Mario-inspired graphics and style. The other, The Raze Maze, is a 2D dungeon crawler with hand-drawn pixel graphics and moving things to grab. Both are awesome.
+
+The games were far different in scope and skills than the other projects - there was an awesome moment where a student used trigonometry in the real world for the first time, making little pixel rectangle targets move in a video game. But we also bumped into some of the hard problems of games, like how to do collision detection and have different entities in the game exhibit different behavior. I was fascinated by the 'tuning' tasks that students quickly mastered, like adjusting the ratio between gravity and jump height to make a game tricky, or designing a maze with nothing more than pixel coordinates and sizes of rectangles.
+
+In all, Coquette was fantastic for this purpose and let us focus mostly on actual topics and behavior of the games. For the small issues we found, I'm making notes to create examples or patches to make things even better.
+
+## School Blog
+
+The final project was a school blog, [brook-posts.com](http://brook-posts.com/). We chose to host it on Tumblr, since it permitted HTML & CSS editing. My sister's skills were mainly for Wordpress, and I rarely use blogging software (this blog is on Jekyll), so this was a bit of the 'unknown'. We quickly wanted to change the page from the template - which, in itself, is awesome: before this class, I doubt kids would have pushed beyond default settings.
+
+## Let's Talk URLs
+
+I never did a lesson on URLs, and I should have: what blends into the background for me is not obvious to others. How you link between files, what the different parts of a URL mean: these are obscured by most tools we use. Every once in a while Google Chrome even experiments with hiding the `http://`, increasing the level of abstraction even more. A visual explanation combined with an exercise of right-clicking and seeing how things get linked together might have eliminated a lot of confusion down the line.
