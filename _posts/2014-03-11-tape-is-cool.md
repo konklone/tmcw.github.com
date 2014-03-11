@@ -51,7 +51,7 @@ Simple as that. Since tape is just a node module and browserify turns the whole 
 
 ## Concepts
 
-A quick review: TAP is a standard for test output. `[node-tap](https://github.com/isaacs/node-tap)` and `[tape](https://github.com/substack/tape)` are two [node](http://nodejs.org/) modules that let you write tests that output results in the TAP protocol.
+A quick review: TAP is a standard for test output. [node-tap](https://github.com/isaacs/node-tap) and [tape](https://github.com/substack/tape) are two [node](http://nodejs.org/) modules that let you write tests that output results in the TAP protocol.
 
 So, we've discussed TAP a little bit, and you might notice that mocha [supports TAP too](http://visionmedia.github.io/mocha/#tap-reporter). So why not just use mocha to write tests? Let's talk about that.
 
