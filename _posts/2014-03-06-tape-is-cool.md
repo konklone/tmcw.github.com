@@ -6,7 +6,7 @@ categories:
 published: true
 ---
 
-![a wall in philadelphia](http://farm3.staticflickr.com/2808/12958201333_2ef88bdb3b_b.jpg)
+![](http://farm4.staticflickr.com/3576/13085734134_eb0398038a_b.jpg)
 
 [node-tap](https://github.com/isaacs/node-tap) & [tape](https://github.com/substack/tape) are simple, awesome testing tools for JavaScript. The JavaScript community has grown up with testing culture, and the vast majority of projects use larger tools like [Mocha](http://visionmedia.github.io/mocha/) and [Jasmine](http://jasmine.github.io/). Recently I've been switching lots of projects over to tap & tape, and want to share why.
 
@@ -14,9 +14,7 @@ published: true
 
 What it sorts down into is roughly three parts: the protocol, browserify, and magic.
 
-## The Protocol
-
-<img alt='tap' src='https://farm3.staticflickr.com/2894/12957966915_6f8a252434_o.png' class='white-on-white' />
+## The Test Anything Protocol
 
 The [Test Anything Protocol](https://en.wikipedia.org/wiki/Test_Anything_Protocol) is the definition of 'tried & true': it's been around since 1987 and has been implemented in [a ton of languages](https://en.wikipedia.org/wiki/Test_Anything_Protocol#List_of_TAP_producers). It's just a dead-simple way to format test results, like
 
@@ -51,16 +49,24 @@ $ browserify test/test.js | testling
 
 Simple as that. Since tape is just a node module and browserify turns the whole thing into just JavaScript, it's easy to run it anywhere you want - embedded in a webpage, in a browser, or wherever. `tape` uses `console.log` to write its results, which is super easy to pull out of a headless browser.
 
+## Concepts
+
+A quick review: TAP is a standard for test output. `[node-tap](https://github.com/isaacs/node-tap)` and `[tape](https://github.com/substack/tape)` are two [node](http://nodejs.org/) modules that let you write tests that output results in the TAP protocol.
+
+So, we've discussed TAP a little bit, and you might notice that mocha [supports TAP too](http://visionmedia.github.io/mocha/#tap-reporter). So why not just use mocha to write tests? Let's talk about that.
+
 ## Magic
 
-Using mocha always gave me a bad feeling about magic. With only few exceptions, nodejs has the assumption that any variables on a page will come from obvious places:
+![](http://farm3.staticflickr.com/2419/13085211145_a8025bb7b2_b.jpg)
+
+Mocha does a little magic. With only few exceptions, nodejs has the assumption that any variables on a page will come from obvious places:
 
 {% highlight js %}
 // this comes from a module
 var module = require('module');
 {% endhighlight %}
 
-In the interest of simplicity, `mocha` doesn't do that. Your mocha test files have assumptions:
+In the interest of simplicity, `mocha` doesn't follow this rule. Your mocha test files have assumptions:
 
 {% highlight js %}
 var assert = require("assert")
@@ -71,7 +77,7 @@ describe('truth', function(){
 })
 {% endhighlight %}
 
-Keen eyes will notice that `assert` entered the stage by a `require()` call, but `describe` and `it` didn't.
+Keen eyes will notice that `assert` entered the stage by a `require()` call, but `describe` and `it` didn't - they appear magically.
 
 On the other hand, a basic `tape` test:
 
@@ -87,3 +93,9 @@ test('equivalence', function(t) {
 
 1. It's easier to form a mental model of what's going on, so it's easier to hack with it and know what'll happen. What if I call a function with `t` and then call functions off of `t`? It'll work.
 2. Tests are code. So, you can run tests as modules with node, just like you'd run other code: `node test/test.js`, and it works. As opposed to needing a 'test runner' binary that contains some of the code the test really needs.
+
+## Testling & Travis-CI
+
+[Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration), where every commit to [GitHub](https://github.com/) is automatically tested, has become a necessity. Setting the green 'this works' badge on projects means something, and we've found that running tests on remote hosts can give a better sanity check than just running them locally - the environment is constructed from scratch, there aren't any stray files that make things work.
+
+`tape` works with testling just like mocha - the same [minimal `.travis.yml`](https://github.com/mapbox/wellknown/blob/master/.travis.yml) file 'just works' as long as `npm install` and `npm test` do their things. But on top of that, you can use [Testling-CI](https://ci.testling.com/) and [testling](https://github.com/substack/testling), and test commits _in browsers_. Testling-CI works the same as Travis: set a webhook, [tweak a few package.json properties](https://ci.testling.com/guide/quick_start), and you'll get a [page of your own with results](https://ci.testling.com/mapbox/wellknown). [testling](https://github.com/substack/testling), on the other hand, runs headless tests locally, with your real browsers, not with [phantomjs](http://phantomjs.org/) or another custom abstraction. In combination, this means that you can easily cross-browser test code. And if the abstractions break, it's easy to just `browserify` the code and run the tests manually.
