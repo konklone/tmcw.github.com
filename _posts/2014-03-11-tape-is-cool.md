@@ -16,7 +16,7 @@ What it sorts down into is roughly three parts: the protocol, browserify, and ma
 
 ## The Test Anything Protocol
 
-The [Test Anything Protocol](https://en.wikipedia.org/wiki/Test_Anything_Protocol) is the definition of 'tried & true': it's been around since 1987 and has been implemented in [a ton of languages](https://en.wikipedia.org/wiki/Test_Anything_Protocol#List_of_TAP_producers). It's just a dead-simple way to format test results, like
+TAP, or the [Test Anything Protocol](https://en.wikipedia.org/wiki/Test_Anything_Protocol) is the definition of 'tried & true': it's been around since 1987 and has been implemented in [a ton of languages](https://en.wikipedia.org/wiki/Test_Anything_Protocol#List_of_TAP_producers). It's just a dead-simple way to format test results, like
 
 {% highlight sh %}
 TAP version 13
