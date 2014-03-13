@@ -7,7 +7,7 @@ categories:
 
 **Education.** It means a lot of things, from self-education to online education to Pre-K. It's as important as it is complicated: many people in the tech community are self-taught or see advanced computer science education as only useful in very narrow scopes. Many of us started out in basements or bedrooms with tinkering, not lecturing. But self-starting doesn't scale like we want it to, whether in numbers or demographics, the number of young coders and the variety of their backgrounds could be so much more.
 
-I decided to try: this month, I spent a week co-teaching a class with Sarah MacWright at Millbrook School in upstate New York, on 'building the web'. It aimed high: 10 high schoolers, five days, five and a half hours a day, we set out to learn the language of the web. We tried to select for a group of students with no prior knowledge, only the will to learn and some goals.
+I decided to try: this month, I spent a week co-teaching a class with [Sarah MacWright](http://sarahmacwright.com/) at [Millbrook School](https://www.millbrook.org/) in upstate New York, on 'building the web'. We aimed high: 10 high schoolers, five days for five and a half hours a day, and we learned the languages of the web. We selected for a group of students with no prior knowledge, only the will to learn.
 
 We learned a lot, on many different levels - everything from class structure to technology choices and ways of speaking came out of the experience. The biggest caveat is that this was a single class, a single time around: so we know what worked and what didn't, but can only surmise what might work better.
 
@@ -70,9 +70,11 @@ On day three, we started on projects: four students built photo portfolios, two 
 
 I built a quick [template](https://github.com/tmcw/intersession/tree/gh-pages/starts/photos) for photo galleries, which was modified by the students - quickly we went towards Google Fonts for a custom look, switched to auto-advancing slides, switched up colors and other details.
 
+Seeing the students work with the web as a medium for photography, especially those who had experience framing, was fascinating. There were new logical questions: how should a carousel work with different aspect ratios? Given infinite options for backgrounds, which balances correctly?
+
 ## Games
 
-The two students playing games, a junior and senior, built their creations with [Coquette](#), an excellent library by Mary Rose Cook. One game, called Flying Mario, evolved from a side-scroller to a helicopter-like game with Mario-inspired graphics and style. The other, The Raze Maze, is a 2D dungeon crawler with hand-drawn pixel graphics and moving things to grab. Both are awesome.
+The two students playing games, a junior and senior, built their creations with [Coquette](http://coquette.maryrosecook.com/), an excellent library by Mary Rose Cook. One game, called Flying Mario, evolved from a side-scroller to a helicopter-like game with Mario-inspired graphics and style. The other, The Raze Maze, is a 2D dungeon crawler with hand-drawn pixel graphics and moving things to grab. Both are awesome.
 
 The games were far different in scope and skills than the other projects - there was an awesome moment where a student used trigonometry in the real world for the first time, making little pixel rectangle targets move in a video game. But we also bumped into some of the hard problems of games, like how to do collision detection and have different entities in the game exhibit different behavior. I was fascinated by the 'tuning' tasks that students quickly mastered, like adjusting the ratio between gravity and jump height to make a game tricky, or designing a maze with nothing more than pixel coordinates and sizes of rectangles.
 
@@ -85,3 +87,13 @@ The final project was a school blog, [brook-posts.com](http://brook-posts.com/).
 ## Let's Talk URLs
 
 I never did a lesson on URLs, and I should have: what blends into the background for me is not obvious to others. How you link between files, what the different parts of a URL mean: these are obscured by most tools we use. Every once in a while Google Chrome even experiments with hiding the `http://`, increasing the level of abstraction even more. A visual explanation combined with an exercise of right-clicking and seeing how things get linked together might have eliminated a lot of confusion down the line.
+
+## Going Live
+
+The final step was going live: putting portfolios & games on the internet, where students could pass around URLs or even put them on college applications. This was a surprising challenge to source: where, on the internet, can you just drag & drop files, for free, simply? It's easy to find application hosting like [Wordpress.com](http://wordpress.com/) or more advanced tools like [GitHub](https://github.com/)'s [`gh-pages`](http://pages.github.com/) functionality, but the low end is scarce.
+
+The answer came from an unusual place: [neocities.org](http://neocities.org/), a [volunteer project](https://en.wikipedia.org/wiki/NeoCities) that captures the spirit of now-shuttered [GeoCities](https://en.wikipedia.org/wiki/GeoCities), worked perfectly. Registering for an account is simple, and uploading a site is just drag & drop. Since photos in portfolios were hosted on Flickr, all of the student projects were well under the 10MB storage limit. And in a moment that made my oldness visible, no-one in the class had heard of the once-popular GeoCities, so the name had no connotations.
+
+## Landing
+
+The class was a few weeks ago, and it's still taking effect. When I write code or try to explain a topic, there's a much greater range of considerations and possibilities, thanks to my sister and these students. Like any sort of teaching, the results will come in time - I hope that we inspired people to think creatively and a little bit more like hackers.
