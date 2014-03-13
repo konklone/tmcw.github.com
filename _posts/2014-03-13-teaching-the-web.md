@@ -45,6 +45,8 @@ Around this point I noticed that my style of teaching was missing terms: words c
 
 I went through a quick presentation on JavaScript while encouraging the class to try out examples in [mistakes.io](http://mistakes.io/) for the most part this was successful, but it made me realize that an even-simpler mistakes.io might be useful - something that slims it down to a single line of JavaScript and explains what that JS does in painstaking detail. You type `var foo = 4;` and it explains what every token means - you're creating a variable, called foo, assigning it to 4, which is a number, and ending the line with `;`. And it would give fantastic guidance for incorrect or incomplete input.
 
+There are plenty of hard parts about teaching JavaScript. People are sentence-case by default, and while HTML is permissive here, CSS is less, and JavaScript is even less. I realized how in the daily task of writing code like `method({})`, you really need to have a mental stack of `(` and `{` symbols typed in order to close with the same.
+
 Two students went down the path of learning JavaScript deeply, and constructed incredible games. We'll get to that later, but for the majority of the class this was just a taste. To learn 'just a little' of browser JavaScript just doesn't make sense, since a single line can contain 5 untaught concepts at once.
 
 ## ~/Sites
@@ -74,7 +76,9 @@ Seeing the students work with the web as a medium for photography, especially th
 
 ## Games
 
-The two students playing games, a junior and senior, built their creations with [Coquette](http://coquette.maryrosecook.com/), an excellent library by Mary Rose Cook. One game, called Flying Mario, evolved from a side-scroller to a helicopter-like game with Mario-inspired graphics and style. The other, The Raze Maze, is a 2D dungeon crawler with hand-drawn pixel graphics and moving things to grab. Both are awesome.
+<img src='http://i.imgur.com/aXa7cAI.gif' width='100%' />
+
+The two students playing games, a junior and senior, built their creations with [Coquette](http://coquette.maryrosecook.com/), an excellent library by [Mary Rose Cook](http://maryrosecook.com/). One game, called Flying Mario, evolved from a side-scroller to a helicopter-like game with Mario-inspired graphics and style. The other, The Raze Maze, is a 2D dungeon crawler with hand-drawn pixel graphics and moving things to grab. Both are awesome.
 
 The games were far different in scope and skills than the other projects - there was an awesome moment where a student used trigonometry in the real world for the first time, making little pixel rectangle targets move in a video game. But we also bumped into some of the hard problems of games, like how to do collision detection and have different entities in the game exhibit different behavior. I was fascinated by the 'tuning' tasks that students quickly mastered, like adjusting the ratio between gravity and jump height to make a game tricky, or designing a maze with nothing more than pixel coordinates and sizes of rectangles.
 
