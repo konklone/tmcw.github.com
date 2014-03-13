@@ -78,7 +78,7 @@ Seeing the students work with the web as a medium for photography, especially th
 
 <img src='http://i.imgur.com/aXa7cAI.gif' width='100%' />
 
-The two students playing games, a junior and senior, built their creations with [Coquette](http://coquette.maryrosecook.com/), an excellent library by [Mary Rose Cook](http://maryrosecook.com/). One game, called Flying Mario, evolved from a side-scroller to a helicopter-like game with Mario-inspired graphics and style. The other, The Raze Maze, is a 2D dungeon crawler with hand-drawn pixel graphics and moving things to grab. Both are awesome.
+The two students playing games, a freshman and senior, built their creations with [Coquette](http://coquette.maryrosecook.com/), an excellent library by [Mary Rose Cook](http://maryrosecook.com/). One game, called Flying Mario, evolved from a side-scroller to a helicopter-like game with Mario-inspired graphics and style. The other, The Raze Maze, is a 2D dungeon crawler with hand-drawn pixel graphics and moving things to grab. Both are awesome.
 
 The games were far different in scope and skills than the other projects - there was an awesome moment where a student used trigonometry in the real world for the first time, making little pixel rectangle targets move in a video game. But we also bumped into some of the hard problems of games, like how to do collision detection and have different entities in the game exhibit different behavior. I was fascinated by the 'tuning' tasks that students quickly mastered, like adjusting the ratio between gravity and jump height to make a game tricky, or designing a maze with nothing more than pixel coordinates and sizes of rectangles.
 
