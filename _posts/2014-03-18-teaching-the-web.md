@@ -117,7 +117,7 @@ Coquette was fantastic for this purpose and let us focus mostly on actual topics
 
 ![](http://farm3.staticflickr.com/2820/13245703745_91bfcd8460_b.jpg)
 
-At lunch on Thursday, I was talking with the math teacher about our, and reported that two of my students had used math: not just arithmetic, but multiplication, trigonometry, algebra.
+At lunch on Thursday, I was talking with the math teacher about class, and reported that two of my students had used math: not just arithmetic, but multiplication, trigonometry, algebra.
 
 I realized something I never had as a student: schools have multiple subjects that are independent. In each subject area, students can be two or more years ahead or behind, or can even opt-out.
 
