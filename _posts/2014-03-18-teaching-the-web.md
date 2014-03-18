@@ -29,11 +29,11 @@ But our intent was to create deeper understanding and creative urges, not just t
 
 ## The First Lesson
 
+<img src='http://farm4.staticflickr.com/3818/13206604675_1281f5a8d2_b.jpg' class='white-on-white' />
+
 The order of languages taught follows their difficulty level and  distance to the 'basic webpage': HTML for content, then CSS for style, and finally JavaScript for behavior.
 
 I didn't want to start the class with a 'framework' or `Hello, world` on a white page. We need a better onramp: something that connects and entertains.
-
-<img src='http://farm4.staticflickr.com/3818/13206604675_1281f5a8d2_b.jpg' class='white-on-white' />
 
 We used **'Inspect Element'**. Everyone opens the school homepage, and right-clicks on a title. They see their first pageful of confusing HTML, but have a clear mission: vandalism. In practice, it was gentle trolling: changing the name of the school to 'My School' and redesigning the page in fashionable shades of pink, amongst other tweaks.
 
@@ -50,6 +50,8 @@ The second day, we started building from scratch. I gave a short, simple [presen
 Then, a [presentation about CSS](https://docs.google.com/presentation/d/1N6Bq7yFdyK1L1y5A3kfw5qn4aS9tP-dug5Ceyl_mfZQ/pub?start=false&loop=false&delayms=3000) and similar tinkering.
 
 ## Words Help Us Learn
+
+![](http://farm4.staticflickr.com/3723/13209864244_2d2ba23711_b.jpg)
 
 Around this point I noticed that my style of teaching didn't use terms effectively.
 
@@ -79,7 +81,9 @@ In usage, Sublime Text had a number of issues that made it feel like a sub-optim
 
 ## Exercises & Handouts
 
-Sarah wisely added exercises to intermittently help kids solidify their learning and check that they understood what we were talking about. After each lesson, we would make a quick 'about me' page or a `<table>` of our favorite foods: tasks that encourage students to use their skills in a lightly creative manner.
+![](http://farm4.staticflickr.com/3670/13211272653_110d53a77b_b.jpg)
+
+Sarah wisely added exercises to intermittently help kids solidify their learning and check that they understood what we were talking about. After each lesson, we would make a quick 'about me' page or a `<table>` of our favorite foods: tasks that encourage students to use their skills creatively.
 
 Then we created 'cheatsheets' with [examples of HTML elements]((https://docs.google.com/a/macwright.org/file/d/0B4VvhLurSlaHSVVYNUFPdFJCNTA/edit) and tips for writing new pages. These were quickly and persistently adopted by the class.
 
@@ -111,13 +115,15 @@ Coquette was fantastic for this purpose and let us focus mostly on actual topics
 
 ## Integration
 
-At lunch on Thursday, I had a quick chat with the school's math teacher about how classes were going, and was incredibly happy to report that two of my students had used math! Not just arithmetic, but multiplication, trigonometry, algebra. Even a brief interlude of explaining hexadecimal numbers for one student who was fascinated by hex colors.
+![](http://farm3.staticflickr.com/2820/13245703745_91bfcd8460_b.jpg)
 
-I realized something I never had as a student - something that's probably obvious to many. Schools have multiple subjects that are independent. Some students are in trigonometry, some aren't. Some have taken two years of art and are entering an advanced class, others will stick to the requirement.
+At lunch on Thursday, I was talking with the math teacher about our, and reported that two of my students had used math: not just arithmetic, but multiplication, trigonometry, algebra.
 
-I realized the difference between how I (barely) learned in school and how I learn today is that I now jump subjects through combination. For instance, I wanted to learn statistics, so I wrote [simple statistics](https://github.com/tmcw/simple-statistics), bootstrapping my non-existent stats skills with my decent coding skills. This way I don't learn anything in a vacuum - it's learned by applying, and what I learn expands as I need more knowledge.
+I realized something I never had as a student: schools have multiple subjects that are independent. In each subject area, students can be two or more years ahead or behind, or can even opt-out.
 
-But when you don't know if students have taken a computers class or an art class, you can't require crossover knowledge in your class. And ideally, that's how you teach coding: you teach fundamentals, and then apply them everywhere, in math, in art, in English: coding is a lever, and could be learned as one.
+The difference between how I barely learned in school and how I learn today is that I now jump subjects through combination. For instance, I wanted to learn statistics, so I wrote [simple statistics](https://github.com/tmcw/simple-statistics), bootstrapping my non-existent stats skills with my decent coding skills. This way you learn by application and avoid the knowledge vacuum. And you have the fun experience of finding new subjects within your range.
+
+But when you don't know if students have taken tech class art class, you can't teach this way. And ideally, that's how you teach coding: you teach fundamentals, and then apply them everywhere, in math, in art, in English. Coding is a lever, and could be effectively learned as one. You could think of it as writing or reading - skills than you use for the whole journey.
 
 ## School Blog
 
@@ -137,15 +143,20 @@ The answer came from an unexpected place: [neocities.org](http://neocities.org/)
 
 ## Landing
 
+![](http://farm8.staticflickr.com/7145/13246463414_b93e0de368_b.jpg)
+
 The class was a few weeks ago, and it's still sinking in. When I write code or try to explain a topic, there's a much greater range of considerations and possibilities, thanks to my sister and these students. Like any sort of teaching, the results will come in time - I hope that we inspired people to think creatively and feel like they can change and make more kinds of things.
 
-I fear that teachers reading this post will wince at my newbie mistakes. Without my sister's teaching superskills, I would have only confused and bored this class, since, like many non-teachers, I didn't know how to teach. But this is a new area, and is still a little mysterious to us all. The blossoming of adult tech education, like [nodeschool.io](http://nodeschool.io/), and [Hacker School](https://www.hackerschool.com/) and its clones, is still looking for its younger equivalent. Teachers and tech people alike are still finding what works and what doesn't.
+Teachers reading this post will probably wince at my newbie mistakes.<sup><a href='#teaching'>5</a></sup> Without my sister's teaching ability, I would have only confused and bored this class. Like many non-teachers, I didn't know how to teach. But this is a new area, and is still a little mysterious to everyone. There's a blossoming of adult tech education, like [nodeschool.io](http://nodeschool.io/), and [Hacker School](https://www.hackerschool.com/) and its clones, but we're still looking for a good way to start earlier. Teachers and tech people alike are still finding what works and what doesn't.
 
-And so, just like coding, I'm hoping to iterate here. The things that didn't work, I have guesses for what would work better but they're only guesses. The variables of time, location, and demographics would all massively influence content & style. And, of course, I'd hope I'll be better.
+And so, just like coding, I'm hoping to iterate. The things that didn't work, I have guesses for what would work better but they're only guesses. The variables of time, location, and demographics would all massively influence content & style.
+
+The full class materials are [in a Github repository](https://github.com/tmcw/intersession) and are [CC0](http://creativecommons.org/publicdomain/zero/1.0/) licensed. If you're interested in trying out teaching, there are plenty of places to start, like [CoderDojo](http://www.coderdojo.com/), [TEALS](http://www.tealsk12.org/), [Citizen Schools](http://www.citizenschools.org/curriculum-category/science-technology/),  and [code.org](http://code.org/educate/hoc).
 
 ### Footnotes
 
 * <a name='html-editor'></a>It was hard to choose a HTML editor that would work great: [Mozilla Thimble](https://thimble.webmaker.org/) was a first choice because of its great HTML error reporting, but I was expecting to need to save the output, and the Persona requirement was a deal-breaker. JSBin did well, but exhibited a few bugs and oddities: sometimes the cursor would jump to an incorrect spot, external links don't work in the right pane, and refreshing the right pane is somewhat unreliable. In the end, we didn't actually need to save output often in this stage, so Thimble would have fared well.
 * <a name='mistakesio'></a>For the most part this was successful, but it made me realize that an even-simpler mistakes.io might be useful - something that slims it down to a single line of JavaScript and explains what that JS does in painstaking detail. You type `var foo = 4;` and it explains what every token means - you're creating a variable, called foo, assigning it to 4, which is a number, and ending the line with `;`. And it would give fantastic guidance for incorrect or incomplete input.
 * <a name='sublime'></a>Unlicensed Sublime nags you for a license every few saves. Automatic bracket insertion was, in the vast majority of cases, counterproductive. I think that bracket insertion is an example of overoptimizing for writing code while crippling the experience of editing and rewriting code, which is very much the majority task. The 'tabs + sidebar' navigation was confusing. Disappearing tabs are poorly communicated by the interface, and tabs don't convey the difference between files with the same name in different folders. And by default, Sublime doesn't have JavaScript formatting and I didn't have enough time to configure a plugin for it (or find some hidden preference).
-* <a href='autorefresh'></a>Autorefresh code does exist, of course, but given the time constraints and the limited ability of students to debug software, I went for the simplest route.
+* <a name='autorefresh'></a>Autorefresh code does exist, of course, but given the time constraints and the limited ability of students to debug software, I went for the simplest route.
+* <a name='teaching'></a>Incidentally, the school is also trying to find a teacher who could do technology, and it's a tough hunt. Resources that would help teachers cross over into technology seem pretty slim, and there aren't a lot of experienced educators who can or will cross-over. Perhaps this is an area where teacher fellowship programs can contribute.
