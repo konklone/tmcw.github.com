@@ -123,7 +123,7 @@ I realized something I never had as a student: schools have multiple subjects th
 
 The difference between how I barely learned in school and how I learn today is that I now jump subjects through combination. For instance, I wanted to learn statistics, so I wrote [simple statistics](https://github.com/tmcw/simple-statistics), bootstrapping my non-existent stats skills with my decent coding skills. This way you learn by application and avoid the knowledge vacuum. And you have the fun experience of finding new subjects within your range.
 
-But when you don't know if students have taken tech class art class, you can't teach this way. And ideally, that's how you teach coding: you teach fundamentals, and then apply them everywhere, in math, in art, in English. Coding is a lever, and could be effectively learned as one. You could think of it as writing or reading - skills than you use for the whole journey.
+But when you don't know if students have taken tech class or art class, you can't teach this way. And ideally, that's how you teach coding: you teach fundamentals, and then apply them everywhere, in math, in art, in English. Coding is a lever, and could be effectively learned as one. You could think of it as writing or reading - skills than you use for the whole journey.
 
 ## School Blog
 
